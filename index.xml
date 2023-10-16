@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 29 Dec 2017 12:15:02 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>contact</title>
+      <link>http://example.org/contact/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/contact/</guid>
+      <description>我的文章 請點擊此處 。</description>
+    </item>
+    
+    <item>
+      <title>faq</title>
+      <link>http://example.org/faq/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/faq/</guid>
+      <description>FAQ FAQ</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>http://example.org/test/</link>
+      <pubDate>Fri, 29 Dec 2017 12:15:02 +0000</pubDate>
+      
+      <guid>http://example.org/test/</guid>
+      <description> Welcome 按下這裡查看天氣 </description>
+    </item>
+    
+    <item>
+      <title>入池申請</title>
+      <link>http://example.org/whv/apply/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/whv/apply/</guid>
+      <description> 2023年10月14日台灣名額更新 總名額：3425人
+剩餘名額：116人
+池中人數：1137人
+中籤率：約10% ⚠️ 特別提醒：資料務必詳實， 確認資格 註冊帳號 填寫申請 </description>
+    </item>
+    
+    <item>
+      <title>手機電信</title>
+      <link>http://example.org/life/phone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/life/phone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>必備APP/網站</title>
+      <link>http://example.org/life/app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/life/app/</guid>
+      <description> 銀行 電信 ubereat 餐廳tims pc opt walmart amazon 叫車 住宿 kijiji 工作 maple meetup reddit visa 小紅書 </description>
+    </item>
+    
+    <item>
+      <title>打工度假保險</title>
+      <link>http://example.org/whv/insurance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/whv/insurance/</guid>
+      <description> 加拿大政府規定，所有持打工度假簽證入境者，需有保險「涵蓋全程」，並包含三項：
+醫療照護（Medical Care） 住院治療（Hospitalization） 緊急運送（Repatriation） 加拿大本地保險 - Best Quote 加拿大本地保險 - guard.me 國內打工度假保險 國內既有保險 Best Quote 為加拿大線上投保網站，集合各家本地保險公司方案（如Blue Cross、Manulife...），網站有中、英文。
+打工度假請選擇「IEC簽證 - 緊急醫療保險」，依照需求選擇喜好的方案和金額。
+常見差別有：是否包含既往病症、冬季運動（如滑雪、登山...）傷害、短期離加旅行、牙科...等。
+⚠️ 需注意某些方案可能不適用魁省、育空...等地區。
+費用：較基本方案一年約為 CAD $600元。
+✅ 優點： 線上付款完成，可立即由電子郵件收到投保證明。 選擇多樣，可依需求、預算投保。 額度普遍較高，符合加拿大醫療費用水準。 就醫後可於當地即時申請理賠，部分院所甚或可能支援direct billing。 國內許多留學/移民代辦公司提供代為投保，多數為投保加拿大的guard.me醫療保險，以天數計費。
+如為前往偏遠地區，配合理賠的醫療院所可能較少，請先參考guard.me網站。
+費用:約為一天 CAD $2.5元，一年365天即為 CAD $912.5元。
+✅優點： 有待辦人員協助。 額度較高，符合加拿大醫療費用水準。 就醫後可於當地即時申請理賠。 1. 南山人壽 海外暢遊保險（WOTA）
+2. 富邦人壽 e指守護網路投保傷害保險（EPA）
+3. 台灣產險
+條款詳情請向各保險公司確認。
+✅優點： 保費較為低廉。 有保險專員協助。 條款內容為中文，易讀易懂。 請聯絡保險公司取得英文投保證明，務必符合上述條件，以供入境時檢查。
+⚠️ 注意：如保險日期未能覆蓋全程，可能被核發較短（未滿一年）的工作簽證。 </description>
+    </item>
+    
+    <item>
+      <title>交通</title>
+      <link>http://example.org/life/transportation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/life/transportation/</guid>
+      <description>卑詩省（BC） 安大略省（ON） 紐芬蘭與拉布拉多省（NL） British Columbia（BC） 📣 於 Tap to Win 活動期間（2023年8月17日 - 2023年10月31日）上網登記Compass卡，搭乘大眾運輸，最高有機會贏得5年免費搭乘！（活動詳情）
+⚠️ 自2023年7月1日起，票價調漲。
+溫哥華地區的大眾運輸工具主要為SkyTrain（捷運）、SeaBus（渡輪）、公車，由TransLink公司提供服務。而溫哥華以外的其他BC省地區只有BC Transit公司運營的公車。 支付方式：
+現金。 感應付款：信用卡、行動支付（Apple Pay、Google Pay、Samsung Pay）。 Compass交通卡儲值。 ℹ️ Skytrain上下車皆需刷卡，公車則為上車時刷卡。
+費用：
+按分區計費，可於此TransLink網頁下方工具估算費用。 成人票：
+優待票（65歲以上長者、13-18歲青少年、HandyCard持卡人）：
+12歲以下免費，需出示有效的照片證件。 90分鐘內轉乘（包含不同交通工具）免費。 所有公車只收取一段Zone 1票價。 從機場線（YVR Airport、Sea Island Centre、Templeton Canada Line）出發，需額外收費$5元，僅月票或在非此三站售票機購買的一日券可以豁免。 機場線的三站之間免費搭乘，僅需於售票機購買Sea Island Only票券，可方便往來機場與Outlet購物中心。 週一至五18:30以後、例假日，全區以Zone 1計費，但機場三站仍需加價。 票卡購買地點： compasscard.ca：線上購買，免運費寄送至加拿大國內地址。 各SkyTrain、SeaBus、West Coast Express站點售票機。 Waterfront Station客服中心。 London Drugs、Shoppers、Seven Eleven...等商店之部分店家（列表）。 🗃️ 空卡押金$6元，日後退卡時會退還。 註冊與儲值：
+線上註冊後，可進行儲值及設定自動加值，遺失時亦可立刻進行掛失，以停止該卡片的任何交易。
+✅ 自動加值：於卡片餘額低於$5元時，自銀行帳戶自動扣款儲值，或定期扣款延續月票。
+Ontario（ON） 📣 好消息！2023年8月15日起，各大眾運輸開放刷信用卡、debit cards搭乘。
+多倫多的主要大眾運輸包含TTC公司提供的Streetcar（街車）、Subway（地鐵）、公車。如要前往ON省其他區域，則可利用GO Transit公司的火車、公車，或是UP Express（機場快線）。
+🗃️ 以上交通工具皆可通用Presto票卡支付。 支付方式：</description>
+    </item>
+    
+    <item>
+      <title>各省比較</title>
+      <link>http://example.org/life/provinces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/life/provinces/</guid>
+      <description> 氣候、租金、大眾運輸
+卑詩省 BC 安大略省 ON 這是BC省 這是ON省 </description>
+    </item>
+    
+    <item>
+      <title>社會保險號碼 SIN</title>
+      <link>http://example.org/whv/sin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/whv/sin/</guid>
+      <description> 社會保險號碼（Social Insurance Number），是每一個在加拿大合法工作的人都需要有的號碼，無論是永久居民或是臨時居民（持有工作簽證、可打工的學生簽證），可以合法工作的人都能申請。 申請方式： 現場申請 持所需文件至各地Service Canada[（按此查詢地點）](https://www.servicecanada.gc.ca/tbsc-fsco/sc-hme.jsp?lang=eng)臨櫃排隊申辦，現場領取。
+所需文件有： 護照
+可以合法工作的簽證（工作簽證、可打工的學生簽證）
+父母親英文姓名、生日
+加拿大電話號碼
+加拿大地址 可以提早線上預約辦理時間（按此預約），選擇親自辦理（In Person），約2-3工作日，Service Canada工作人員會致電協助完成預約。
+線上申請 於IRCC官方網站（按此預約），上傳掃描好的上述文件，約15個工作日會收到一封包含SIN的郵寄信件。
+郵寄申請 準備所需文件正本，郵寄至以下地址，約需20天。因有文件遺失的風險，不建議使用此方式。
+Service Canada
+Social Insurance Registration Office
+PO Box 7000
+Bathurst, NB E2A 4T1
+CANADA 注意事項： 除了雇主、銀行及政府單位外，切勿將SIN洩露給任何人知道。 如發現你的SIN被盜用了, 請立刻至警局報案，並且聯繫加拿大反詐騙中心(Canadian Anti-Fraud Centre) 。 更換簽證，或更改姓名時，必須更新SIN，可於線上辦理。 </description>
+    </item>
+    
+    <item>
+      <title>租屋</title>
+      <link>http://example.org/life/rent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/life/rent/</guid>
+      <description>常用找房網站 房屋類型 合約種類 注意事項 常用找房網站 主要有加拿大本地分類廣告網站、Facebook、各地華人論壇、微信群組...等管道。打工換宿請另參考此文章。
+加拿大分類廣告網站 Kijiji 是一個線上分類廣告網站，除了房屋出租外，也包括二手物品、工作、汽車買賣...等。可以依據房屋類型、出租類型（如：長短期、分租、找室友）、是否含家具、可寵、地區、價格條件進行篩選，並可直接私訊房東約看。類似網站還有：Craigslist。
+Facebook Marketplace 可以在Marketplace上設置地點範圍，並以關鍵字（如：1 bedroom）進行篩選，並可直接以messenger私訊。當地人很常使用Marketplace刊登各類廣告，房源眾多，但需謹慎辨別，以免受騙。
+地方社團 各城市大多有地方性的租屋社團，同樣可直接私訊聯絡房東，亦務必慎防詐騙。另外推薦參考加拿大打工度假資訊-租屋版。
+華人論壇網站 51找房 多倫多 - 約克論壇 溫哥華天空 VANSKY 人在溫哥華 VanPeople 房屋類型 公寓大樓 Apartment 樓層較少，整棟大樓屬於物業，所以房東即為該物業管理公司。常見選項有studio、1 bedroom...等。
+共管大樓 Condo 租金通常較高，現今許多高樓層社區即屬於此類型，可能包含保全管理、健身房、泳池...等公共設施，房東一般會要求租客購買租客保險。
+獨棟別墅 House 通常有2-3層樓、地下室，分租給不同房客，可能共用衛浴、廚房、洗烘衣機...等空間，需要與其他房客協調衛生維護，冬季可能需自行剷雪
+聯排別墅 Townhouse 與左右鄰居相鄰之獨棟房屋。
+合約種類 租期 年租：最普遍的類型，期滿後自動轉為month-to-month，房東可能簽訂新的合約，但房客沒有同意的義務。 定期：雙方約定固定的起止日期。 Month-to-month：按月延續的合約，通常會註明如欲終止（如：搬離、停止出租...）需於多久以前告知對方。 租約內容 基本資訊：雙方姓名、聯絡方式，房屋地址，租金，類型期限，繳租時間（一般為每月1號）。 押金：依各地行情，可能為1-2個月房租金額，或1個月的75%（NL省）。退租時房東檢查房屋後退還，如有損毀或需要清潔從中扣除。繳交時記得索取收據（或轉帳記錄），一為留以證據，第二為了日後報稅退稅使用。 租金項目：是否包含家具（如為unfurnished，需自行準備家具）、暖氣、水電瓦斯、網路費、停車位。 房屋檢查清單：例如插座、燈具、爐灶、冰箱、水龍頭...等是否正常運作，留存紀錄以避免爭議。 租屋規範：是否允許寵物、訪客、菸酒...等。 房東要求 於一些租屋市場較緊張的地區，房東可能要求以下項目：
+信用檢查：租客需先到信用公司（如Equifax和TransUnion）獲得一份信用分數的報告。 推薦人：通常要求1-2人，可為前任房東或雇主。 租客保險：一般房東會購買房屋保險，以保障天災等意外造成的損失，房客本身的個人財產則需要自行購買租客保險來保障，每年費用約在$500元左右。 房客權益 加拿大政府規定，房屋冬天應該保證室內21度C，如果過冷，有權要求房東改善。 房東不得擅自闖入房客的房間。 房東無權隨意漲房租，以ON省為例，一年只允許調漲一次，且最多為2.5%。 合約終止 如欲在租約到期前搬離，有以下幾種處理方式： 經房東同意可尋找其他租客重新簽訂合約或進行轉租（sublet）。 雙方協議提前終止合約。 持續繳交房租至合約到期。 注意事項 ❗ 如尚未入境加拿大親自（或由朋友代為）看房，房東要求預先支付房租、大筆押金，需謹慎辨別是否為詐騙。
+✅ 強烈建議到當地先暫時入住旅館、Airbnb，再尋找後續長期租屋。
+⚠️ 平台上一些圖片精美，但房租遠低於行情的房子，可能為房東或仲介藉此引流/釣魚，騙取訂金或吸引人去看他的其他房源。</description>
+    </item>
+    
+    <item>
+      <title>報稅</title>
+      <link>http://example.org/life/tax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/life/tax/</guid>
+      <description> 報稅季節為二月至四月，敬請期待！ </description>
+    </item>
+    
+    <item>
+      <title>超市購物</title>
+      <link>http://example.org/life/shopping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/life/shopping/</guid>
+      <description>超市賣場 居家用品 速食餐飲 服飾運動 生活娛樂 其他 加拿大本地的三大集團旗下擁有大多的生鮮超市及藥妝店，分別為Loblaw、Empire、Metro。除此之外，有部份的國際連鎖賣場或地區性中小型商家。部份超市有提供生鮮配送服務，另外也可參考最下方之Meal Kits網站。
+Loblaw Companies Ltd. 旗下店家可以買到其自有品牌President&#39;s Choice產品，除大統華以外均通用PC Optimum積分，不定時會有優惠活動。
+Loblaws Dominion T&amp;T Supermarket（大統華超市） Real Canadian Superstore No Frills Wholesale Club Shoppers Drug Mart（魁省：Pharmaprix） Empire Company 通用Scene+積分系統，亦可用於Cineplex電影院，詳情請見。
+Sobeys IGA Foodland FreshCo Lawtons Drugs Metro Inc. Metro Food Basics Super C 其他企業 Costco Walmart Whole Foods Market Safeway Save-On-Foods Coleman&#39;s Bulk Barn Giant Tiger H Mart London Drugs 料理懶人包（Meal Kits） 為整箱分裝好的生鮮食材，包含食譜和需要的部份調料，可一次性配送多至一週的份量。 HelloFresh： 由此連結進入，可獲得首週60%折扣，另外，送達的食材箱中會有新戶首週免費（僅需運費）的優惠代碼，可嘗試向訂購過的親友索取。後續如不續訂，務必注意取消訂閱。 Chefs Plate 首週特惠每一份餐點$2.99元，與HelloFresh相同，亦有箱中的首週免費代碼。 GoodFood Fresh Prep（BC省、AB省）：首週最多90%折扣。 WeCook（ON省、QC省） 一元店 Dollarama Dollar Tree 家電3C Best Buy 居家裝飾 IKEA HomeSense 五金、工具零售 Canadian Tire Home Hardware Home Depot 辦公室用品 Staples 速食連鎖（漢堡、炸雞、熱狗、Poutine.</description>
+    </item>
+    
+    <item>
+      <title>遞交資料</title>
+      <link>http://example.org/whv/file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/whv/file/</guid>
+      <description>📣 好消息！自2023年4月起，良民證可線上申請、郵寄到家，無需再臨櫃領件。 收到邀請信後，必須： 10日內點選接受，如逾期或拒絕則回到抽選池中 20日內上傳文件相關文件 線上刷卡繳費 繳費後30日內要進行生物辨識 取得POE後，一年內需入境 填寫資料 上傳文件（Supporting Documents） 家庭資料（Family Information） 填寫[IMM5645]表格，建議下載並使用Adobe Reader DC開啟編輯，無需簽名。
+CV 簡短一頁即可，包含現居國家城市、學歷、工作經歷（各工作主要內容）、現職工作。
+護照 需包含個人資料頁及所有有出入境戳章的內頁。
+證件照 兩吋大頭照，依護照規格，像素420x540以上，解析度600以上，檔案大小240kB-4MB之間，JPEG檔。
+體檢證明 上傳體檢後拿到的Information Sheet，如未能在時限內進行體檢，需上傳已預約的證明。
+項目包含基本理學檢查、胸腔X光、抽血、尿液檢查（女性建議避開生理期），報告7-10日會由醫院直接上傳至eMedical系統。
+台灣共有三間醫院可進行： 台北 - 臺安醫院： 依時段分為現場排隊及網路預約，請參考[注意事項]。
+地址：台北市松山區八德路二段424號 健診中心1F
+體檢時間：週一至週四 9:30-10:30、13:30-15:30，週五9:30-10:30 台北 - 馬偕醫院： 現場抽號碼牌辦理，不接受預約，請參考[注意事項]。
+地址：台北市中山區中山北路二段92號 平安樓健檢中心16F
+體檢時間：週二至週五 13:30-14:45 台中 - 中國醫藥大學附設醫院： 需電話預約（04-2205-2121，分機15620-15623），請參考[注意事項]。
+地址：台中市北區育德路2號 急重症大樓後棟8F（五權路與錦新街口）健康醫學中心
+體檢時間：週一至週五 13:00-16:00 良民證 凡曾居住過6個月以上的國家皆需申請良民證。台灣良民證申請方式如下：
+線上申請：以自然人憑證透過MyData平台申請郵寄到家，或於2.5工作天後攜帶應備文件至所選地點領取。
+臨櫃申請：不限戶籍地限制，攜帶身分證至各縣市警察局外事科皆可申請。
+APP申請：下載 警政服務APP，同網路申請方式領取。 補充資料（Optional Documents） 如無則不需上傳。
+生物辨識 上傳完所有資料並繳費後，24小時內會收到一封生物辨識通知（Biometrics Collection Letter），請於30日內到VFS辦理。
+需提前預約（按此），並攜帶以下：
+預約單
+護照正本、2份影本
+生物辨識指示信（Biometric Instruction Letter，列印紙本）</description>
+    </item>
+    
+    <item>
+      <title>駕照換發</title>
+      <link>http://example.org/life/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/life/license/</guid>
+      <description>通用規則：
+需在該省有合法居留身份，並能提供居住地址證明。 持有台灣核發正式有效之A、B類小型車、C類大貨車、D類大客車或E類聯結車之駕駛執照達2年（含）以上。 注意：原台灣駕照需當場繳銷，如回台後欲使用，請再至監理所補發。 BC省 ON省 NL省 Step 1. 英譯本申請： 駐溫哥華台北經濟文化辦事處：轄區範圍包含卑詩省（ British Columbia）、亞伯達省（Alberta） 與沙士卡其灣省（ Saskatchewan ）三省，以及西北特區（Northwest Territories）、育空特區（Yukon）與努那福特區（Nunavut）。
+應備文件： 護照 台灣駕照正本：如為2013年以前有註明效期之舊版駕照，建議離台前先換發新版。 申請表 英文翻譯表格 費用：加幣$20元。 申辦方式： 臨櫃申辦 - 網路預約 ✅ 開放時段：週一至週五，09:00 - 12:00。
+每月1日及16日上午9:00開放半個月內可預約時程。
+⚠️ 注意事項：
+預約確認函：預約後請記得查收預約確認電郵。 單次預約人數最多2名，請於輸入個人聯絡資料時，在「備註欄」加註另一申請人姓名。 更改、取消預約：請提前一天，點選預約確認電郵下方之「更改預約時間」、「取消預約」進行修改。若需當日取消，務必致電604-689-4111。 急件（人道、急難...等）：請敘明事由並提供相關佐證電郵至yvr@mofa.gov.tw，將依實情酌予安排。 臨櫃申辦 - 現場walk-in 開放時段：週一至週五，12:00 - 14:00。
+每月最後一個工作日為結算日，暫停免預約收件一次。
+❗ 每日至多40個現場辦理名額。 郵寄辦理 備妥所需文件，郵寄至以下地址： Consular Division
+Taipei Economic and Cultural Office, Vancouver
+Suite 2200, 650 West Georgia Street
+Vancouver, BC V6B 4N7 跨國郵寄者，請詳閱官網說明。 取件方式： 於受理後10個工作日核發或拒件（自繳費之次日起算），可於工作日09:30 - 12:00取件。 郵寄申請者，於製作完成後郵寄回申請人。 Step 2.</description>
+    </item>
+    
+    <item>
+      <title>機場入境流程</title>
+      <link>http://example.org/whv/airport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/whv/airport/</guid>
+      <description>自助電子通關系統 有中文介面，需掃描護照及拍照，填入在加拿大逗留的時間(365天），依序回答問題（如：是否有槍砲彈藥...等）後，機台會吐出一張自動電子通關申報單。
+護照檢查站 攜帶護照、POE、申報單至海關，如實回答問題。
+領取行李 領取工作簽證 找到 IMMIGRATION 移民審查字樣（以溫哥華YVR機場為例，位於22號行李轉台右側），排隊繳交POE，並出示如有要求的其他文件：
+醫療保險證明 - 英文版：需完整涵蓋工簽期間
+銀行財力證明 - 英文版：現金加幣2500 或 英文存款證明
+生物辨識系統確認信
+申請期間上傳的資料，例如：
+加打體檢收據(E-medical information sheet)
+警察刑事紀錄證明(良民證) 回到座位等待呼叫領取工簽，檢查以下：
+名字、護照號碼、期限（至少一年）
+Employer：OPEN（開放，未限定雇主）
+Employer Location：UNKNOWN（未定工作地點）
+Occupation：OPEN（開放，未限定職業別） 有任何問題務必當面提出。</description>
+    </item>
+    
+  </channel>
+</rss>
