@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lives on My New Hugo Site</title>
+    <title>Lives on 加打地圖</title>
     <link>http://example.org/life/</link>
-    <description>Recent content in Lives on My New Hugo Site</description>
+    <description>Recent content in Lives on 加打地圖</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language><atom:link href="http://example.org/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -49,8 +49,7 @@ Ontario（ON） 📣 好消息！2023年8月15日起，各大眾運輸開放刷�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/life/provinces/</guid>
-      <description> 氣候、租金、大眾運輸
-卑詩省 BC 安大略省 ON 這是BC省 這是ON省 </description>
+      <description>簡介 天氣 租金 基本薪資 消費稅率 中文版 英文版 省份 英文全名 縮寫 人口 官方語言 卑詩省 British Columbia BC 5,519,013 亞伯塔省 Alberta AB 4,695,290 薩斯喀徹溫省 Saskatchewan SK 1,209,107 曼尼托巴省 Manitoba MB 1,454,902 安大略省 Ontario ON 15,608,369 魁北克省 Quebec QC 8,874,683 新布藍茲維省（NB） New Brunswick NB 834,691 新斯科細亞省 Nova Scotia NS 1,058,694 愛德華王子島省 Prince Edward Island PEI 173,787 紐芬蘭與拉布拉多省 Newfoundland and Labrador NL 538,605 育空地區 Yukon YT 44,975 西北地區 Northwest Territories NT 44,972 努納福特領地 Nunavut NU 40,673 即時天氣 Weather widget html for website by sharpweather.</description>
     </item>
     
     <item>
@@ -74,12 +73,12 @@ Facebook Marketplace 可以在Marketplace上設置地點範圍，並以關鍵字
     </item>
     
     <item>
-      <title>報稅</title>
+      <title>報稅測試</title>
       <link>http://example.org/life/tax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/life/tax/</guid>
-      <description> 報稅季節為二月至四月，敬請期待！ </description>
+      <description>測試中</description>
     </item>
     
     <item>
@@ -88,9 +87,10 @@ Facebook Marketplace 可以在Marketplace上設置地點範圍，並以關鍵字
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/life/shopping/</guid>
-      <description>超市賣場 居家用品 速食餐飲 服飾運動 生活娛樂 其他 加拿大本地的三大集團旗下擁有大多的生鮮超市及藥妝店，分別為Loblaw、Empire、Metro。除此之外，有部份的國際連鎖賣場或地區性中小型商家。部份超市有提供生鮮配送服務，另外也可參考最下方之Meal Kits網站。
+      <description>超市生鮮 居家用品 速食餐飲 服飾運動 生活娛樂 其他 加拿大本地的三大集團旗下擁有大多的生鮮超市及藥妝店，分別為Loblaw、Empire、Metro。除此之外，亦有一些國際連鎖賣場或地區性中小商家。
+部份超市有提供生鮮配送服務，也可參考最下方之Meal Kits網站。
 Loblaw Companies Ltd. 旗下店家可以買到其自有品牌President&#39;s Choice產品，除大統華以外均通用PC Optimum積分，不定時會有優惠活動。 Loblaws Dominion T&amp;T Supermarket（大統華超市） Real Canadian Superstore No Frills Wholesale Club Shoppers Drug Mart（魁省：Pharmaprix） Empire Company 通用Scene+積分系統，亦可用於Cineplex電影院，詳情請見。
-Sobeys IGA Foodland FreshCo Lawtons Drugs Metro Inc. Metro Food Basics Super C 其他企業 Costco Walmart Whole Foods Market Safeway Save-On-Foods Coleman&#39;s Bulk Barn Giant Tiger H Mart London Drugs 料理懶人包（Meal Kits） 為整箱分裝好的生鮮食材，包含食譜和需要的部份調料，可一次性配送多至一週的份量。 HelloFresh： 由此連結進入，可獲得首週60%折扣，另外，送達的食材箱中會有新戶首週免費（僅需運費）的優惠代碼，可嘗試向訂購過的親友索取。後續如不續訂，務必注意取消訂閱。 Chefs Plate 首週特惠每一份餐點$2.99元，與HelloFresh相同，亦有箱中的首週免費代碼。 GoodFood Fresh Prep（BC省、AB省）：首週最多90%折扣。 WeCook（ON省、QC省） 一元店 Dollarama Dollar Tree 家電3C Best Buy 居家裝飾 IKEA HomeSense 五金、工具零售 Canadian Tire Home Hardware Home Depot 辦公室用品 Staples 速食連鎖（漢堡、炸雞、熱狗、Poutine.</description>
+Sobeys IGA Foodland FreshCo Lawtons Drugs Metro Inc. Metro Food Basics Super C 其他企業 Costco Walmart Whole Foods Market Safeway Save-On-Foods Colemans Bulk Barn Giant Tiger H Mart London Drugs 料理懶人包（Meal Kits） 為整箱分裝好的生鮮食材，包含食譜和需要的部份調料，可一次性配送多至一週的份量。 HelloFresh： 由此連結進入，可獲得首週60%折扣，另外，送達的食材箱中會有新戶首週免費（僅需運費）的優惠代碼，可嘗試向訂購過的親友索取。後續如不續訂，務必注意取消訂閱。 Chefs Plate 首週特惠每一份餐點$2.</description>
     </item>
     
     <item>
@@ -99,8 +99,7 @@ Sobeys IGA Foodland FreshCo Lawtons Drugs Metro Inc. Metro Food Basics Super C �
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/life/license/</guid>
-      <description>通用規則：
-需在該省有合法居留身份，並能提供居住地址證明。 持有台灣核發正式有效之A、B類小型車、C類大貨車、D類大客車或E類聯結車之駕駛執照達2年（含）以上。 注意：原台灣駕照需當場繳銷，如回台後欲使用，請再至監理所補發。 BC省 ON省 NL省 Step 1. 英譯本申請： 駐溫哥華台北經濟文化辦事處：轄區範圍包含卑詩省（ British Columbia）、亞伯達省（Alberta） 與沙士卡其灣省（ Saskatchewan ）三省，以及西北特區（Northwest Territories）、育空特區（Yukon）與努那福特區（Nunavut）。
+      <description>通用規則： 需在該省有合法居留身份，並能提供居住地址證明。 持有台灣核發正式有效之A、B類小型車、C類大貨車、D類大客車或E類聯結車之駕駛執照達2年（含）以上。 注意：原台灣駕照需當場繳銷，如回台後欲使用，請再至監理所補發。 BC省 ON省 NL省 Step 1. 英譯本申請： 駐溫哥華台北經濟文化辦事處：轄區範圍包含卑詩省（BC）、亞伯塔省（AB） 與薩斯喀徹溫省（SK ）三省，以及西北地區（NT）、育空地區（YT）與努納福特地區（NU）。
 應備文件： 護照 台灣駕照正本：如為2013年以前有註明效期之舊版駕照，建議離台前先換發新版。 申請表 英文翻譯表格 費用：加幣$20元。 申辦方式： 臨櫃申辦 - 網路預約 ✅ 開放時段：週一至週五，09:00 - 12:00。
 每月1日及16日上午9:00開放半個月內可預約時程。
 ⚠️ 注意事項：

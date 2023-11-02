@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Whvs on My New Hugo Site</title>
+    <title>Whvs on 加打地圖</title>
     <link>http://example.org/whv/</link>
-    <description>Recent content in Whvs on My New Hugo Site</description>
+    <description>Recent content in Whvs on 加打地圖</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language><atom:link href="http://example.org/whv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>入池申請</title>
-      <link>http://example.org/whv/apply/</link>
+      <link>http://example.org/whv/pool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/whv/apply/</guid>
-      <description>2023年10月14日台灣名額更新 總名額：3425人
-剩餘名額：116人
-池中人數：1137人
-中籤率：約10% 確認資格 一般而言，持台灣護照之18-35歲青年可申請加拿大打工度假，即一年期的開放式（不限定雇主）工作簽證。
-首先需到CIC官網完成問卷，確認符合資格並取得編號（reference code）以供入池使用。
+      <guid>http://example.org/whv/pool/</guid>
+      <description>2023年度打工度假池已關閉，已有GCKey者明年無須重新創建帳號，可直接創建新的入池申請。 2023年10月27日台灣名額更新 總名額： - 人
+剩餘名額： - 人
+池中人數： - 人
+中籤率： - 確認資格 一般而言，持台灣護照之18-35歲青年可申請加拿大打工度假，即一年期的開放式（不限定雇主）工作簽證。
+首先須到CIC官網完成問卷，確認符合資格並取得編號（reference code）以供入池使用。
 💡 如英文不熟練者，請多加利用Google Chrome的翻譯功能。
-填寫完畢，如顯示符合打工度假類別（Working Holiday category）即可進入下一步。 請記下顯示的個人編號，並於步驟三開始註冊GCKey帳號，如已有帳號可直接登入。 註冊帳號 GCKey為登入加拿大政府網站（包含移民局）的重要帳號，由此連結進入註冊。目前網站採用二階段驗證，需自訂每次登入時的驗證問答及接收驗證碼的信箱。
+填寫完畢，如顯示符合打工度假類別（Working Holiday category）即可進入下一步。 請記下顯示的個人編號，並於步驟三開始註冊GCKey帳號，如已有帳號可直接登入。 註冊帳號 GCKey為登入加拿大政府網站（包含移民局）的重要帳號，由此連結進入註冊。目前網站採用二階段驗證，須自訂每次登入時的驗證問答及接收驗證碼的信箱。
 註冊完成後即可開始進行入池申請，如未自動跳轉，可由此登入方才設定好的帳號。
 ⚠️ 小提醒：登入後此畫面可進行更改密碼、驗證問答...等，切勿手癢點選撤銷（revoke）帳號！
 填寫申請 於頁面較下方處找到Apply to come to Canada開始申請，然後填入前面取得的個人編號。如遺失編號，也可於此時重新前往確認資格的問卷。
-出現需完成的表單，請依序填寫個人資料。
+出現須完成的表單，請依序填寫個人資料。
 第一項Personal details of applicant中的ID documents，除填寫護照姓名、號碼、有效日期以外，請選擇有personal identification number，並填入身分證字號。
 完成所有表單後，在下一步閱讀declaration，選取同意，輸入簽名並再次回答驗證問題。
 最後再次確認簽名，點選Transmit即可送出入池申請。
@@ -37,8 +37,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/whv/insurance/</guid>
-      <description> 加拿大政府規定，所有持打工度假簽證入境者，需有保險「涵蓋全程」，並包含三項：
-醫療照護（Medical Care） 住院治療（Hospitalization） 緊急運送（Repatriation） 加拿大本地保險 - Best Quote 加拿大本地保險 - guard.me 國內打工度假保險 國內既有保險 Best Quote 為加拿大線上投保網站，集合各家本地保險公司方案（如Blue Cross、Manulife...），網站有中、英文。
+      <description> 加拿大政府規定，所有持打工度假簽證入境者，需有保險「涵蓋全程」，並包含三項： 醫療照護（Medical Care） 住院治療（Hospitalization） 緊急運送（Repatriation） 加拿大本地保險 - Best Quote 加拿大本地保險 - guard.me 國內打工度假保險 國內既有保險 Best Quote 為加拿大線上投保網站，集合各家本地保險公司方案（如Blue Cross、Manulife...），網站有中、英文。
 打工度假請選擇「IEC簽證 - 緊急醫療保險」，依照需求選擇喜好的方案和金額。
 常見差別有：是否包含既往病症、冬季運動（如滑雪、登山...）傷害、短期離加旅行、牙科...等。 ⚠️ 需注意某些方案可能不適用魁省、育空...等地區。
 費用：較基本方案一年約為 CAD $600元。 ✅ 優點：
@@ -59,7 +58,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/whv/sin/</guid>
-      <description> 社會保險號碼（Social Insurance Number），是每一個在加拿大合法工作的人都需要有的號碼，主要用於工作、報稅、銀行開戶...等重要事項。無論是永久居民或是臨時居民（持有工作簽證、可打工的學生簽證），可以合法工作的人都能申請。 申請方式： 現場申請 持所需文件至各地Service Canada（查詢地點）臨櫃排隊申辦，現場領取。
+      <description>社會保險號碼（Social Insurance Number）是每一位在加拿大合法工作者都應有的號碼，主要用於工作、報稅、銀行開戶...等重要事務。無論是永久居民或是臨時居民（持有工作簽證、可打工的學生簽證），可以合法工作的人都能申請。
+申請方式： 現場申請 持所需文件至各地Service Canada（查詢地點）臨櫃排隊申辦，現場領取。
 所需文件有： 護照
 可以合法工作的簽證（工作簽證、可打工的學生簽證）
 父母親英文姓名、生日
@@ -70,7 +70,7 @@ Service Canada
 Social Insurance Registration Office
 PO Box 7000
 Bathurst, NB E2A 4T1
-CANADA ⚠️ 注意事項： 除了雇主、銀行及政府單位外，切勿將SIN洩露給任何人知道。 如發現你的SIN被盜用了, 請立刻至警局報案，並且聯繫加拿大反詐騙中心（Canadian Anti-Fraud Centre）。 更換簽證，或更改姓名時，必須更新SIN，可於線上辦理。 </description>
+CANADA ⚠️ 注意事項： 除了雇主（求職階段尚無須提供）、銀行及政府單位外，切勿將SIN洩露給任何人知道。 租屋不需要SIN，房冬無權要求你的號碼。 如發現你的SIN被盜用了, 請立刻至警局報案，並且聯繫加拿大反詐騙中心（Canadian Anti-Fraud Centre）。 更換簽證，或更改姓名時，必須更新SIN，可於線上辦理。 </description>
     </item>
     
     <item>
@@ -79,7 +79,7 @@ CANADA ⚠️ 注意事項： 除了雇主、銀行及政府單位外，切勿�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/whv/file/</guid>
-      <description>📣 好消息！自2023年4月起，良民證可線上申請、郵寄到家，無需再臨櫃領件。 ⚠️ 特別提醒：資料務必詳實，尤其日後有申請移民計劃者，勿圖方便省略他國旅居（如：澳洲打工度假）記錄。 收到邀請信後，必須： 10日內點選接受，如逾期或拒絕則回到抽選池中 20日內上傳文件相關文件 線上刷卡繳費 繳費後30日內要進行生物辨識 取得POE後，一年內需入境 填寫資料 上傳文件（Supporting Documents） 家庭資料（Family Information） 填寫[IMM5645]表格，建議下載並使用Adobe Reader DC開啟編輯，無需簽名。
+      <description>⚠️ 特別提醒：資料務必詳實，尤其日後有申請移民計劃者，勿圖方便省略他國旅居（如：澳洲打工度假）記錄。 📣 好消息！自2023年4月起，良民證可線上申請、郵寄到家，無需再臨櫃領件。 收到邀請信後，必須： 10日內點選接受，如逾期或拒絕則回到抽選池中 20日內上傳文件相關文件 線上刷卡繳費 繳費後30日內要進行生物辨識 取得POE後，一年內需入境 填寫資料 上傳文件（Supporting Documents） 家庭資料（Family Information） 填寫[IMM5645]表格，建議下載並使用Adobe Reader DC開啟編輯，無需簽名。
 CV 簡短一頁即可，包含現居國家城市、學歷、工作經歷（各工作主要內容）、現職工作。
 護照 需包含個人資料頁及所有有出入境戳章的內頁。
 證件照 兩吋大頭照，依護照規格，像素420x540以上，解析度600以上，檔案大小240kB-4MB之間，JPEG檔。
@@ -107,9 +107,9 @@ APP申請：下載 警政服務APP，同網路申請方式領取。 補充資料
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/whv/airport/</guid>
-      <description>自助電子通關系統 有中文介面，需掃描護照及拍照，填入在加拿大逗留的時間（365天），依序回答問題（如：是否有槍砲彈藥...等）後，機台會吐出一張自動電子通關申報單。
+      <description>💡 重要提示： 首次入境時如需境內轉機，需於第一個機場領取簽證，務必保留充足轉機時間。 如拿到的工簽有問題怎麼辦？請參考文章。 自助電子通關系統 有中文介面，需掃描護照及拍照，填入在加拿大逗留的時間（365天），依序回答問題（如：是否有槍砲彈藥...等）後，機台會吐出一張自動電子通關申報單。
 護照檢查站 攜帶護照、列印出的POE、申報單至海關，如實回答問題。
-領取行李 領取工作簽證 找到 IMMIGRATION 移民審查字樣（以溫哥華YVR機場為例，位於22號行李轉台右側），排隊繳交POE，並出示如有要求的其他文件：
+領取托運行李 領取工作簽證 找到 IMMIGRATION 移民審查字樣（以溫哥華YVR機場為例，位於22號行李轉台右側），排隊繳交POE，並出示如有要求的其他文件：
 醫療保險證明 - 英文版：需完整涵蓋工簽期間
 銀行財力證明 - 英文版：現金加幣2500 或 英文存款證明
 生物辨識系統確認信
