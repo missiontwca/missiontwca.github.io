@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1698925037" rel="stylesheet">
+<link href="/css/custom.css?1698996302" rel="stylesheet">
 
 
 
@@ -472,14 +472,36 @@
       padding: 20px;
     }
 
-    .table {
+    .table-main {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+
+    .table-side {
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
 
-    table tr td:nth-child(4) {
-      text-align: right;
+    .table-scrollable {
+      max-height: 297px;
+      overflow-y: auto;
+    }
+
+    .table-main thead th:not(:nth-child(1)):not(:nth-child(2)) {
+      text-align: center;
+    }
+
+    .table-main tr td:nth-child(3),
+    .table-main tr td:nth-child(4),
+    .table-main tr td:nth-child(5),
+    .table-main tr td:nth-child(6) {
+      text-align: center;
+    }
+
+    .table-side tr td:nth-child(6) {
+      font-weight: bold;
     }
   </style>
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -501,105 +523,125 @@
 
   <div class="tab-content">
     <div id="introduction" class="tab-pane fade in active">
-      <a href="#" id="showCn" class="btn-link">中文版</a>
-      <a href="#" id="showEn" class="btn-link">英文版</a>
-      <img id="map_cn" class="img-fluid" src="/img/provinces/map_cn.png" alt="Chinese Map of Canada" width="72%">
-      <img id="map_en" class="img-fluid d-none" src="/img/provinces/map_en.png" alt="English Map of Canada" width="70%"
-        style="display: none;">
-      <table class="table table-striped" id="population" data-toggle="table" data-sortable="true">
+      <a href="#" id="showCn" class="btn-link">中文地圖 </a>
+      <a href="#" id="showEn" class="btn-link">/ 英文地圖</a>
+      <img id="map_cn" class="img-fluid" src="/img/provinces/map_cn.png" alt="Chinese Map of Canada" width="70%" style="display: none;">
+      <img id="map_en" class="img-fluid d-none" src="/img/provinces/map_en.png" alt="English Map of Canada" width="70%">
+      <hr>
+      <table class="table table-striped table-main" id="population" data-toggle="table" data-sortable="true">
         <thead>
           <tr>
             <th scope="col">省份</th>
-            <th scope="col">英文全名</th>
             <th scope="col">縮寫</th>
-            <th scope="col" data-sortable="true">人口</th>
+            <th scope="col">省會</th>
+            <th scope="col">最大城市</th>
             <th scope="col">官方語言</th>
+            <th scope="col" data-sortable="true">人口</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">卑詩省</th>
-            <td>British Columbia</td>
+            <th scope="row">卑詩省<br>British Columbia</th>
             <td>BC</td>
+            <td>維多利亞<br>Victoria</td>
+            <td>溫哥華<br>Vancouver</td>
+            <td>英語</td>
             <td>5,519,013</td>
           </tr>
           <tr>
-            <th scope="row">亞伯塔省</th>
-            <td>Alberta</td>
+            <th scope="row">亞伯塔省<br>Alberta</th>
             <td>AB</td>
+            <td>艾德蒙頓<br>Edmonton</td>
+            <td>卡加利<br>Calgary</td>
+            <td>英語</td>
             <td>4,695,290</td>
           </tr>
           <tr>
-            <th scope="row">薩斯喀徹溫省</th>
-            <td>Saskatchewan</td>
+            <th scope="row">薩斯喀徹溫省<br>Saskatchewan</th>
             <td>SK</td>
+            <td>雷吉纳<br>Regina</td>
+            <td>薩斯卡通<br>Saskatoon</td>
+            <td>英語</td>
             <td>1,209,107</td>
           </tr>
           <tr>
-            <th scope="row">曼尼托巴省</th>
-            <td>Manitoba</td>
+            <th scope="row">曼尼托巴省<br>Manitoba</th>
             <td>MB</td>
+            <td colspan="2">溫尼伯<br>Winnipeg</td>
+            <td>英語</td>
             <td>1,454,902</td>
           </tr>
           <tr>
-            <th scope="row">安大略省</th>
-            <td>Ontario</td>
+            <th scope="row">安大略省<br>Ontario</th>
             <td>ON</td>
+            <td colspan="2">多倫多<br>Toronto</td>
+            <td>英語</td>
             <td>15,608,369</td>
           </tr>
           <tr>
-            <th scope="row">魁北克省</th>
-            <td>Quebec</td>
+            <th scope="row">魁北克省<br>Quebec</th>
             <td>QC</td>
+            <td>魁北克市<br>Quebec City</td>
+            <td>蒙特婁<br>Montreal</td>
+            <td><span style="text-decoration: underline;">法語</span></td>
             <td>8,874,683</td>
           </tr>
           <tr>
-            <th scope="row">新布藍茲維省（NB）</th>
-            <td>New Brunswick</td>
+            <th scope="row">新布藍茲維省<br>New Brunswick</th>
             <td>NB</td>
+            <td>腓特烈頓<br>Fredericton</td>
+            <td>蒙克頓<br>Moncton</td>
+            <td>英語、<span style="text-decoration: underline;">法語</span></td>
             <td>834,691</td>
           </tr>
           <tr>
-            <th scope="row">新斯科細亞省</th>
-            <td>Nova Scotia</td>
+            <th scope="row">新斯科細亞省<br>Nova Scotia</th>
             <td>NS</td>
+            <td colspan="2">哈利法克斯<br>Halifax</td>
+            <td>英語</td>
             <td>1,058,694</td>
           </tr>
           <tr>
-            <th scope="row">愛德華王子島省</th>
-            <td>Prince Edward Island</td>
+            <th scope="row">愛德華王子島省<br>Prince Edward Island</th>
             <td>PEI</td>
+            <td colspan="2">夏洛特頓<br>Charlottetown</td>
+            <td>英語</td>
             <td>173,787</td>
           </tr>
           <tr>
-            <th scope="row">紐芬蘭與拉布拉多省</th>
-            <td>Newfoundland and Labrador</td>
+            <th scope="row">紐芬蘭與拉布拉多省<br>Newfoundland and Labrador</th>
             <td>NL</td>
+            <td colspan="2">聖約翰斯<br>St. John's</td>
+            <td>英語</td>
             <td>538,605</td>
           </tr>
           <tr>
-            <th scope="row">育空地區</th>
-            <td>Yukon</td>
+            <th scope="row">育空地區<br>Yukon</th>
             <td>YT</td>
+            <td colspan="2">白馬<br>Whitehorse</td>
+            <td>英語</td>
             <td>44,975</td>
           </tr>
           <tr>
-            <th scope="row">西北地區</th>
-            <td>Northwest Territories</td>
+            <th scope="row">西北地區<br>Northwest Territories</th>
             <td>NT</td>
+            <td colspan="2">黃刀<br>Yellowknife</td>
+            <td>英語</td>
             <td>44,972</td>
           </tr>
           <tr>
-            <th scope="row">努納福特領地</th>
-            <td>Nunavut</td>
+            <th scope="row">努納福特領地<br>Nunavut</th>
             <td>NU</td>
+            <td colspan="2">伊魁特<br>Iqaluit</td>
+            <td>英語</td>
             <td>40,673</td>
           </tr>
         </tbody>
       </table>
+      <p>人口統計以2023年9月27日公布的2023 Q3數據為準。</p>
     </div>
     <div id="weather" class="tab-pane fade">
-      <h5>即時天氣</h5>
+      <p><b>即時天氣</b>（來源：<a href="https://sharpweather.com/">SharpWeather</a>）</p>
       <div id="ide946c17c3f163"
         a='{"t":"b","v":"1.2","lang":"en","locs":[737,732,3770,736,730,731],"ssot":"c","sics":"ds","cbkg":"rgba(56,167,187,1)","cfnt":"#FFFFFF","ceb":"#FFFFFF","cef":"#000000","slfs":14,"slmw":200}'>
         <a href="https://sharpweather.com/widgets/">Weather widget html for website by sharpweather.com</a></div>
@@ -631,8 +673,9 @@
     <div id="rent" class="tab-pane fade"></div>
     <div id="wage" class="tab-pane fade">
       <h5>2023年10月1日更新</h5>
+      <p>各省最低時薪依政策可能持續變動。</p>
       <img src="/img/provinces/wage.png" alt="Minimum Wage" width="65%" align="left">
-      <table class="table table-striped">
+      <table class="table table-striped table-side">
         <thead>
           <tr>
             <th scope="col">省份</th>
@@ -704,124 +747,126 @@
       </ul>
       <hr>
       <img src="/img/provinces/map_tax.jpg" alt="Map of Tax" width="50%" align="left">
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">省份</th>
-            <th scope="col">類型</th>
-            <th scope="col">PST</th>
-            <th scope="col">GST</th>
-            <th scope="col">HST</th>
-            <th scope="col">總稅率</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">卑詩省（BC）</th>
-            <td>GST + PST</td>
-            <td>7%</td>
-            <td>5%</td>
-            <td></td>
-            <td>12%</td>
-          </tr>
-          <tr>
-            <th scope="row">亞伯塔省（AB）</th>
-            <td>GST</td>
-            <td></td>
-            <td>5%</td>
-            <td></td>
-            <td>5%</td>
-          </tr>
-          <tr>
-            <th scope="row">薩斯喀徹溫省（SK）</th>
-            <td>GST + PST</td>
-            <td>6%</td>
-            <td>5%</td>
-            <td></td>
-            <td>11%</td>
-          </tr>
-          <tr>
-            <th scope="row">曼尼托巴省（MB）</th>
-            <td>GST + PST</td>
-            <td>7%</td>
-            <td>5%</td>
-            <td></td>
-            <td>12%</td>
-          </tr>
-          <tr>
-            <th scope="row">安大略省（ON）</th>
-            <td>HST</td>
-            <td></td>
-            <td></td>
-            <td>13%</td>
-            <td>13%</td>
-          </tr>
-          <tr>
-            <th scope="row">魁北克省（QC）</th>
-            <td>GST + *QST</td>
-            <td>*9.975%</td>
-            <td>5%</td>
-            <td></td>
-            <td>14.975%</td>
-          </tr>
-          <tr>
-            <th scope="row">新布藍茲維省（NB）</th>
-            <td>HST</td>
-            <td></td>
-            <td></td>
-            <td>15%</td>
-            <td>15%</td>
-          </tr>
-          <tr>
-            <th scope="row">新斯科細亞省（NS）</th>
-            <td>HST</td>
-            <td></td>
-            <td></td>
-            <td>15%</td>
-            <td>15%</td>
-          </tr>
-          <tr>
-            <th scope="row">愛德華王子島省（PEI）</th>
-            <td>HST</td>
-            <td></td>
-            <td></td>
-            <td>15%</td>
-            <td>15%</td>
-          </tr>
-          <tr>
-            <th scope="row">紐芬蘭與拉布拉多省（NL）</th>
-            <td>HST</td>
-            <td></td>
-            <td></td>
-            <td>15%</td>
-            <td>15%</td>
-          </tr>
-          <tr>
-            <th scope="row">育空地區（YT）</th>
-            <td>GST</td>
-            <td></td>
-            <td>5%</td>
-            <td></td>
-            <td>5%</td>
-          </tr>
-          <tr>
-            <th scope="row">西北地區（NT）</th>
-            <td>GST</td>
-            <td></td>
-            <td>5%</td>
-            <td></td>
-            <td>5%</td>
-          </tr>
-          <tr>
-            <th scope="row">努納福特領地（NU）</th>
-            <td>GST</td>
-            <td></td>
-            <td>5%</td>
-            <td></td>
-            <td>5%</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-scrollable">
+        <table class="table table-striped table-side">
+          <thead>
+            <tr>
+              <th scope="col">省份</th>
+              <th scope="col">類型</th>
+              <th scope="col">PST</th>
+              <th scope="col">GST</th>
+              <th scope="col">HST</th>
+              <th scope="col">總稅率</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">卑詩省（BC）</th>
+              <td>GST + PST</td>
+              <td>7%</td>
+              <td>5%</td>
+              <td></td>
+              <td>12%</td>
+            </tr>
+            <tr>
+              <th scope="row">亞伯塔省（AB）</th>
+              <td>GST</td>
+              <td></td>
+              <td>5%</td>
+              <td></td>
+              <td>5%</td>
+            </tr>
+            <tr>
+              <th scope="row">薩斯喀徹溫省（SK）</th>
+              <td>GST + PST</td>
+              <td>6%</td>
+              <td>5%</td>
+              <td></td>
+              <td>11%</td>
+            </tr>
+            <tr>
+              <th scope="row">曼尼托巴省（MB）</th>
+              <td>GST + PST</td>
+              <td>7%</td>
+              <td>5%</td>
+              <td></td>
+              <td>12%</td>
+            </tr>
+            <tr>
+              <th scope="row">安大略省（ON）</th>
+              <td>HST</td>
+              <td></td>
+              <td></td>
+              <td>13%</td>
+              <td>13%</td>
+            </tr>
+            <tr>
+              <th scope="row">魁北克省（QC）</th>
+              <td>GST + *QST</td>
+              <td>*9.975%</td>
+              <td>5%</td>
+              <td></td>
+              <td>14.975%</td>
+            </tr>
+            <tr>
+              <th scope="row">新布藍茲維省（NB）</th>
+              <td>HST</td>
+              <td></td>
+              <td></td>
+              <td>15%</td>
+              <td>15%</td>
+            </tr>
+            <tr>
+              <th scope="row">新斯科細亞省（NS）</th>
+              <td>HST</td>
+              <td></td>
+              <td></td>
+              <td>15%</td>
+              <td>15%</td>
+            </tr>
+            <tr>
+              <th scope="row">愛德華王子島省（PEI）</th>
+              <td>HST</td>
+              <td></td>
+              <td></td>
+              <td>15%</td>
+              <td>15%</td>
+            </tr>
+            <tr>
+              <th scope="row">紐芬蘭與拉布拉多省（NL）</th>
+              <td>HST</td>
+              <td></td>
+              <td></td>
+              <td>15%</td>
+              <td>15%</td>
+            </tr>
+            <tr>
+              <th scope="row">育空地區（YT）</th>
+              <td>GST</td>
+              <td></td>
+              <td>5%</td>
+              <td></td>
+              <td>5%</td>
+            </tr>
+            <tr>
+              <th scope="row">西北地區（NT）</th>
+              <td>GST</td>
+              <td></td>
+              <td>5%</td>
+              <td></td>
+              <td>5%</td>
+            </tr>
+            <tr>
+              <th scope="row">努納福特領地（NU）</th>
+              <td>GST</td>
+              <td></td>
+              <td>5%</td>
+              <td></td>
+              <td>5%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <h5>免收消費稅的商品包含：</h5>
       <ul>
         <li>基本雜貨，如：牛奶、麵包、蔬菜。</li>
@@ -853,7 +898,6 @@
   <p>.</p>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
 
   <script>
     // $(document).ready(function() {
@@ -863,13 +907,13 @@
       $("#showCn").on("click", function () {
         $("#map_cn").show();
         $("#map_en").hide();
-        return false; // Prevent the default hyperlink behavior
+        return false;
       });
 
       $("#showEn").on("click", function () {
         $("#map_cn").hide();
         $("#map_en").show();
-        return false; // Prevent the default hyperlink behavior
+        return false;
       });
     });
   </script>
