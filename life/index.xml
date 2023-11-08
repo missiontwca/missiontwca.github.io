@@ -16,15 +16,6 @@
     </item>
     
     <item>
-      <title>必備APP/網站</title>
-      <link>http://example.org/life/app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/life/app/</guid>
-      <description> 銀行 電信 ubereat 餐廳tims pc opt walmart amazon 叫車 住宿 kijiji 工作 maple meetup reddit visa 小紅書 </description>
-    </item>
-    
-    <item>
       <title>交通</title>
       <link>http://example.org/life/transportation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -73,7 +64,8 @@ New Brunswick NB 腓特烈頓</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/life/rent/</guid>
-      <description>常用找房網站 房屋類型 合約種類 注意事項 常用找房網站 主要有加拿大本地分類廣告網站、Facebook、各地華人論壇、微信群組...等管道。打工換宿請另參考此文章。
+      <description>📌 想找打工換宿嗎？請參考文章。
+常用找房網站 房屋類型 合約種類 注意事項 常用找房網站 主要有加拿大本地分類廣告網站、Facebook、各地華人論壇、微信群組...等管道。
 加拿大分類廣告網站 Kijiji 是一個線上分類廣告網站，除了房屋出租外，也包括二手物品、工作、汽車買賣...等。可以依據房屋類型、出租類型（如：長短期、分租、找室友）、是否含家具、可寵、地區、價格條件進行篩選，並可直接私訊房東約看。類似網站還有：Craigslist。
 Facebook Marketplace 可以在Marketplace上設置地點範圍，並以關鍵字（如：1 bedroom）進行篩選，並可直接以messenger私訊。當地人很常使用Marketplace刊登各類廣告，房源眾多，但需謹慎辨別，以免受騙。
 地方社團 各城市大多有地方性的租屋社團，同樣可直接私訊聯絡房東，亦務必慎防詐騙。另外推薦參考加拿大打工度假資訊-租屋版。
@@ -83,17 +75,25 @@ Facebook Marketplace 可以在Marketplace上設置地點範圍，並以關鍵字
 聯排別墅 Townhouse 與左右鄰居相鄰之獨棟房屋。
 合約種類 租期 年租：最普遍的類型，期滿後自動轉為month-to-month，房東可能簽訂新的合約，但房客沒有同意的義務。 定期：雙方約定固定的起止日期。 Month-to-month：按月延續的合約，通常會註明如欲終止（如：搬離、停止出租...）需於多久以前告知對方。 租約內容 基本資訊：雙方姓名、聯絡方式，房屋地址，租金，類型期限，繳租時間（一般為每月1號）。 押金：依各地行情，可能為1-2個月房租金額，或1個月的75%（NL省）。退租時房東檢查房屋後退還，如有損毀或需要清潔從中扣除。繳交時記得索取收據（或轉帳記錄），一為留以證據，第二為了日後報稅退稅使用。 租金項目：是否包含家具（如為unfurnished，需自行準備家具）、暖氣、水電瓦斯、網路費、停車位。 房屋檢查清單：例如插座、燈具、爐灶、冰箱、水龍頭...等是否正常運作，留存紀錄以避免爭議。 租屋規範：是否允許寵物、訪客、菸酒...等。 房東要求 於一些租屋市場較緊張的地區，房東可能要求以下項目：
 信用檢查：租客需先到信用公司（如Equifax和TransUnion）獲得一份信用分數的報告。 推薦人：通常要求1-2人，可為前任房東或雇主。 租客保險：一般房東會購買房屋保險，以保障天災等意外造成的損失，房客本身的個人財產則需要自行購買租客保險來保障，每年費用約在$500元左右。 房客權益 加拿大政府規定，房屋冬天應該保證室內21度C，如果過冷，有權要求房東改善。 房東不得擅自闖入房客的房間。 房東無權隨意漲房租，以ON省為例，一年只允許調漲一次，且最多為2.5%。 合約終止 如欲在租約到期前搬離，有以下幾種處理方式： 經房東同意可尋找其他租客重新簽訂合約或進行轉租（sublet）。 雙方協議提前終止合約。 持續繳交房租至合約到期。 注意事項 ❗ 如尚未入境加拿大親自（或由朋友代為）看房，房東要求預先支付房租、大筆押金，需謹慎辨別是否為詐騙。
-✅ 強烈建議到當地先暫時入住旅館、Airbnb，再尋找後續長期租屋。
-⚠️ 平台上一些圖片精美，但房租遠低於行情的房子，可能為房東或仲介藉此引流/釣魚，騙取訂金或吸引人去看他的其他房源。</description>
+✅ 強烈建議到當地先暫時入住旅館、Airbnb，再尋找後續長期租屋。</description>
     </item>
     
     <item>
-      <title>報稅測試</title>
+      <title>常用APP/網站</title>
+      <link>http://example.org/life/app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/life/app/</guid>
+      <description> 銀行 電信 ubereat 餐廳tims pc opt walmart amazon 叫車 住宿 kijiji 工作 maple meetup reddit visa 小紅書 </description>
+    </item>
+    
+    <item>
+      <title>報稅</title>
       <link>http://example.org/life/tax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/life/tax/</guid>
-      <description>測試中</description>
+      <description> 報稅季節為每年二月至四月，敬請期待。 </description>
     </item>
     
     <item>

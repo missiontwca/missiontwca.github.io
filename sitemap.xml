@@ -20,9 +20,7 @@
     <loc>http://example.org/</loc>
     <lastmod>2017-12-29T12:15:02+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/blog1/</loc>
-  </url><url>
-    <loc>http://example.org/blog/blog2/</loc>
+    <loc>http://example.org/blog/tcm/</loc>
   </url><url>
     <loc>http://example.org/blog/</loc>
   </url><url>
@@ -33,6 +31,8 @@
     <loc>http://example.org/tags/golang/</loc>
   </url><url>
     <loc>http://example.org/tags/hugo/</loc>
+  </url><url>
+    <loc>http://example.org/immigration/</loc>
   </url><url>
     <loc>http://example.org/life/</loc>
   </url><url>
@@ -50,17 +50,25 @@
   </url><url>
     <loc>http://example.org/life/phone/</loc>
   </url><url>
-    <loc>http://example.org/life/app/</loc>
-  </url><url>
     <loc>http://example.org/whv/insurance/</loc>
+  </url><url>
+    <loc>http://example.org/blog/work_exchange/</loc>
   </url><url>
     <loc>http://example.org/life/transportation/</loc>
   </url><url>
     <loc>http://example.org/life/provinces/</loc>
   </url><url>
+    <loc>http://example.org/immigration/others/</loc>
+  </url><url>
     <loc>http://example.org/whv/sin/</loc>
   </url><url>
+    <loc>http://example.org/immigration/pnp/</loc>
+  </url><url>
     <loc>http://example.org/life/rent/</loc>
+  </url><url>
+    <loc>http://example.org/life/app/</loc>
+  </url><url>
+    <loc>http://example.org/immigration/news/</loc>
   </url><url>
     <loc>http://example.org/life/tax/</loc>
   </url><url>
@@ -71,5 +79,11 @@
     <loc>http://example.org/life/license/</loc>
   </url><url>
     <loc>http://example.org/whv/airport/</loc>
+  </url><url>
+    <loc>http://example.org/immigration/federal/</loc>
+  </url><url>
+    <loc>http://example.org/blog/ee_pool/</loc>
+  </url><url>
+    <loc>http://example.org/immigration/knowledge/</loc>
   </url>
 </urlset>
