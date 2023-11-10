@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1699459297" rel="stylesheet">
+<link href="/css/custom.css?1699598667" rel="stylesheet">
 
 
 
@@ -492,9 +492,23 @@
                         
 
                         <div id="post-content">
-                          <head>
+                          
+<head>
     <style>
-        ol.bold-list > li {
+
+
+        ul.checklist {
+            list-style-type: none;
+        }
+
+        ul.checklist>li::before {
+            content: "✅";
+            /* 設置 ::before 擴充元素的內容為 emoji */
+            margin-right: 8px;
+            /* 可以根據需要調整 emoji 與文字之間的間距 */
+        }
+
+        ol.bold-list>li {
             font-size: 18px;
             font-weight: bold;
             margin-top: 5px;
@@ -504,118 +518,120 @@
 </head>
 
 <body>
-<div>
-    <h5 style="color: red;">⚠️ 特別提醒：資料務必詳實，尤其日後有申請移民計劃者，勿圖方便省略他國旅居（如：澳洲打工度假）記錄。</h5>
-    <h5>📣 好消息！自2023年4月起，良民證可線上申請、郵寄到家，無需再臨櫃領件。</h5>
-</div>
-<hr>
-<div>
-    收到邀請信後，必須：
-    <ul>
-        <li>「<b>10日</b>」內點選接受，如逾期或拒絕則回到抽選池中</li>
-        <li>「<b>20日</b>」內上傳文件相關文件</li>
-        <li>線上刷卡繳費</li>
-        <li>繳費後「<b>30日</b>」內要進行生物辨識</li>
-        <li>取得POE後，一年內需入境</li>
-    </ul>
-</div>
-<hr>
-<div>
-    <ol class="bold-list">
-        <li>接受邀請</li>
-        <p>於中籤後的10日內，登入GCKey並點選「開始申請（Start Application）」。</p>
-        <li>填寫資料</li>
-        <li>上傳文件（Supporting Documents）</li>
-        <ul>
-            <li>家庭資料（Family Information）</li>
-            <p>填寫<a
-                    href="https://www.canada.ca/content/dam/ircc/migration/ircc/english/pdf/kits/forms/imm5645e.pdf">[IMM5645]</a>表格，建議下載並使用<a
-                    href="https://get.adobe.com/tw/reader/">Adobe Reader DC</a>開啟編輯，無需簽名。</p>
-            <li>CV</li>
-            <p>簡短一頁即可，包含現居國家城市、學歷、工作經歷（各工作主要內容）、現職工作。</p>
-            <li>護照</li>
-            <p>需包含「個人資料頁」、有「出入境戳章」的所有內頁。</p>
-            <li>證件照</li>
-            <p>兩吋大頭照，依護照規格，像素420x540以上，解析度600以上，檔案大小240kB - 4MB之間，JPEG檔。</p>
-            <li>體檢證明</li>
-            <p>上傳體檢後拿到的「Information Sheet」，項目包含基本理學檢查、胸腔X光、抽血、尿液檢查（女性建議避開生理期），報告7-10日會由醫院直接上傳至eMedical系統。</p>
+    <div>
+        <h5 style="color: blue;">⚠️ 特別提醒：資料務必詳實，尤其日後有申請移民計劃者，勿圖方便省略他國旅居（如：澳洲打工度假）記錄。</h5>
+        <h5>📣 好消息！自2023年4月起，良民證可線上申請、郵寄到家，無需再臨櫃領件。</h5>
+    </div>
+    <br>
+    <div class="headings">
+        <ol>
+        <p>收到邀請信後，必須：</p>
+        <ul class="checklist">
+            <li>「<b>10日</b>」內點選接受，如逾期或拒絕則回到抽選池中</li>
+            <li>「<b>20日</b>」內上傳文件相關文件</li>
+            <li>線上刷卡繳費</li>
+            <li>繳費後「<b>30日</b>」內要進行生物辨識</li>
+            <li>取得POE後，一年內需入境</li>
+        </ul>
+    </ol>
+    </div>
+    <hr>
+    <div>
+        <ol class="bold-list">
+            <li>接受邀請</li>
+            <p>於中籤後的10日內，登入GCKey並點選「開始申請（Start Application）」。</p>
+            <li>填寫資料</li>
+            <li>上傳文件（Supporting Documents）</li>
+            <ul>
+                <li>家庭資料（Family Information）</li>
+                <p>填寫<a
+                        href="https://www.canada.ca/content/dam/ircc/migration/ircc/english/pdf/kits/forms/imm5645e.pdf">[IMM5645]</a>表格，建議下載並使用<a
+                        href="https://get.adobe.com/tw/reader/">Adobe Reader DC</a>開啟編輯，無需簽名。</p>
+                <li>CV</li>
+                <p>簡短一頁即可，包含現居國家城市、學歷、工作經歷（各工作主要內容）、現職工作。</p>
+                <li>護照</li>
+                <p>需包含「個人資料頁」、有「出入境戳章」的所有內頁。</p>
+                <li>證件照</li>
+                <p>兩吋大頭照，依護照規格，像素420x540以上，解析度600以上，檔案大小240kB - 4MB之間，JPEG檔。</p>
+                <li>體檢證明</li>
+                <p>上傳體檢後拿到的「Information Sheet」，項目包含基本理學檢查、胸腔X光、抽血、尿液檢查（女性建議避開生理期），報告7-10日會由醫院直接上傳至eMedical系統。</p>
                 <p>⚠️ 如未能在時限內進行體檢，需上傳已預約的證明</p>
                 <p>台灣共有三間醫院可進行：</p>
-            <div class="card text-white bg-info mb-3" style="display: inline-block; padding: 10px; margin: 5px;">
-                <div class="card-body">
-                    <h5 class="card-title">台北 - 臺安醫院：</h5>
-                    <p class="card-text">
-                        依時段分為現場排隊及網路預約，請參考<a href="https://reurl.cc/N0bZd6">[注意事項]</a>。<br>
-                        地址：台北市松山區八德路二段424號 健診中心1F<br>
-                        體檢時間：週一至週四 9:30-10:30、13:30-15:30，週五9:30-10:30
-                    </p>
+                <div class="card text-white bg-info mb-3" style="display: inline-block; padding: 10px; margin: 5px;">
+                    <div class="card-body">
+                        <h5 class="card-title">台北 - 臺安醫院：</h5>
+                        <p class="card-text">
+                            依時段分為現場排隊及網路預約，請參考<a href="https://reurl.cc/N0bZd6">[注意事項]</a>。<br>
+                            地址：台北市松山區八德路二段424號 健診中心1F<br>
+                            體檢時間：週一至週四 9:30-10:30、13:30-15:30，週五9:30-10:30
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="card text-white bg-info mb-3" style="display: inline-block; padding: 10px; margin: 5px;">
-                <div class="card-body">
-                    <h5 class="card-title">台北 - 馬偕醫院：</h5>
-                    <p class="card-text">
-                        現場抽號碼牌辦理，不接受預約，請參考<a
-                            href="https://wapps.mmh.org.tw/Health2015/image/加拿大簽證體檢.pdf">[注意事項]</a>。<br>
-                        地址：台北市中山區中山北路二段92號 平安樓健檢中心16F<br>
-                        體檢時間：週二至週五 13:30-14:45
-                    </p>
+                <div class="card text-white bg-info mb-3" style="display: inline-block; padding: 10px; margin: 5px;">
+                    <div class="card-body">
+                        <h5 class="card-title">台北 - 馬偕醫院：</h5>
+                        <p class="card-text">
+                            現場抽號碼牌辦理，不接受預約，請參考<a
+                                href="https://wapps.mmh.org.tw/Health2015/image/加拿大簽證體檢.pdf">[注意事項]</a>。<br>
+                            地址：台北市中山區中山北路二段92號 平安樓健檢中心16F<br>
+                            體檢時間：週二至週五 13:30-14:45
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="card text-white bg-info mb-3" style="display: inline-block; padding: 10px; margin: 5px;">
-                <div class="card-body">
-                    <h5 class="card-title">台中 - 中國醫藥大學附設醫院：</h5>
-                    <p class="card-text">
-                        需電話預約（04-2205-2121，分機15620-15623），請參考<a
-                            href="https://www.cmuh.cmu.edu.tw/Department/CustomPage/287">[注意事項]</a>。<br>
-                        地址：台中市北區育德路2號 急重症大樓後棟8F（五權路與錦新街口）健康醫學中心<br>
-                        體檢時間：週一至週五 13:00-16:00
-                    </p>
+                <div class="card text-white bg-info mb-3" style="display: inline-block; padding: 10px; margin: 5px;">
+                    <div class="card-body">
+                        <h5 class="card-title">台中 - 中國醫藥大學附設醫院：</h5>
+                        <p class="card-text">
+                            需電話預約（04-2205-2121，分機15620-15623），請參考<a
+                                href="https://www.cmuh.cmu.edu.tw/Department/CustomPage/287">[注意事項]</a>。<br>
+                            地址：台中市北區育德路2號 急重症大樓後棟8F（五權路與錦新街口）健康醫學中心<br>
+                            體檢時間：週一至週五 13:00-16:00
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <li>良民證</li>
-            <p>凡曾居住過6個月以上的國家皆需申請良民證。台灣良民證申請方式如下：</p>
-            <blockquote>
-                <a
-                    href="https://eli.npa.gov.tw/E7WebO/index01.jsp">線上申請</a>：以自然人憑證透過MyData平台申請郵寄到家，或於2.5工作天後攜帶應備文件至所選地點領取。<br>
-                臨櫃申請：不限戶籍地限制，攜帶身分證至<a
-                    href="https://www.npa.gov.tw/userfiles/chnpa/files/20210521105233230.pdf">各縣市警察局外事科</a>皆可申請。<br>
-                APP申請：下載<a
-                    href="https://www.npa.gov.tw/ch/app/artwebsite/view?module=artwebsite&id=1061&serno=25d5dae3-2a7d-40ea-8016-e567912ac57c">
-                    警政服務APP</a>，同網路申請方式領取。
-            </blockquote>
-            <li>補充資料（Optional Documents）</li>
-            <p>如無則不需上傳。</p>
-        </ul>
+                <li>良民證</li>
+                <p>凡曾居住過6個月以上的國家皆需申請良民證。台灣良民證申請方式如下：</p>
+                <blockquote>
+                    <a
+                        href="https://eli.npa.gov.tw/E7WebO/index01.jsp">線上申請</a>：以自然人憑證透過MyData平台申請郵寄到家，或於2.5工作天後攜帶應備文件至所選地點領取。<br>
+                    臨櫃申請：不限戶籍地限制，攜帶身分證至<a
+                        href="https://www.npa.gov.tw/userfiles/chnpa/files/20210521105233230.pdf">各縣市警察局外事科</a>皆可申請。<br>
+                    APP申請：下載<a
+                        href="https://www.npa.gov.tw/ch/app/artwebsite/view?module=artwebsite&id=1061&serno=25d5dae3-2a7d-40ea-8016-e567912ac57c">
+                        警政服務APP</a>，同網路申請方式領取。
+                </blockquote>
+                <li>補充資料（Optional Documents）</li>
+                <p>如無則不需上傳。</p>
+            </ul>
 
-        <li>線上繳費</li>
+            <li>線上繳費</li>
 
-        <li>生物辨識</li>
-        <p>上傳完資料並繳付款成功後，24小時內會收到一封生物辨識通知（Biometrics Collection Letter），請於30日內到VFS辦理。</p>
-        <p>需提前預約<a href="https://visa.vfsglobal.com/twn/zh/can/book-an-appointment">（按此）</a>，並攜帶以下：</p>
-        <ol>
-            <blockquote>
-                預約單<br>
-                護照正本、2份影本<br>
-                生物辨識指示信（Biometric Instruction Letter，列印紙本）<br>
-                VFS服務同意書<a
-                    href="https://assets.ctfassets.net/xxg4p8gt3sg6/3qjzeOFeRSH6MWjLo6bFua/55975da5da5137261c7f8c36bddc1490/Taiwan-Consent-Form-ZH.pdf.pdf">(點此下載)</a>
-            </blockquote>
-            <blockquote>
-                地址：台北市信義區松仁路97號（第二交易廣場）7樓A室<br>
-                開放時間：週一至週五 09:00 - 17:00
-            </blockquote>
+            <li>生物辨識</li>
+            <p>上傳完資料並繳付款成功後，24小時內會收到一封生物辨識通知（Biometrics Collection Letter），請於30日內到VFS辦理。</p>
+            <p>需提前預約<a href="https://visa.vfsglobal.com/twn/zh/can/book-an-appointment">（按此）</a>，並攜帶以下：</p>
+            <ol>
+                <blockquote>
+                    預約單<br>
+                    護照正本、2份影本<br>
+                    生物辨識指示信（Biometric Instruction Letter，列印紙本）<br>
+                    VFS服務同意書<a
+                        href="https://assets.ctfassets.net/xxg4p8gt3sg6/3qjzeOFeRSH6MWjLo6bFua/55975da5da5137261c7f8c36bddc1490/Taiwan-Consent-Form-ZH.pdf.pdf">(點此下載)</a>
+                </blockquote>
+                <blockquote>
+                    地址：台北市信義區松仁路97號（第二交易廣場）7樓A室<br>
+                    開放時間：週一至週五 09:00 - 17:00
+                </blockquote>
+            </ol>
+            <p>請提前15分鐘抵達，依照指示拍照、採集指紋，掃描被拒者需30日後才可再次進行。</p>
+
+            <li>等待POE</li>
+            <p>如未拒簽或要求補件，約在8週內會收到POE（Port of Entry）信，請注意信上的入境期限（通常為一年），至加拿大邊境換取正式的工籤（參考文章：<a
+                    href="/whv/airport">機場入境流程</a>）。</p>
         </ol>
-        <p>請提前15分鐘抵達，依照指示拍照、採集指紋，掃描被拒者需30日後才可再次進行。</p>
-
-        <li>等待POE</li>
-        <p>如未拒簽或要求補件，約在8週內會收到POE（Port of Entry）信，請注意信上的入境期限（通常為一年），至加拿大邊境換取正式的工籤（參考文章：<a href="/whv/airport">機場入境流程</a>）。</p>
-    </ol>
-    <br>
-    <div class="card text-white bg-info mb-3" style="display: flex; padding: 10px; margin: 5px;">
-        <div class="card-body">
-            <h5 class="card-title">2023年各項費用：</h5>
-            <p class="card-text">
+        <br>
+        <ol>
+            <div>
+                <h5>2023年各項費用：</h5>
                 <ul>
                     <li>體檢：台幣 $4100元</li>
                     <li>良民證：台幣 $100元，同次第2份起每份台幣 $20元</li>
@@ -623,13 +639,11 @@
                     <li>開放式工作簽證費 加幣 $100元</li>
                     <li>生物指紋辨識費 加幣 $85元</li>
                 </ul>
-            </p>
-        </div>
+            </div>
+        </ol>
     </div>
-</div>
 
 </body>
-
                         </div>
                         
                         

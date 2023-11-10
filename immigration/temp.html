@@ -1,0 +1,106 @@
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="listeningSelect">聽：</label>
+                    <select class="custom-select" id="listeningSelect" onchange="calculateScore()">
+                        <option value="0">CLB 7 以下</option>
+                        <option value="4">CLB 7</option>
+                        <option value="5">CLB 8</option>
+                        <option value="6">CLB 9、10</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="speakingSelect">說：</label>
+                    <select class="custom-select" id="speakingSelect" onchange="calculateScore()">
+                        <option value="0">CLB 7 以下</option>
+                        <option value="4">CLB 7</option>
+                        <option value="5">CLB 8</option>
+                        <option value="6">CLB 9、10</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="readingSelect">讀：</label>
+                    <select class="custom-select" id="readingSelect" onchange="calculateScore()">
+                        <option value="0">CLB 7 以下</option>
+                        <option value="4">CLB 7</option>
+                        <option value="5">CLB 8</option>
+                        <option value="6">CLB 9、10</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="writingSelect">寫：</label>
+                    <select class="custom-select" id="writingSelect" onchange="calculateScore()">
+                        <option value="0">CLB 7 以下</option>
+                        <option value="4">CLB 7</option>
+                        <option value="5">CLB 8</option>
+                        <option value="6">CLB 9、10</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="secondLanguageSelect">第二語言：</label>
+                    <select class="custom-select" id="secondLanguageSelect" onchange="calculateScore()">
+                        <option value="0">無</option>
+                        <option value="4">有，四項均在CLB 5（含）以上</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="languageScore">總分：</label>
+                    <span id="languageScore">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-4 form-group">
+                <select class="custom-select" id="lmiaSelect"
+                    onchange="calculateScore('lmiaSelect', 'lmiaScore')">
+                    <option value="" disabled selected>請選擇是否有LMIA</option>
+                    <option value="10">有LMIA</option>
+                    <option value="0">無LMIA</option>
+                </select>
+            </div>
+            <div class="col-6 col-sm-4 form-group">
+                <label for="lmiaScore">分數：</label>
+                <span id="lmiaScore">0</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        function calculateScore(selectId, scoreId, totalScoreId) {
+            var selectedValue = parseInt(document.getElementById(selectId).value);
+            document.getElementById(scoreId).innerText = selectedValue;
+    
+            // Update total score after updating individual score
+            updateTotalScore(totalScoreId);
+        }
+    
+        function updateTotalScore(totalScoreId) {
+            var listeningScore = parseInt(document.getElementById('listeningScore').innerText);
+            var speakingScore = parseInt(document.getElementById('speakingScore').innerText);
+            var readingScore = parseInt(document.getElementById('readingScore').innerText);
+            var writingScore = parseInt(document.getElementById('writingScore').innerText);
+            var secondLanguageScore = parseInt(document.getElementById('secondLanguageScore').innerText);
+    
+            var totalScore = listeningScore + speakingScore + readingScore + writingScore + secondLanguageScore;
+    
+            document.getElementById(totalScoreId).innerText = totalScore;
+        }
+    </script>
+    

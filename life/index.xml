@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lives on 加打地圖</title>
+    <title>Life on 加打地圖</title>
     <link>http://example.org/life/</link>
-    <description>Recent content in Lives on 加打地圖</description>
+    <description>Recent content in Life on 加打地圖</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="http://example.org/life/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 01 Aug 2023 21:29:20 +0200</lastBuildDate><atom:link href="http://example.org/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用APP/網站</title>
+      <link>http://example.org/life/app/</link>
+      <pubDate>Tue, 01 Aug 2023 21:29:20 +0200</pubDate>
+      
+      <guid>http://example.org/life/app/</guid>
+      <description> 銀行 電信 ubereat 餐廳tims pc opt walmart amazon 叫車 住宿 kijiji 工作 maple meetup reddit visa 小紅書 </description>
+    </item>
+    
     <item>
       <title>手機電信</title>
       <link>http://example.org/life/phone/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
       <guid>http://example.org/life/phone/</guid>
       <description></description>
@@ -38,7 +48,7 @@ Ontario（ON） 📣 好消息！2023年8月15日起，各大眾運輸開放刷�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/life/provinces/</guid>
-      <description>簡介 天氣 租金 基本薪資 消費稅率 中文地圖 / 英文地圖 省份 縮寫 省會 最大城市 官方語言 人口 卑詩省
+      <description>簡介 天氣 租金 基本薪資 消費稅率 中文地圖 | 英文地圖 省份 縮寫 省會 最大城市 官方語言 人口 卑詩省
 British Columbia BC 維多利亞
 Victoria 溫哥華
 Vancouver 英語 5,519,013 亞伯塔省
@@ -76,15 +86,6 @@ Facebook Marketplace 可以在Marketplace上設置地點範圍，並以關鍵字
 合約種類 租期 年租：最普遍的類型，期滿後自動轉為month-to-month，房東可能簽訂新的合約，但房客沒有同意的義務。 定期：雙方約定固定的起止日期。 Month-to-month：按月延續的合約，通常會註明如欲終止（如：搬離、停止出租...）需於多久以前告知對方。 租約內容 基本資訊：雙方姓名、聯絡方式，房屋地址，租金，類型期限，繳租時間（一般為每月1號）。 押金：依各地行情，可能為1-2個月房租金額，或1個月的75%（NL省）。退租時房東檢查房屋後退還，如有損毀或需要清潔從中扣除。繳交時記得索取收據（或轉帳記錄），一為留以證據，第二為了日後報稅退稅使用。 租金項目：是否包含家具（如為unfurnished，需自行準備家具）、暖氣、水電瓦斯、網路費、停車位。 房屋檢查清單：例如插座、燈具、爐灶、冰箱、水龍頭...等是否正常運作，留存紀錄以避免爭議。 租屋規範：是否允許寵物、訪客、菸酒...等。 房東要求 於一些租屋市場較緊張的地區，房東可能要求以下項目：
 信用檢查：租客需先到信用公司（如Equifax和TransUnion）獲得一份信用分數的報告。 推薦人：通常要求1-2人，可為前任房東或雇主。 租客保險：一般房東會購買房屋保險，以保障天災等意外造成的損失，房客本身的個人財產則需要自行購買租客保險來保障，每年費用約在$500元左右。 房客權益 加拿大政府規定，房屋冬天應該保證室內21度C，如果過冷，有權要求房東改善。 房東不得擅自闖入房客的房間。 房東無權隨意漲房租，以ON省為例，一年只允許調漲一次，且最多為2.5%。 合約終止 如欲在租約到期前搬離，有以下幾種處理方式： 經房東同意可尋找其他租客重新簽訂合約或進行轉租（sublet）。 雙方協議提前終止合約。 持續繳交房租至合約到期。 注意事項 ❗ 如尚未入境加拿大親自（或由朋友代為）看房，房東要求預先支付房租、大筆押金，需謹慎辨別是否為詐騙。
 ✅ 強烈建議到當地先暫時入住旅館、Airbnb，再尋找後續長期租屋。</description>
-    </item>
-    
-    <item>
-      <title>常用APP/網站</title>
-      <link>http://example.org/life/app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/life/app/</guid>
-      <description> 銀行 電信 ubereat 餐廳tims pc opt walmart amazon 叫車 住宿 kijiji 工作 maple meetup reddit visa 小紅書 </description>
     </item>
     
     <item>

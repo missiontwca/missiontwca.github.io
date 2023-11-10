@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/life/</loc>
+    <lastmod>2023-08-01T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2023-08-01T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/life/app/</loc>
+    <lastmod>2023-08-01T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/life/phone/</loc>
+    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+  </url><url>
     <loc>http://example.org/categories/</loc>
     <lastmod>2017-12-29T12:15:02+00:00</lastmod>
   </url><url>
@@ -17,12 +29,9 @@
     <loc>http://example.org/test/</loc>
     <lastmod>2017-12-29T12:15:02+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
-    <lastmod>2017-12-29T12:15:02+00:00</lastmod>
+    <loc>http://example.org/blog/</loc>
   </url><url>
     <loc>http://example.org/blog/tcm/</loc>
-  </url><url>
-    <loc>http://example.org/blog/</loc>
   </url><url>
     <loc>http://example.org/contact/</loc>
   </url><url>
@@ -33,8 +42,6 @@
     <loc>http://example.org/tags/hugo/</loc>
   </url><url>
     <loc>http://example.org/immigration/</loc>
-  </url><url>
-    <loc>http://example.org/life/</loc>
   </url><url>
     <loc>http://example.org/categories/lorem/</loc>
   </url><url>
@@ -47,8 +54,6 @@
     <loc>http://example.org/whv/</loc>
   </url><url>
     <loc>http://example.org/whv/pool/</loc>
-  </url><url>
-    <loc>http://example.org/life/phone/</loc>
   </url><url>
     <loc>http://example.org/whv/insurance/</loc>
   </url><url>
@@ -65,8 +70,6 @@
     <loc>http://example.org/immigration/pnp/</loc>
   </url><url>
     <loc>http://example.org/life/rent/</loc>
-  </url><url>
-    <loc>http://example.org/life/app/</loc>
   </url><url>
     <loc>http://example.org/immigration/news/</loc>
   </url><url>
