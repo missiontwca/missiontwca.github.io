@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1699693831" rel="stylesheet">
+<link href="/css/custom.css?1699959731" rel="stylesheet">
 
 
 
@@ -501,6 +501,11 @@
             margin-bottom: 20px;
         }
 
+        .strong {
+            color: #2c3334;
+            font-weight: bold;
+        }
+
         /* 列表的樣式 */
         ol.bold-list>li {
             font-size: medium;
@@ -519,7 +524,7 @@
             margin-bottom: 1px;
         }
 
-        /* Collapse標題的樣式 */
+        /* Collapse的樣式 */
         .list-group-item {
             padding: 0px;
         }
@@ -528,22 +533,18 @@
             color: #38a7bb;
         }
 
-        /* Collapse內的樣式 */
-        .collapse-content .container {
-            display: flex;
+        .collapse-content {
+            padding: 0px 40px 0px 5px;
         }
 
+        /*         .collapse-content .container {
+            display: flex;
+        }
         .collapse-content .container .row {
             display: flex;
             align-items: center;
-            /* 垂直居中 */
             justify-content: space-between;
-            /* 水平分散對齊 */
-        }
-
-        .collapse-content .container .row .form-group {
-            margin-right: 20px;
-        }
+        } */
 
         /* 下拉選單的樣式 */
         .custom-select {
@@ -552,22 +553,19 @@
             border: 1px solid #2c8494;
         }
 
-
-        .form-group label {
-            font-style: italic;
-            margin-left: 350px;
+        .my-container {
+            max-width: fit-content;
         }
 
-        .form-group span {
+        /* 分數的樣式 */
+        .score {
             color: #2c8494;
-            font-style: italic;
-            text-decoration: underline;
         }
     </style>
-
 </head>
 
 <body>
+
     <p>📢 自2023年6月28日起，正式開始「特定職業類別」、「法語類別」的定向邀請！</p>
     <h5>👉 近期邀請分數、審查時間請參考<a href="/immigration/news" style="color: #2c8494;">「最新消息」</a>內容。</h5>
     <hr>
@@ -578,7 +576,7 @@
 
     <ol class="bold-list">
         <li>確認資格</li>
-        <p>EE分為CEC、FSW、FST三個類別，務必先確認自己是否符合任一類別的最低標準（<a
+        <p>EE又分為CEC、FSW、FST三個類別，務必先確認自己是否符合任一類別的最低標準（<a
                 href="https://www.canada.ca/en/immigration-refugees-citizenship/services/come-canada-tool-immigration-express-entry.html">官方工具</a>）。
         </p>
         <ul class="nav nav-tabs">
@@ -588,7 +586,7 @@
         </ul>
         <div class="tab-content">
             <div id="cec" class="tab-pane fade in active">
-                <p>此項目適合有至少一年「加拿大工作經驗」的申請者。</p>
+                <p>此項目適合有<span class="strong">一年（含）以上「加拿大工作經驗」</span>的申請者。</p>
                 <ul class="list-group">
                     <li class="list-group-item">
                         <button class="btn btn-link" type="button" data-toggle="collapse"
@@ -624,11 +622,8 @@
                 </ul>
             </div>
             <div id="fsw" class="tab-pane fade">
-                <div>
-                    <p>總分：<span id="totalScore">0</span></p>
-                </div>
                 <p>此項目主要適合在加拿大境外的技術人才。</p>
-                <p>根據申請人<b>「六大面向」</b>進行評估，滿分100分，申請人要獲得至少67分，方可進入候選池。</p>
+                <p>根據申請人<span class="strong">「六大面向」</span>進行評估，100分，申請人要獲得至少67分，方可進入候選池。</p>
                 <ul class="list-group">
                     <li class="list-group-item">
                         <button class="btn btn-link" type="button" data-toggle="collapse"
@@ -637,204 +632,169 @@
                             <ol>
                                 <li>
                                     <h5>
-                                        年齡（滿分12）
+                                        年齡（<span id="ageScore" class="score">0</span> / 12分）
                                         <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip"
                                             data-placement="top" data-html="true"
                                             title="18-35歲：12分，<br>從35歲開始每增加1歲減1分，<br>不滿18歲或47歲（含）以上0分。"></i>
                                     </h5>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="form-group">
-                                                <select class="custom-select" id="ageSelect"
-                                                    onchange="updateTotalScore()">
-                                                    <option value="0" disabled selected>請選擇</option>
-                                                    <option value="0">未滿18歲</option>
-                                                    <option value="18">18-35歲</option>
-                                                    <option value="36">36歲</option>
-                                                    <option value="37">37歲</option>
-                                                    <option value="38">38歲</option>
-                                                    <option value="39">39歲</option>
-                                                    <option value="40">40歲</option>
-                                                    <option value="41">41歲</option>
-                                                    <option value="42">42歲</option>
-                                                    <option value="43">43歲</option>
-                                                    <option value="44">44歲</option>
-                                                    <option value="45">45歲</option>
-                                                    <option value="46">46歲</option>
-                                                    <option value="47">47歲（含）以上</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="ageScore">分數：</label>
-                                                <span id="ageScore">0</span>
-                                            </div>
+                                    <div class="my-container">
+                                        <div class="form-group">
+                                            <select class="custom-select" id="ageSelect" onchange="updateTotalScore()">
+                                                <option value="0" disabled selected>請選擇</option>
+                                                <option value="0">未滿18歲</option>
+                                                <option value="18">18-35歲</option>
+                                                <option value="36">36歲</option>
+                                                <option value="37">37歲</option>
+                                                <option value="38">38歲</option>
+                                                <option value="39">39歲</option>
+                                                <option value="40">40歲</option>
+                                                <option value="41">41歲</option>
+                                                <option value="42">42歲</option>
+                                                <option value="43">43歲</option>
+                                                <option value="44">44歲</option>
+                                                <option value="45">45歲</option>
+                                                <option value="46">46歲</option>
+                                                <option value="47">47歲（含）以上</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </li>
 
                                 <li>
                                     <h5>
-                                        語言能力（滿分28）
+                                        語言能力（<span id="languageScore" class="score">0</span> / 28分）
                                         <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip"
                                             data-placement="top" data-html="true"
                                             title="聽、說、讀、寫每項4分，<br>任一科達 CLB 8級，每科 +1分，<br>達CLB 9、10級，每科 +2分。"></i>
                                     </h5>
-                                    <p>英 / 法文均可，最低每科需達到 CLB 7級（ = 雅思6分）。<br>
+                                    <p>英 / 法文均可，<span class="strong">最低每科需達到 CLB 7級</span>（ = 雅思6分）。<br>
                                         👉 各項檢定<a href=""> CLB 級別成績對照表</a>。
                                     </p>
-                                    <div class="container">
+                                    <div class="my-container">
                                         <div class="row">
-                                            <div class="form-group">
+                                            <div class="form-group col-md-3">
                                                 <select class="custom-select language-select" id="listeningSelect"
                                                     onchange="updateTotalScore('listeningSelect')">
                                                     <option value="0" disabled selected>聽</option>
                                                     <option value="6">CLB 9、10</option>
                                                     <option value="5">CLB 8</option>
                                                     <option value="4">CLB 7</option>
-                                                    <option value="0">CLB 7 以下</option>
                                                 </select>
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group col-md-3">
                                                 <select class="custom-select language-select" id="speakingSelect"
                                                     onchange="updateTotalScore('speakingSelect')">
                                                     <option value="0" disabled selected>說</option>
                                                     <option value="6">CLB 9、10</option>
                                                     <option value="5">CLB 8</option>
                                                     <option value="4">CLB 7</option>
-                                                    <option value="0">CLB 7 以下</option>
                                                 </select>
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group col-md-3">
                                                 <select class="custom-select language-select" id="readingSelect"
                                                     onchange="updateTotalScore('readingSelect')">
                                                     <option value="0" disabled selected>讀</option>
                                                     <option value="6">CLB 9、10</option>
                                                     <option value="5">CLB 8</option>
                                                     <option value="4">CLB 7</option>
-                                                    <option value="0">CLB 7 以下</option>
                                                 </select>
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group col-md-3">
                                                 <select class="custom-select language-select" id="writingSelect"
                                                     onchange="updateTotalScore('writingSelect')">
                                                     <option value="0" disabled selected>寫</option>
                                                     <option value="6">CLB 9、10</option>
                                                     <option value="5">CLB 8</option>
                                                     <option value="4">CLB 7</option>
-                                                    <option value="0">CLB 7 以下</option>
                                                 </select>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="form-group">
-                                                <select class="custom-select" id="secondLanguageSelect"
+                                            <div class="form-group col-md-3">
+                                                <select class="custom-select language-select" id="secondLanguageSelect"
                                                     onchange="updateTotalScore('secondLanguageSelect')">
                                                     <option value="0" disabled selected>第二語言</option>
                                                     <option value="4">有，每科均在CLB 5（含）以上</option>
                                                     <option value="0">無</option>
                                                 </select>
                                             </div>
-                                            <div class="form-group">
-                                                <label for="languageScore">分數：</label>
-                                                <span id="languageScore">0</span>
-                                            </div>
                                         </div>
                                     </div>
 
                                 </li>
 
                                 <li>
-                                    <h5>學歷（滿分25）</h5>
+                                    <h5>學歷（<span id="educationScore" class="score">0</span> / 25分）</h5>
                                     <p>「大學高度專業（Professional
                                         Degree）」指需執業執照的特定科系，即「醫學系、獸醫學、牙醫系、足醫系、驗光系、法律系、脊醫系、藥學系」，以<a href=""> ECA
                                         </a>學歷認證之結果為準。</p>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="form-group">
-                                                <select class="custom-select" id="educationSelect"
-                                                    onchange="updateTotalScore('educationSelect')">
-                                                    <option value="0" disabled selected>請選擇</option>
-                                                    <option value="25">博士</option>
-                                                    <option value="23">碩士 / 大學高度專業科系</option>
-                                                    <option value="22">兩個以上大學 / 專科（其中一個至少3年）</option>
-                                                    <option value="21">大學 / 專科（3年以上）</option>
-                                                    <option value="19">專科（2年）</option>
-                                                    <option value="15">專科（1年）</option>
-                                                    <option value="5">高中</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="educationScore">分數：</label>
-                                                <span id="educationScore">0</span>
-                                            </div>
+                                    <div class="my-container">
+                                        <div class="form-group">
+                                            <select class="custom-select" id="educationSelect"
+                                                onchange="updateTotalScore('educationSelect')">
+                                                <option value="0" disabled selected>請選擇</option>
+                                                <option value="25">博士</option>
+                                                <option value="23">碩士 / 大學高度專業科系</option>
+                                                <option value="22">兩個以上大學 / 專科（其中一個至少3年）</option>
+                                                <option value="21">大學 / 專科（3年以上）</option>
+                                                <option value="19">專科（2年）</option>
+                                                <option value="15">專科（1年）</option>
+                                                <option value="5">高中</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <h5>工作經驗（滿分15）</h5>
+                                    <h5>工作經驗（<span id="workScore" class="score">0</span> / 15分）</h5>
                                     <ul class="list">
                                         <li>
-                                            需為「至少一年連續」的全職（Full-time）工作，或相當同等時數的兼職（Part-time）工作。
+                                            需為<span
+                                                class="strong">「至少一年連續」的全職（Full-time）工作</span>，或相當同等時數的兼職（Part-time）工作。
                                             <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip"
                                                 data-placement="top" data-html="true"
                                                 title="全職：每週至少30小時，一年1560小時，可為不同工作相加。<br>兼職：假設每週15小時，兩年1560小時。<br>每週超過30小時部份不列入計算。"></i>
                                         </li>
-                                        <li>屬於<a href="/immigration/knowledge"> NOC </a>的「TEER 0、1、2、3類」職業，且持續為「同一
+                                        <li>屬於<a href="/immigration/knowledge"> NOC </a>的<span class="strong">「TEER
+                                                0、1、2、3類」</span>職業，且持續為「同一
                                             NOC」的工作。</li>
                                         <li>加拿大境內外的工作皆可。</li>
                                         <li>可以是自雇。</li>
                                         <li>可以是學生期間的工作經驗，但需有薪且連續。</li>
                                         <li>❌ 不可以是志工服務或無薪實習，需有「給薪」。</li>
                                     </ul>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="form-group">
-                                                <select class="custom-select" id="workSelect"
-                                                    onchange="updateTotalScore('workSelect')">
-                                                    <option value="0" disabled selected>請選擇</option>
-                                                    <option value="15">6年（含）以上</option>
-                                                    <option value="13">4-5年</option>
-                                                    <option value="11">2-3年</option>
-                                                    <option value="9">1年</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="workScore">分數：</label>
-                                                <span id="workScore">0</span>
-                                            </div>
+                                    <div class="my-container">
+                                        <div class="form-group">
+                                            <select class="custom-select" id="workSelect"
+                                                onchange="updateTotalScore('workSelect')">
+                                                <option value="0" disabled selected>請選擇</option>
+                                                <option value="15">6年（含）以上</option>
+                                                <option value="13">4-5年</option>
+                                                <option value="11">2-3年</option>
+                                                <option value="9">1年</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <h5>就業安排（滿分10）</h5>
+                                    <h5>就業安排（<span id="lmiaScore" class="score">0</span> / 10分）</h5>
                                     <p>來自擁有<a href="/immigration/knowledge"> LMIA </a>之加拿大雇主的一年（含）以上工作錄取，或符合 LMIA 豁免。
                                     </p>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="form-group">
-                                                <select class="custom-select" id="lmiaSelect"
-                                                    onchange="updateTotalScore('lmiaSelect')">
-                                                    <option value="0" disabled selected>請選擇</option>
-                                                    <option value="0">無LMIA</option>
-                                                    <option value="10">有LMIA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="lmiaScore">分數：</label>
-                                                <span id="lmiaScore">0</span>
-                                            </div>
+                                    <div class="my-container">
+                                        <div class="form-group">
+                                            <select class="custom-select" id="lmiaSelect"
+                                                onchange="updateTotalScore('lmiaSelect')">
+                                                <option value="0" disabled selected>請選擇</option>
+                                                <option value="0">無LMIA</option>
+                                                <option value="10">有LMIA</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <h5>適應能力（滿分10）</h5>
+                                    <h5>適應能力（<span id="totalBonusScore" class="score">0</span> / 10分）</h5>
                                     <p>申請人1年（含）以上 NOC TEER 0、1、2、3類「加拿大工作經驗」（10分）：</p>
-                                    <div class="container">
+                                    <div class="my-container">
                                         <div class="row">
                                             <div class="form-group">
                                                 <select class="custom-select" id="workBonus"
@@ -868,24 +828,20 @@
                                                 title="親屬：18歲以上，居住於加拿大的公民或PR，<br>包含：（祖）父母、（孫）子女、兄弟姐妹、伯叔姑姨、侄甥"></i>
                                         </li>
                                     </ul>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="form-group">
-                                                <select class="custom-select" id="otherBonus"
-                                                    onchange="updateTotalScore()">
-                                                    <option value="0" disabled selected>請選擇</option>
-                                                    <option value="0">0項</option>
-                                                    <option value="5">1項</option>
-                                                    <option value="10">2項（含）以上</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="totalBonusScore">分數：</label>
-                                                <span id="totalBonusScore">0</span>
-                                            </div>
+                                    <div class="my-container">
+                                        <div class="form-group">
+                                            <select class="custom-select" id="otherBonus" onchange="updateTotalScore()">
+                                                <option value="0" disabled selected>請選擇</option>
+                                                <option value="0">0項</option>
+                                                <option value="5">1項</option>
+                                                <option value="10">2項（含）以上</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </li>
+
+                                <h5>🔎 總分：<span id="totalScore" class="score">0</span> / 100</h5>
+
                             </ol>
                         </div>
                     </li>
@@ -895,33 +851,27 @@
                         <div id="fswFundCollapse" class="collapse collapse-content">
                             <ol>
                                 <p>人數包含申請者「本人」、「法定伴侶」、「子女」。如8人以上，每人額外再加 CAD $3706。</p>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="form-group">
-                                            <select class="custom-select" id="peopleSelect" onchange="calculateFund()">
-                                                <option value="0" disabled selected>請選擇家庭人數</option>
-                                                <option value="13757">1人</option>
-                                                <option value="17127">2人</option>
-                                                <option value="21055">3人</option>
-                                                <option value="25564">4人</option>
-                                                <option value="28994">5人</option>
-                                                <option value="32700">6人</option>
-                                                <option value="36407">7人</option>
-                                                <option value="40113">8人</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="fund">資金：CAD $</label>
-                                            <span id="fund">0</span>
-                                        </div>
-                                    </div>
+                                <div class="form-group col-md-6">
+                                    <select class="custom-select" id="peopleSelect" onchange="calculateFund()">
+                                        <option value="0" disabled selected>請選擇家庭人數</option>
+                                        <option value="13757">1人</option>
+                                        <option value="17127">2人</option>
+                                        <option value="21055">3人</option>
+                                        <option value="25564">4人</option>
+                                        <option value="28994">5人</option>
+                                        <option value="32700">6人</option>
+                                        <option value="36407">7人</option>
+                                        <option value="40113">8人</option>
+                                    </select>
                                 </div>
+                                <p>資金：CAD $ <span id="fund" class="score">0</span></p>
                             </ol>
                         </div>
                     </li>
+
+
                 </ul>
             </div>
-
             <div id="fst" class="tab-pane fade">
                 <p>此項目僅適合有特定證書的技工，且每輪邀請的間隔不固定。</p>
                 <ul class="list-group">
@@ -983,29 +933,22 @@
                             data-target="#fstFundCollapse">財力證明</button>
                         <div id="fstFundCollapse" class="collapse collapse-content">
                             <ol>
-                                <p>人數包含申請者「本人」、「法定伴侶」、「子女」。如8人以上，每人額外再加 CAD $3706。</p>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="form-group">
-                                            <select class="custom-select" id="peopleSelect" onchange="calculateFund()">
-                                                <option value="0" disabled selected>請選擇家庭人數</option>
-                                                <option value="13757">1人</option>
-                                                <option value="17127">2人</option>
-                                                <option value="21055">3人</option>
-                                                <option value="25564">4人</option>
-                                                <option value="28994">5人</option>
-                                                <option value="32700">6人</option>
-                                                <option value="36407">7人</option>
-                                                <option value="40113">8人</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="fund">資金：CAD $</label>
-                                            <span id="fund">0</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </ol>
+                            <p>人數包含申請者「本人」、「法定伴侶」、「子女」。如8人以上，每人額外再加 CAD $3706。</p>
+                            <div class="form-group col-md-6">
+                                <select class="custom-select" id="peopleSelect" onchange="calculateFund()">
+                                    <option value="0" disabled selected>請選擇家庭人數</option>
+                                    <option value="13757">1人</option>
+                                    <option value="17127">2人</option>
+                                    <option value="21055">3人</option>
+                                    <option value="25564">4人</option>
+                                    <option value="28994">5人</option>
+                                    <option value="32700">6人</option>
+                                    <option value="36407">7人</option>
+                                    <option value="40113">8人</option>
+                                </select>
+                            </div>
+                            <p>資金：CAD $ <span id="fund" class="score">0</span></p>
+                        </ol>
                         </div>
                     </li>
                 </ul>
@@ -1013,7 +956,8 @@
         </div>
 
         <li>計算分數</li>
-        <p>如通過以上任一類別的最低標準，即可在EE池中建立檔案。系統會依據綜合排名系統（Comprehensive Ranking System，CRS）計算出總分，包括核心分數（600分）和附加分數（600分）兩大部份。</p>
+        <p>如通過以上任一類別的最低標準，即可在EE池中建立檔案。系統會依據<span class="strong"><a href=""> 綜合排名系統（Comprehensive Ranking System，CRS）</a></span>計算出總分，包括「核心分數（600分）」和「附加分數（600分）」兩大部份。
+        </p>
         <p>💡 提醒：是否有配偶、其是否隨行，均會略為影響評分，請以下方官方連結試算為準。</p>
         <h5>👉 <a href="https://ircc.canada.ca/english/immigrate/skilled/crs-tool.asp">CRS試算連結</a></h5>
         <h5>👉 <a href="/blog/ee_pool">入池教學</a></h5>
@@ -1038,8 +982,9 @@
         <p>部份文件所需的取得時間可能較長，建議等待邀請時先行預備。</p>
 
         <li>受邀申請</li>
-        <p>候選池一般約每兩周抽選一次，包含「不限類別」的<b>不定向邀請</b>、針對「特定類別」的<b>定向邀請</b>。若您的分數高於當次分數，則會收到<b>移民邀請信（Invitation to
-                Apply，ITA）</b>，將有60天的時間可以完成文件上傳。</p>
+        <p>候選池一般約每兩周抽選一次，包含「不限類別」的<span class="strong">不定向邀請</span>、針對「特定類別」的<span
+                class="strong">定向邀請</span>。若您的分數高於當次分數，則會收到<span class="strong">移民邀請信（Invitation to
+                Apply，ITA）</span>，將有60天的時間可以完成文件上傳。</p>
 
         <p>⚠️ 特別注意：通過聯邦移民通道（EE）取得永居者，不可選擇在魁北克省（QC）生活，該省有自己的技術人才移民計劃。</p>
     </ol>
@@ -1092,7 +1037,7 @@
         function updateTotalScore() {
             var ageScore = calculateAgeScore();
             document.getElementById("ageScore").innerText = ageScore;
-            
+
             var languageScore = calculateLanguageScore();
             document.getElementById("languageScore").innerText = languageScore;
 

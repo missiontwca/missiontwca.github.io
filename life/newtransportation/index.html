@@ -7,7 +7,7 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>入池抽籤</title>
+<title>交通tabs</title>
 <meta name="author" content="" />
 
 
@@ -69,7 +69,7 @@
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:title" content="入池抽籤">
+<meta name="twitter:title" content="交通tabs">
 
 <meta name="twitter:description" content="">
 
@@ -107,10 +107,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
                     
-                      <img src="/img/logo.jpg" alt="入池抽籤 logo" class="hidden-xs hidden-sm" />
-                      <img src="/img/logo.jpg" alt="入池抽籤 logo" class="visible-xs visible-sm" />
+                      <img src="/img/logo.jpg" alt="交通tabs logo" class="hidden-xs hidden-sm" />
+                      <img src="/img/logo.jpg" alt="交通tabs logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">入池抽籤 - 返回首頁</span>
+                    <span class="sr-only">交通tabs - 返回首頁</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -473,7 +473,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>入池抽籤</h1>
+                <h1>交通tabs</h1>
             </div>
         </div>
     </div>
@@ -495,99 +495,145 @@
                           
 <head>
     <style>
-        .headings {
-            color: #2c3334;
-            font-weight: bold;
-            margin-bottom: 20px;
+        .vertical-tabs-container {
+            display: flex;
         }
 
-        .update {
-            display: inline-block;
-            border: 2px solid #38a7bb;
-            /* 設置邊框寬度和顏色 */
-            padding: 15px;
-            /* 設置內邊距，使內容不與邊框緊貼 */
-            border-radius: 10px;
-            /* 設置邊框圓角 */
-            margin: 10px;
+        .vertical-tabs {
+            flex: 0 0 150px;
+            /* Set the width of the tabs */
+            border-right: 1px solid #ddd;
         }
 
-        ol li {
-            font-size: medium;
-            font-weight: bold;
-            margin-top: 5px;
-            margin-bottom: 5px;
+        .vertical-tabs>li {
+            width: 100%;
+        }
+
+        .vertical-tabs a {
+            text-align: left;
+        }
+.container {
+    max-width: fit-content;
+}
+        .tab-content {
+            padding: 50px;
+
         }
     </style>
 </head>
 
 <body>
-    <h4 style="color: #2a7d8c;">🔔 2023年度打工度假池已關閉，已有GCKey者明年無須重新創建帳號，可直接開始新的入池申請。 🔔</h4>
+    <div class="container">
+        <div class="vertical-tabs-container">
+            <ul class="nav nav-tabs vertical-tabs">
+                <li class="active"><a data-toggle="tab" href="#sites">常用找房網站</a></li>
+                <li><a data-toggle="tab" href="#house_type">房屋類型</a></li>
+                <li><a data-toggle="tab" href="#contract">合約種類</a></li>
+                <li><a data-toggle="tab" href="#warning">注意事項</a></li>
+            </ul>
 
-    <div class="update">
-        <h5>2023年10月27日台灣名額更新</h5>
-        <h5>
-            總名額： - 人<br>
-            剩餘名額： - 人<br>
-            池中人數： - 人<br>
-            中籤率： -
-        </h5>
+            <div class="tab-content">
+                <div id="sites" class="tab-pane fade in active">
+                    <h3>常用找房網站</h3>
+                    <div class="headings">主要有加拿大本地分類廣告網站、Facebook、各地華人論壇、微信群組...等管道。</div>
+                    <ol>
+                        <li style="font-weight: bold;">加拿大分類廣告網站</li>
+                        <ul>
+                            <li><a href="https://www.kijiji.ca/b-for-rent/c30349001l0">Kijiji</a></li>
+                            <p>是一個線上分類廣告網站，除了房屋出租外，也包括二手物品、工作、汽車買賣...等。可以依據房屋類型、出租類型（如：長短期、分租、找室友）、是否含家具、可寵、地區、價格條件進行篩選，並可直接私訊房東約看。類似網站還有：<a
+                                    href="https://geo.craigslist.org/iso/ca">Craigslist</a>。</p>
+                        </ul>
+                        <li style="font-weight: bold;">Facebook</li>
+                        <ul>
+                            <li>Marketplace</li>
+                            <p>可以在Marketplace上設置地點範圍，並以關鍵字（如：1
+                                bedroom）進行篩選，並可直接以messenger私訊。當地人很常使用Marketplace刊登各類廣告，房源眾多，但需謹慎辨別，以免受騙。</p>
+                            <li>地方社團</li>
+                            <p>各城市大多有地方性的租屋社團，同樣可直接私訊聯絡房東，亦務必慎防詐騙。另外推薦參考<a
+                                    href="https://www.facebook.com/groups/140360422735205/">加拿大打工度假資訊-租屋版</a>。</p>
+                        </ul>
+                        <li style="font-weight: bold;">華人論壇網站</li>
+                        <ul>
+                            <li><a href="https://house.51.ca/">51找房</a></li>
+                            <li>多倫多 - <a href="https://forum.yorkbbs.ca/list/houserental">約克論壇</a></li>
+                            <li><a href="https://www.vansky.com/">溫哥華天空 VANSKY</a></li>
+                            <li><a href="https://c.vanpeople.com/zufang/">人在溫哥華 VanPeople</a></li>
+                        </ul>
+                    </ol>
+                </div>
+                <div id="house_type" class="tab-pane fade">
+                    <h3>房屋類型</h3>
+                    <ol>
+                        <li style="font-weight: bold;">公寓大樓 Apartment</li>
+                        <p>樓層較少，整棟大樓屬於物業，所以房東即為該物業管理公司。常見選項有studio、1 bedroom...等。</p>
+                        <li style="font-weight: bold;">共管大樓 Condo</li>
+                        <p>租金通常較高，現今許多高樓層社區即屬於此類型，可能包含保全管理、健身房、泳池...等公共設施，房東一般會要求租客購買租客保險。</p>
+                        <li style="font-weight: bold;">獨棟別墅 House</li>
+                        <p>通常有2-3層樓、地下室，分租給不同房客，可能共用衛浴、廚房、洗烘衣機...等空間，需要與其他房客協調衛生維護，冬季可能需自行剷雪</p>
+                        <li style="font-weight: bold;">聯排別墅 Townhouse</li>
+                        <p>與左右鄰居相鄰之獨棟房屋。</p>
+                    </ol>
+                </div>
+                <div id="contract" class="tab-pane fade">
+                    <h3>合約種類</h3>
+                    <ol>
+                        <li style="font-weight: bold;">租期</li>
+                        <ul>
+                            <li>年租：最普遍的類型，期滿後自動轉為month-to-month，房東可能簽訂新的合約，但房客沒有同意的義務。</li>
+                            <li>定期：雙方約定固定的起止日期。</li>
+                            <li>Month-to-month：按月延續的合約，通常會註明如欲終止（如：搬離、停止出租...）需於多久以前告知對方。</li>
+                        </ul>
+                        <li style="font-weight: bold;">租約內容</li>
+                        <ul>
+                            <li>基本資訊：雙方姓名、聯絡方式，房屋地址，租金，類型期限，繳租時間（一般為每月1號）。</li>
+                            <li>押金：依各地行情，可能為1-2個月房租金額，或1個月的75%（NL省）。退租時房東檢查房屋後退還，如有損毀或需要清潔從中扣除。繳交時記得索取收據（或轉帳記錄），一為留以證據，第二為了日後報稅退稅使用。
+                            </li>
+                            <li>租金項目：是否包含家具（如為unfurnished，需自行準備家具）、暖氣、水電瓦斯、網路費、停車位。</li>
+                            <li>房屋檢查清單：例如插座、燈具、爐灶、冰箱、水龍頭...等是否正常運作，留存紀錄以避免爭議。</li>
+                            <li>租屋規範：是否允許寵物、訪客、菸酒...等。</li>
+                        </ul>
+                        <li style="font-weight: bold;">房東要求</li>
+                        <p>於一些租屋市場較緊張的地區，房東可能要求以下項目：</p>
+                        <ul>
+                            <li>信用檢查：租客需先到信用公司（如Equifax和TransUnion）獲得一份信用分數的報告。</li>
+                            <li>推薦人：通常要求1-2人，可為前任房東或雇主。</li>
+                            <li>租客保險：一般房東會購買房屋保險，以保障天災等意外造成的損失，房客本身的個人財產則需要自行購買租客保險來保障，每年費用約在$500元左右。</li>
+                        </ul>
+                        <li style="font-weight: bold;">房客權益</li>
+                        <ul>
+                            <li>加拿大政府規定，房屋冬天應該保證室內21度C，如果過冷，有權要求房東改善。</li>
+                            <li>房東不得擅自闖入房客的房間。</li>
+                            <li>房東無權隨意漲房租，以ON省為例，一年只允許調漲一次，且最多為2.5%。</li>
+                        </ul>
+                        <li style="font-weight: bold;">合約終止</li>
+                        如欲在租約到期前搬離，有以下幾種處理方式：
+                        <ul>
+                            <li>經房東同意可尋找其他租客重新簽訂合約或進行轉租（sublet）。</li>
+                            <li>雙方協議提前終止合約。</li>
+                            <li>持續繳交房租至合約到期。</li>
+                        </ul>
+                    </ol>
+                </div>
+                <div id="warning" class="tab-pane fade">
+                    <h3>注意事項</h3>
+                    <p>❗ 如尚未入境加拿大親自（或由朋友代為）看房，房東要求預先支付房租、大筆押金，需謹慎辨別是否為詐騙。</p>
+                    <p>✅ 強烈建議到當地先暫時入住旅館、Airbnb，再尋找後續長期租屋。</p>
+                    <p>⚠️ 平台上一些圖片精美，但房租遠低於行情的房子，可能為房東或仲介藉此引流/釣魚，騙取訂金或吸引人去看他的其他房源。</p>
+                    <p>⚠️ 如與他人合租，每位房客務必皆簽署租約，以避免日後爭議。</p>
+                    <p>💡 一般而言，逢9月開學季租房市場會較緊張，如條件許可，建議避開此時找房。</p>
+                    另外建議檢查以下：
+                    <ol>
+                        <li>交通：是否鄰近地鐵、公車站牌，方便往來工作地點及日常採購。</li>
+                        <li>安全：週圍治安情況，是否有砸窗、入室搶劫案例。</li>
+                        <li>室內環境：採光是否充足，通風良好與否，尤其地下室房間更加注意。</li>
+                        <li>房東及室友：是否容易聯絡，如有室友，是否能維持公共空間整潔。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
     </div>
-    <hr>
-    <div class="headings">
-        <p>加拿大打工度假，又稱IEC（International Experience Canada）計畫，是一種開放式（不限定雇主）工作簽證。一般而言，持台灣護照之18-35歲青年均可申請，並在加拿大工作、生活一年。</p>
-    </div>
-    <ol>
-        <li>確認資格</li>
-        <p>首先須到<a href="https://onlineservices-servicesenligne.cic.gc.ca/c2c/eapp">CIC官網</a>完成問卷，確認符合資格並取得編號（reference
-            code）以供入池使用。</p>
-        <p><b>💡 如英文不熟練者，請多加利用Google Chrome的翻譯功能</b>。</p>
-        <img src="/img/apply/eligibility.png" alt="Eligibility" width="80%">
-        </p>
-        <p>
-            填寫完畢，如顯示符合打工度假類別（Working Holiday category）即可進入下一步。
-            <img src="/img/apply/eligibility_result.png" alt="Eligibility Result" width="80%">
-        </p>
-        <p>
-            請記下顯示的個人編號，並於步驟三開始註冊GCKey帳號，如已有帳號可直接登入。
-            <img src="/img/apply/eligibility_step1234.png" alt="Eligibility Step1234" width="80%">
-            <img src="/img/apply/eligibility_step5678.png" alt="Eligibility Step5678" width="80%">
-        </p>
 
-        <li>註冊帳號</li>
-        <p>
-            <p>GCKey為登入加拿大政府網站（包含移民局）的重要帳號，<a
-                    href="https://clegc-gckey.gc.ca/j/eng/rg?execution=e1s1">由此連結</a>進入註冊。目前網站採用二階段驗證，須自訂每次登入時的驗證問答及接收驗證碼的信箱。
-            </p>
-            <p>註冊完成後即可開始進行入池申請，如未自動跳轉，可由此<a
-                    href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html">登入</a>方才設定好的帳號。
-            </p>
-            <img src="/img/apply/sign_in.png" alt="Sign In" width="80%">
-            <p>⚠️ 小提醒：登入後此畫面可進行更改密碼、驗證問答...等，<b>切勿手癢點選撤銷（revoke）帳號！</b></p>
-            <img src="/img/apply/do_not_revoke.png" alt="Do Not Revoke" width="70%">
-        </p>
 
-        <li>填寫申請</li>
-        <p>於頁面較下方處找到「Apply to come to Canada」開始申請，然後填入前面取得的個人編號。如遺失編號，也可於此時重新前往確認資格的問卷。</p>
-        <img src="/img/apply/apply.png" alt="Apply" width="80%">
-        <img src="/img/apply/enter_reference_code.png" alt="Enter Reference Code" width="90%">
-        <p>出現須完成的表單，請依序填寫個人資料。</p>
-        <img src="/img/apply/forms.png" alt="Forms" width="90%">
-        <p>第一項Personal details of applicant中的ID documents，除填寫「護照姓名、號碼、有效日期」以外，請選擇有personal identification
-            number，並填入「身分證字號」。</p>
-        <img src="/img/apply/id.png" alt="ID" width="90%">
-        <p>完成所有表單後，在下一步閱讀declaration，選取同意，輸入簽名並再次回答驗證問題。</p>
-        <img src="/img/apply/declaration.png" alt="Declaration" width="90%">
-        <img src="/img/apply/sign.png" alt="Sign" width="90%">
-        <p>最後再次確認簽名，點選「Transmit」即可送出入池申請。</p>
-        <img src="/img/apply/transmit.png" alt="Transmit" width="90%">
-
-        <li>入池完成，等待中籤</li>
-        <p>完成以上步驟後，會收到一封E-mail確認信，並可在GCKey帳號中查看申請狀態。</p>
-        <p><b>⚠️ 請小心不要誤點撤回（Withdraw）！</b></p>
-        <img src="/img/apply/applications.png" alt="Applications" width="80%">
-        <p>收到中籤訊息後，請參考<a href="/whv/file">「遞交資料」</a>的文章內容，開始準備打工度假簽證的申請。</p>
-    </ol>
 </body>
                         </div>
                         

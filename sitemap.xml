@@ -59,6 +59,8 @@
   </url><url>
     <loc>http://example.org/life/transportation/</loc>
   </url><url>
+    <loc>http://example.org/life/newtransportation/</loc>
+  </url><url>
     <loc>http://example.org/life/provinces/</loc>
   </url><url>
     <loc>http://example.org/immigration/others/</loc>
@@ -68,6 +70,8 @@
     <loc>http://example.org/immigration/pnp/</loc>
   </url><url>
     <loc>http://example.org/life/rent/</loc>
+  </url><url>
+    <loc>http://example.org/immigration/knowledge/</loc>
   </url><url>
     <loc>http://example.org/immigration/news/</loc>
   </url><url>
@@ -84,8 +88,6 @@
     <loc>http://example.org/immigration/ee/</loc>
   </url><url>
     <loc>http://example.org/blog/ee_pool/</loc>
-  </url><url>
-    <loc>http://example.org/immigration/knowledge/</loc>
   </url><url>
     <loc>http://example.org/whv/insurance/</loc>
   </url>

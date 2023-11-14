@@ -16,12 +16,21 @@
     </item>
     
     <item>
-      <title>省提名</title>
+      <title>省提名（PNP）</title>
       <link>http://example.org/immigration/pnp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/immigration/pnp/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>基礎知識</title>
+      <link>http://example.org/immigration/knowledge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/immigration/knowledge/</guid>
+      <description> 職業代碼（NOC） 語言能力等級（CLB） 語言能力等級（CLB） 內容 LMIA 自從換了新款MacBook Pro時，本來心想新版只有USB-C的接頭，應該會不習慣，沒想到使用了二、三自從換了新款MacBook Pro時，本來心想新版只有USB-C的接頭，應該會不習慣，沒想到使用了二、三 </description>
     </item>
     
     <item>
@@ -42,22 +51,10 @@
       <description>📢 自2023年6月28日起，正式開始「特定職業類別」、「法語類別」的定向邀請！
 👉 近期邀請分數、審查時間請參考「最新消息」內容。 聯邦快速通道（Express Entry，EE）主要針對有經驗的技術工作者，根據各方面（年齡、語言能力、學歷、工作經驗...等）計分後，政府按照候選池中的分數高低送出邀請，允許受邀者提交永居申請。
 基本步驟：
-確認資格 EE分為CEC、FSW、FST三個類別，務必先確認自己是否符合任一類別的最低標準（官方工具）。 CEC（Canadian Experience Class） FSW（Federal Skilled Worker） FST（Federal Skilled Trades） 此項目適合有至少一年「加拿大工作經驗」的申請者。
-工作要求 過去3年中有累計滿1年，可以不連續。 全職（Full-time），或相當同等時數的兼職（Part-time）工作。 屬於 NOC 的「TEER 0、1、2、3類」職業。 工作地點需在「加拿大境內」。 工作時有「合法工作」的簽證，且有「給薪」。 ❌ 不可以是自雇（醫師除外）。 ❌ 不能是全職學生在讀期間的工作經驗。 語言能力 英、法文均可，需為2年內取得的有效成績。 NOC TEER 0、1類：需達到 CLB 7級。 NOC TEER 2、3類：需達到 CLB 5級。 總分：0
-此項目主要適合在加拿大境外的技術人才。
-根據申請人「六大面向」進行評估，滿分100分，申請人要獲得至少67分，方可進入候選池。
-6項選擇指標 年齡（滿分12） 請選擇 未滿18歲 18-35歲 36歲 37歲 38歲 39歲 40歲 41歲 42歲 43歲 44歲 45歲 46歲 47歲（含）以上 分數： 0 語言能力（滿分28） 英 / 法文均可，最低每科需達到 CLB 7級（ = 雅思6分）。</description>
-    </item>
-    
-    <item>
-      <title>職業類別</title>
-      <link>http://example.org/immigration/knowledge/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/immigration/knowledge/</guid>
-      <description>noc
-lmia
-是一種成為永久居民（Permanent Resident，PR）的移民途徑。相對於省提名來說，通常較為快速且不需被限制於單一省份。</description>
+確認資格 EE又分為CEC、FSW、FST三個類別，務必先確認自己是否符合任一類別的最低標準（官方工具）。 CEC（Canadian Experience Class） FSW（Federal Skilled Worker） FST（Federal Skilled Trades） 此項目適合有一年（含）以上「加拿大工作經驗」的申請者。
+工作要求 過去3年中有累計滿1年，可以不連續。 全職（Full-time），或相當同等時數的兼職（Part-time）工作。 屬於 NOC 的「TEER 0、1、2、3類」職業。 工作地點需在「加拿大境內」。 工作時有「合法工作」的簽證，且有「給薪」。 ❌ 不可以是自雇（醫師除外）。 ❌ 不能是全職學生在讀期間的工作經驗。 語言能力 英、法文均可，需為2年內取得的有效成績。 NOC TEER 0、1類：需達到 CLB 7級。 NOC TEER 2、3類：需達到 CLB 5級。 此項目主要適合在加拿大境外的技術人才。
+根據申請人「六大面向」進行評估，100分，申請人要獲得至少67分，方可進入候選池。
+6項選擇指標 年齡（0 / 12分） 請選擇 未滿18歲 18-35歲 36歲 37歲 38歲 39歲 40歲 41歲 42歲 43歲 44歲 45歲 46歲 47歲（含）以上 語言能力（0 / 28分） 英 / 法文均可，最低每科需達到 CLB 7級（ = 雅思6分）。</description>
     </item>
     
   </channel>
