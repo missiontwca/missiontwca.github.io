@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1699959731" rel="stylesheet">
+<link href="/css/custom.css?1700139708" rel="stylesheet">
 
 
 
@@ -280,7 +280,7 @@
                                     
                                     <li><a href="/life/provinces">各省比較</a></li>
                                     
-                                    <li><a href="/life/transportation">交通</a></li>
+                                    <li><a href="/life/newtransportation">交通</a></li>
                                     
                                     <li><a href="/life/shopping">超市購物</a></li>
                                     
@@ -376,11 +376,11 @@
                                     
                                     <ul>
                                     
-                                    <li><a href="/immigration/knowledge">最新消息 ✴️</a></li>
+                                    <li><a href="/immigration/news">最新消息 ✴️</a></li>
                                     
                                     <li><a href="/immigration/knowledge">基礎知識</a></li>
                                     
-                                    <li><a href="/immigration/doc">所需文件</a></li>
+                                    <li><a href="/immigration/documents">所需文件</a></li>
                                     
                                     </ul>
                                     
@@ -530,7 +530,7 @@
         }
 
         .list-group-item button {
-            color: #38a7bb;
+            color: #a07452;
         }
 
         .collapse-content {
@@ -549,8 +549,8 @@
         /* 下拉選單的樣式 */
         .custom-select {
             width: 150px;
-            color: #2c8494;
-            border: 1px solid #2c8494;
+            color: #00563F;
+            border: 1px solid #A9B29F;
         }
 
         .my-container {
@@ -559,18 +559,18 @@
 
         /* 分數的樣式 */
         .score {
-            color: #2c8494;
+            color: #112ee5;
+            font-weight: bold;
         }
     </style>
 </head>
 
 <body>
-
-    <p>📢 自2023年6月28日起，正式開始「特定職業類別」、「法語類別」的定向邀請！</p>
-    <h5>👉 近期邀請分數、審查時間請參考<a href="/immigration/news" style="color: #2c8494;">「最新消息」</a>內容。</h5>
+    <h5>👉 近期邀請分數、審查時間請參考<a href="/immigration/news" style="color: #a07452;">「最新消息」</a>內容。</h5>
+    <p>📢 自2023年6月28日起，正式開始針對「特定職業類別」、「法語類別」的定向邀請！</p>
     <hr>
     <div class="headings">
-        <p>聯邦快速通道（Express Entry，EE）主要針對有經驗的技術工作者，根據各方面（年齡、語言能力、學歷、工作經驗...等）計分後，政府按照候選池中的分數高低送出邀請，允許受邀者提交永居申請。</p>
+        <p>聯邦快速通道（Express Entry，EE）主要針對有經驗的技術工作者，根據各方面（年齡、語言能力、學歷、工作經驗...等）計分後，政府按照候選池中的分數高低送出邀請，允許受邀者提交永久居留申請。</p>
         <p>基本步驟：</p>
     </div>
 
@@ -590,7 +590,7 @@
                 <ul class="list-group">
                     <li class="list-group-item">
                         <button class="btn btn-link" type="button" data-toggle="collapse"
-                            data-target="#cecWorkCollapse">工作要求</button>
+                            data-target="#cecWorkCollapse">工作要求 ▾</button>
                         <div id="cecWorkCollapse" class="collapse collapse-content">
                             <ul class="list">
                                 <li>過去3年中有累計滿1年，可以不連續。</li>
@@ -610,7 +610,7 @@
                     </li>
                     <li class="list-group-item">
                         <button class="btn btn-link" type="button" data-toggle="collapse"
-                            data-target="#cecLanguageCollapse">語言能力</button>
+                            data-target="#cecLanguageCollapse">語言能力 ▾</button>
                         <div id="cecLanguageCollapse" class="collapse collapse-content">
                             <ul class="list">
                                 <li>英、法文均可，需為2年內取得的有效成績。</li>
@@ -623,11 +623,11 @@
             </div>
             <div id="fsw" class="tab-pane fade">
                 <p>此項目主要適合在加拿大境外的技術人才。</p>
-                <p>根據申請人<span class="strong">「六大面向」</span>進行評估，100分，申請人要獲得至少67分，方可進入候選池。</p>
+                <p>根據申請人<span class="strong">「六大面向」</span>進行評估，申請人要獲得至少<span style="color: #a07452; font-weight: bold;"> 67分</span>，方可進入候選池。</p>
                 <ul class="list-group">
                     <li class="list-group-item">
                         <button class="btn btn-link" type="button" data-toggle="collapse"
-                            data-target="#factorsCollapse">6項選擇指標</button>
+                            data-target="#factorsCollapse">6項選擇指標 ▾</button>
                         <div id="factorsCollapse" class="collapse collapse-content">
                             <ol>
                                 <li>
@@ -795,7 +795,6 @@
                                     <h5>適應能力（<span id="totalBonusScore" class="score">0</span> / 10分）</h5>
                                     <p>申請人1年（含）以上 NOC TEER 0、1、2、3類「加拿大工作經驗」（10分）：</p>
                                     <div class="my-container">
-                                        <div class="row">
                                             <div class="form-group">
                                                 <select class="custom-select" id="workBonus"
                                                     onchange="updateTotalScore()">
@@ -804,7 +803,6 @@
                                                     <option value="10">有</option>
                                                 </select>
                                             </div>
-                                        </div>
                                     </div>
                                     <p>
                                         其他加分項目（每項5分）：
@@ -840,14 +838,14 @@
                                     </div>
                                 </li>
 
-                                <h5>🔎 總分：<span id="totalScore" class="score">0</span> / 100</h5>
-
+                                <h4>🔎 總分：<span id="totalScore" class="score">0</span> / 100</h4>
+                                <br>
                             </ol>
                         </div>
                     </li>
                     <li class="list-group-item">
                         <button class="btn btn-link" type="button" data-toggle="collapse"
-                            data-target="#fswFundCollapse">財力證明</button>
+                            data-target="#fswFundCollapse">財力證明 ▾</button>
                         <div id="fswFundCollapse" class="collapse collapse-content">
                             <ol>
                                 <p>人數包含申請者「本人」、「法定伴侶」、「子女」。如8人以上，每人額外再加 CAD $3706。</p>
@@ -877,7 +875,7 @@
                 <ul class="list-group">
                     <li class="list-group-item">
                         <button class="btn btn-link" type="button" data-toggle="collapse"
-                            data-target="#fstWorkCollapse">工作要求</button>
+                            data-target="#fstWorkCollapse">工作要求 ▾</button>
                         <div id="fstWorkCollapse" class="collapse collapse-content">
                             <ul class="list">
                                 <li>過去5年中有累計滿2年，可以不連續。</li>
@@ -904,7 +902,7 @@
                     </li>
                     <li class="list-group-item">
                         <button class="btn btn-link" type="button" data-toggle="collapse"
-                            data-target="#tradeCollapse">LMIA雇主擔保或證書</button>
+                            data-target="#tradeCollapse">LMIA雇主擔保或證書 ▾</button>
                         <div id="tradeCollapse" class="collapse collapse-content">
                             <ul class="list">
                                 有以下至少其中一項：
@@ -919,7 +917,7 @@
                     </li>
                     <li class="list-group-item">
                         <button class="btn btn-link" type="button" data-toggle="collapse"
-                            data-target="#fstLanguageCollapse">語言能力</button>
+                            data-target="#fstLanguageCollapse">語言能力 ▾</button>
                         <div id="fstLanguageCollapse" class="collapse collapse-content">
                             <ul class="list">
                                 <li>英、法文均可，需為2年內取得的有效成績。</li>
@@ -930,7 +928,7 @@
                     </li>
                     <li class="list-group-item">
                         <button class="btn btn-link" type="button" data-toggle="collapse"
-                            data-target="#fstFundCollapse">財力證明</button>
+                            data-target="#fstFundCollapse">財力證明 ▾</button>
                         <div id="fstFundCollapse" class="collapse collapse-content">
                             <ol>
                             <p>人數包含申請者「本人」、「法定伴侶」、「子女」。如8人以上，每人額外再加 CAD $3706。</p>
@@ -984,9 +982,9 @@
         <li>受邀申請</li>
         <p>候選池一般約每兩周抽選一次，包含「不限類別」的<span class="strong">不定向邀請</span>、針對「特定類別」的<span
                 class="strong">定向邀請</span>。若您的分數高於當次分數，則會收到<span class="strong">移民邀請信（Invitation to
-                Apply，ITA）</span>，將有60天的時間可以完成文件上傳。</p>
-
+                Apply，ITA）</span>，將有60天的時間可以登入GCKey完成文件上傳。</p>
         <p>⚠️ 特別注意：通過聯邦移民通道（EE）取得永居者，不可選擇在魁北克省（QC）生活，該省有自己的技術人才移民計劃。</p>
+        <img src="/img/ee/invited.png" alt="Invited to Apply" width="70%">
     </ol>
 
 

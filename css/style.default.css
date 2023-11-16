@@ -1,13 +1,32 @@
 /* Themed colors */
 :root {
-  --primary-accent: #38a7bb;
+  /* --primary-accent: #38a7bb;
   --navbar-border-top: #20616d;
   --button-border: #2a7d8c;
   --link-focus: #267280;
   --form-shadow: rgba(56, 167, 187, 0.6);
   --pagination-bg: #a7dbe5;
   --link-hover-bg: #2c8494;
-  --navbar-focus: #80cbd9;
+  --navbar-focus: #80cbd9; */
+  /* 上邊 side widget*/
+  --primary-accent: #067b39;
+  /* Active上邊 */
+  --navbar-border-top: #c0c0ba;
+  --button-border: #40a070;
+  --link-focus: #40a070;
+  --form-shadow: #067b39;
+  --pagination-bg: #40a070;
+  --link-hover-bg: #40a070;
+  /* 目錄hover背景 */
+  --navbar-focus: #c0c0ba;
+  /* 其他顏色：
+  743e0c 棕
+  ccc4bc
+  a07452
+  4b352e
+  112ee5 寶藍
+  034e23 深綠
+  2c3334 黑 */
 }
 
 .clearfix:before,
@@ -368,13 +387,14 @@ ul.list-style-none {
 }
 .navbar ul.dropdown-menu li a {
   position: relative;
-  color: #999999;
+  color: #2c3334;
   font-size: 12px;
   display: block;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   left: 0;
+  font-weight: normal;
 }
 .navbar ul.dropdown-menu li a:hover {
   color: var(--primary-accent);
@@ -3183,7 +3203,8 @@ body {
 }
 a {
   color: var(--primary-accent);
-  text-decoration: none;
+  /* text-decoration: underline; */
+  font-weight: bold;
 }
 a:hover,
 a:focus {

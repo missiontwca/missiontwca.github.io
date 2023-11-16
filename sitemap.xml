@@ -29,6 +29,8 @@
     <loc>http://example.org/test/</loc>
     <lastmod>2017-12-29T12:15:02+00:00</lastmod>
   </url><url>
+    <loc>http://example.org/blog/extra_file/</loc>
+  </url><url>
     <loc>http://example.org/blog/</loc>
   </url><url>
     <loc>http://example.org/blog/tcm/</loc>
@@ -64,6 +66,8 @@
     <loc>http://example.org/life/provinces/</loc>
   </url><url>
     <loc>http://example.org/immigration/others/</loc>
+  </url><url>
+    <loc>http://example.org/immigration/documents/</loc>
   </url><url>
     <loc>http://example.org/whv/sin/</loc>
   </url><url>
