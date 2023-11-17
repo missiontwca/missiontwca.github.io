@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language><atom:link href="http://example.org/immigration/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>http://example.org/immigration/temp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/immigration/temp/</guid>
+      <description>.vertical-tabs-container { display: flex; } .vertical-tabs { flex: 0 0 150px; /* Set the width of the tabs */ border-right: 1px solid #ddd; } .vertical-tabs&gt;li { width: 100%; } .vertical-tabs a { text-align: left; } .container { max-width: fit-content; } .tab-content { padding: 50px; } 證書或LMIA雇主擔保 一年（含）以上的LMIA（或LMIA豁免）工作錄取
+function calculateFund(selectId, fundId) { var selectedValue = document.getElementById(selectId).value; document.getElementById(fundId).innerText = selectedValue; } function calculateFund() { var selectedValue = document.getElementById(&#34;peopleSelect&#34;).value; document.getElementById(&#34;fund&#34;).innerText = selectedValue; } function updateLanguageScore(selectId) { var score = parseInt(document.</description>
+    </item>
+    
+    <item>
       <title>其他類別</title>
       <link>http://example.org/immigration/others/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
