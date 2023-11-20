@@ -9,7 +9,7 @@
   --link-hover-bg: #996515;
   --navbar-focus: #ccc4bc; */
   /* 上邊 side widget*/
-  --primary-accent: #067b39;
+  --primary-accent: #006241;
   /* Active上邊 */
   --navbar-border-top: #AF9C87;
   --button-border: #40a070;
@@ -18,9 +18,10 @@
   --pagination-bg: #cde4d2;
   --link-hover-bg: #996515;
   /* 目錄hover背景 */
-  --navbar-focus: #c09a7d;
+  --navbar-focus: #cde4d2;
   /* 其他顏色：
   ccc4bc
+  AF9C87
   c09a7d 奶茶棕
   a07452
   743e0c 棕
@@ -29,6 +30,7 @@
   4b352e 咖啡
   112ee5 寶藍
   cde4d2 淺綠
+  067b39 正綠
   034e23 深綠
   2c3334 黑 */
 }
@@ -340,13 +342,13 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
-  text-decoration: underline;
   font-weight: bold;
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;
   color: #2c3334;
 }
 .navbar ul.nav > li > a:hover {
+  text-decoration: underline;
   border-top: solid 5px var(--primary-accent);
   color: #034e23;
 }
@@ -1768,7 +1770,7 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-  background: url('../img/texture-banner.jpeg') center center no-repeat;
+  background: url('../img/texture-brown.png') center center repeat;
   padding: 20px 0;
   margin-bottom: 40px;
 }
@@ -1776,7 +1778,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 0;
 }
 #heading-breadcrumbs h1 {
-  color: #333333;
+  color: white;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 700;
@@ -1797,7 +1799,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 60px 0;
 }
 .bar.background-pentagon {
-  background: url('../img/texture-banner.jpeg') center center no-repeat;
+  background: url('../img/texture-brown.png') center center repeat;
   border-top: solid 1px #999999;
   border-bottom: solid 1px #999999;
 }
