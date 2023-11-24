@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1700477884" rel="stylesheet">
+<link href="/css/custom.css?1700826969" rel="stylesheet">
 
 
 
@@ -191,9 +191,9 @@
                                     
                                     <ul>
                                     
-                                    <li><a href="/whv/pool">入池抽籤</a></li>
+                                    <li><a href="/iec/pool">入池抽籤</a></li>
                                     
-                                    <li><a href="/whv/file">遞交資料</a></li>
+                                    <li><a href="/iec/file">遞交資料</a></li>
                                     
                                     </ul>
                                     
@@ -208,11 +208,11 @@
                                     
                                     <ul>
                                     
-                                    <li><a href="/whv/airport">機場入境流程</a></li>
+                                    <li><a href="/iec/airport">機場入境流程</a></li>
                                     
-                                    <li><a href="/whv/insurance">醫療保險</a></li>
+                                    <li><a href="/iec/insurance">醫療保險</a></li>
                                     
-                                    <li><a href="/whv/sin">社會保險號碼（SIN）</a></li>
+                                    <li><a href="/iec/sin">社會保險號碼（SIN）</a></li>
                                     
                                     </ul>
                                     
@@ -280,9 +280,9 @@
                                     
                                     <li><a href="/life/provinces">各省比較</a></li>
                                     
-                                    <li><a href="/life/newtransportation">交通</a></li>
+                                    <li><a href="/life/transportation">交通</a></li>
                                     
-                                    <li><a href="/life/shopping">超市購物</a></li>
+                                    <li><a href="/life/shopping">購物</a></li>
                                     
                                     <li><a href="/life/app">常用APP/網站</a></li>
                                     
@@ -307,7 +307,7 @@
                                     
                                     <li><a href="/life/rent">租屋</a></li>
                                     
-                                    <li><a href="">銀行開戶/信用卡</a></li>
+                                    <li><a href="/life/bank">銀行開戶/信用卡</a></li>
                                     
                                     <li><a href="/life/phone">手機電信</a></li>
                                     
@@ -357,17 +357,10 @@
                                     
                                     
                                 
-                                </div>
-                                <div class="col-sm-3">
-                                
-                                    
-                                    
-                                
                                     
                                     
                                 
                                 </div>
-                                
                                 <div class="col-sm-3">
                                 
                                     
@@ -389,8 +382,15 @@
                                     
                                     
                                 
+                                    
+                                    
+                                
                                 </div>
+                                
                                 <div class="col-sm-3">
+                                
+                                    
+                                    
                                 
                                     
                                     
@@ -408,6 +408,21 @@
                                     <li><a href="/immigration/others">其他類別</a></li>
                                     
                                     </ul>
+                                    
+                                    
+                                
+                                </div>
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>申請後續</code></h5>
+                                    
+                                    
+                                
                                     
                                     
                                 
@@ -499,6 +514,22 @@
       padding: 20px;
     }
 
+    .titles,
+    .custom-list li {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333333;
+      margin-bottom: 10px;
+      list-style-type: square;
+    }
+
+    .list-content li {
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      list-style-type: "\1F4CD\00a0";
+    }
+
     .table-main {
       margin-left: auto;
       margin-right: auto;
@@ -516,18 +547,18 @@
       overflow-y: auto;
     }
 
-    .table-main thead th:not(:nth-child(1)):not(:nth-child(2)) {
-      text-align: center;
-    }
-
+    .table-main thead th:not(:nth-child(1)):not(:nth-child(2)),
     .table-main tr td:nth-child(3),
     .table-main tr td:nth-child(4),
     .table-main tr td:nth-child(5),
-    .table-main tr td:nth-child(6) {
+    .table-main tr td:nth-child(6),
+    .table-side thead th:nth-child(2) {
       text-align: center;
     }
 
-    .table-side tr td:nth-child(6) {
+    .table-side th:last-child,
+    .table-side tr td:last-child {
+      text-align: right;
       font-weight: bold;
     }
   </style>
@@ -545,10 +576,11 @@
   <div class="tab-content">
     <div id="introduction" class="tab-pane fade in active">
       <div style="text-align: right;">
-        <a href="#" id="showCn" class="btn-link" style="font-weight: bold;">中文地圖 </a>
-        <a href="#" id="showEn" class="btn-link" style="font-weight: bold;">| 英文地圖</a>
-        </div>
-      <img id="map_cn" class="img-fluid" src="/img/provinces/map_cn.png" alt="Chinese Map of Canada" width="70%" style="display: none;">
+        <a href="#" id="showCn" class="btn-link titles">中文地圖 </a>
+        <a href="#" id="showEn" class="btn-link titles">| 英文地圖</a>
+      </div>
+      <img id="map_cn" class="img-fluid" src="/img/provinces/map_cn.png" alt="Chinese Map of Canada" width="70%"
+        style="display: none;">
       <img id="map_en" class="img-fluid d-none" src="/img/provinces/map_en.png" alt="English Map of Canada" width="70%">
       <br>
       <table class="table table-striped table-main" id="population" data-toggle="table" data-sortable="true">
@@ -661,18 +693,18 @@
           </tr>
         </tbody>
       </table>
-      <p>人口統計以2023年9月27日公布的2023 Q3數據為準。</p>
+      <p>ℹ️ 人口統計以2023年9月27日公布的2023 Q3數據為準。</p>
     </div>
     <div id="weather" class="tab-pane fade">
-      <p><b>即時天氣</b>（來源：<a href="https://sharpweather.com/">SharpWeather</a>）</p>
+      <p><span class="titles">即時天氣</span>（來源：<a href="https://sharpweather.com/">SharpWeather</a>）</p>
       <div id="ide946c17c3f163"
-        a='{"t":"b","v":"1.2","lang":"en","locs":[737,732,3770,736,730,731],"ssot":"c","sics":"ds","cbkg":"rgba(56,167,187,1)","cfnt":"#FFFFFF","ceb":"#FFFFFF","cef":"#000000","slfs":14,"slmw":200}'>
+        a='{"t":"b","v":"1.2","lang":"en","locs":[737,732,3770,736,730,731],"ssot":"c","sics":"ds","cbkg":"rgba(205,228,210,1)","cfnt":"#000000","ceb":"#FFFFFF","cef":"#000000","slfs":16,"slmw":400}'>
         <a href="https://sharpweather.com/widgets/">Weather widget html for website by sharpweather.com</a></div>
       <script async src="https://static1.sharpweather.com/widgetjs/?id=ide946c17c3f163"></script>
       <hr>
       <div class="image-container">
-        <h5>主要城市全年氣候概況</h5>
-        <ul>
+        <p class="titles">主要城市 全年 氣候概況</p>
+        <ul class="list-content">
           <li>溫哥華（BC省）：全年氣溫較少降至零下，但雨量、降雨天數明顯比其他地區更多。</li>
           <li>卡加利（AB省）：溫差大，冬天偶有極低溫，乾燥且整體日照充足，依據網友經驗分享：降雪多，但也融雪快速。</li>
           <li>溫尼伯（MB省）：冬季漫長，夏季炎熱，比卡加利更顯著的大陸性氣候。</li>
@@ -681,22 +713,379 @@
           <li>聖約翰斯（NL省）：降雪極多，偶有可能導致斷電的暴風雪，潮濕且融雪不易，春秋兩季陰雨綿綿，時有強烈陣風。</li>
         </ul>
         <br>
-        <h5>平均溫度</h5>
-        <a
-          href="https://weatherspark.com/compare/y/19863~2349~476~25077~29672~8367/Comparison-of-the-Average-Weather-in-Toronto-Calgary-Vancouver-Montr%C3%A9al-St.-John's-and-Winnipeg">
-          <img src="/img/provinces/temperature.png" alt="Temperature" width="80%">
-        </a>
-        <p>每月降雪量</p>
-        <img src="/img/provinces/snowfall.png" alt="Snowfall" width="70%">
-        <p>每月降雨量</p>
-        <img src="/img/provinces/rainfall.png" alt="Rainfall" width="70%">
+        <ul class="custom-list">
+          <li>平均溫度</li>
+          <a
+            href="https://weatherspark.com/compare/y/19863~2349~476~25077~29672~8367/Comparison-of-the-Average-Weather-in-Toronto-Calgary-Vancouver-Montr%C3%A9al-St.-John's-and-Winnipeg">
+            <img src="/img/provinces/temperature.png" alt="Temperature" width="80%">
+          </a>
+          <li>每月降雪量</li>
+          <img src="/img/provinces/snowfall.png" alt="Snowfall" width="70%">
+          <li>每月降雨量</li>
+          <img src="/img/provinces/rainfall.png" alt="Rainfall" width="70%">
+        </ul>
       </div>
       <hr>
     </div>
-    <div id="rent" class="tab-pane fade"></div>
+    <div id="rent" class="tab-pane fade">
+      <p class="titles">主要城市 2023年11月 平均租金：</p>
+      <br>
+      <ul class="custom-list">
+        <li>室友分租</li>
+        <img src="/img/provinces/rent_roomamate.png" alt="Rent of Roomamates" width="60%" align="left">
+        <table class="table table-striped table-side">
+          <thead>
+            <tr>
+              <th>省份</th>
+              <th colspan="2">主要城市</th>
+              <th>平均月租<br>（加幣）</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>BC</td>
+              <td>溫哥華</td>
+              <td>Vancouver</td>
+              <td>$1,454</td>
+            </tr>
+            <tr>
+              <td>AB</td>
+              <td>卡加利</td>
+              <td>Calgary</td>
+              <td>$911</td>
+            </tr>
+            <tr>
+              <td>AB</td>
+              <td>艾德蒙頓</td>
+              <td>Edmonton</td>
+              <td>$737</td>
+            </tr>
+            <tr>
+              <td>ON</td>
+              <td>多倫多</td>
+              <td>Toronto</td>
+              <td>$1,312</td>
+            </tr>
+            <tr>
+              <td>ON</td>
+              <td>渥太華</td>
+              <td>Ottawa</td>
+              <td>$966</td>
+            </tr>
+            <tr>
+              <td>QC</td>
+              <td>蒙特婁</td>
+              <td>Montreal</td>
+              <td>$873</td>
+            </tr>
+          </tbody>
+        </table>
+        <li>公寓大樓（Apartment / Condo）一室、二室</li>
+        <ul class="list-content">
+          <li>前十名中，除了 BC省 的 Vancouver、Burnaby 以外，均為 ON省 的城市。</li>
+          <li>前二十名中，僅 NS省 的 Halifax 不屬於 BC省 或 ON省。</li>
+        </ul>
+          <table class="table table-striped table-main">
+            <thead>
+              <tr>
+                <th>排名</th>
+                <th>省份</th>
+                <th colspan="2">城市名稱</th>
+                <th>房屋類型<br>1-Bedroom</th>
+                <th>房屋類型<br>2-Bedroom</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <td>BC</td>
+                <td>溫哥華</td>
+                <td>Vancouver</td>
+                <td>$2,872</td>
+                <td>$3,777</td>
+              </tr>
+              <tr>
+                <th>2</th>
+                <td>BC</td>
+                <td></td>
+                <td>Burnaby</td>
+                <td>$2,647</td>
+                <td>$3,341</td>
+              </tr>
+              <tr>
+                <th>3</th>
+                <td>ON</td>
+                <td>多倫多</td>
+                <td>Toronto</td>
+                <td>$2,607</td>
+                <td>$3,424</td>
+              </tr>
+              <tr>
+                <th>4</th>
+                <td>ON</td>
+                <td></td>
+                <td>Oakville</td>
+                <td>$2,524</td>
+                <td>$3,337</td>
+              </tr>
+              <tr>
+                <th>5</th>
+                <td>ON</td>
+                <td></td>
+                <td>Mississauga</td>
+                <td>$2,352</td>
+                <td>$2,851</td>
+              </tr>
+              <tr>
+                <th>6</th>
+                <td>ON</td>
+                <td></td>
+                <td>Richmond Hill</td>
+                <td>$2,326</td>
+                <td>$2,685</td>
+              </tr>
+              <tr>
+                <th>7</th>
+                <td>ON</td>
+                <td></td>
+                <td>Markham</td>
+                <td>$2,325</td>
+                <td>$2,604</td>
+              </tr>
+              <tr>
+                <th>8</th>
+                <td>ON</td>
+                <td></td>
+                <td>Etobicoke</td>
+                <td>$2,292</td>
+                <td>$2,909</td>
+              </tr>
+              <tr>
+                <th>9</th>
+                <td>ON</td>
+                <td></td>
+                <td>Brampton</td>
+                <td>$2,195</td>
+                <td>$2,515</td>
+              </tr>
+              <tr>
+                <th>10</th>
+                <td>ON</td>
+                <td></td>
+                <td>Burlington</td>
+                <td>$2,189</td>
+                <td>$2,578</td>
+              </tr>
+              <tr>
+                <th>11</th>
+                <td>BC</td>
+                <td>維多利亞</td>
+                <td>Victoria</td>
+                <td>$2,109</td>
+                <td>$2,836</td>
+              </tr>
+              <tr>
+                <th>12</th>
+                <td>BC</td>
+                <td></td>
+                <td>Kelowna</td>
+                <td>$2,099</td>
+                <td>$2,592</td>
+              </tr>
+              <tr>
+                <th>13</th>
+                <td>ON</td>
+                <td></td>
+                <td>Guelph</td>
+                <td>$2,061</td>
+                <td>$2,398</td>
+              </tr>
+              <tr>
+                <th>14</th>
+                <td>ON</td>
+                <td>渥太華</td>
+                <td>Ottawa</td>
+                <td>$2,056</td>
+                <td>$2,503</td>
+              </tr>
+              <tr>
+                <th>15</th>
+                <td>ON</td>
+                <td></td>
+                <td>Barrie</td>
+                <td>$1,918</td>
+                <td>$2,328</td>
+              </tr>
+              <tr>
+                <th>16</th>
+                <td>ON</td>
+                <td></td>
+                <td>Kitchener</td>
+                <td>$1,915</td>
+                <td>$2,364</td>
+              </tr>
+              <tr>
+                <th>17</th>
+                <td>ON</td>
+                <td></td>
+                <td>Waterloo</td>
+                <td>$1,909</td>
+                <td>$2,545</td>
+              </tr>
+              <tr>
+                <th>18</th>
+                <td>ON</td>
+                <td></td>
+                <td>London</td>
+                <td>$1,878</td>
+                <td>$2,257</td>
+              </tr>
+              <tr>
+                <th>19</th>
+                <td>NS</td>
+                <td>哈利法克斯</td>
+                <td>Halifax</td>
+                <td>$1,875</td>
+                <td>$2,241</td>
+              </tr>
+              <tr>
+                <th>20</th>
+                <td>ON</td>
+                <td></td>
+                <td>Hamilton</td>
+                <td>$1,868</td>
+                <td>$2,229</td>
+              </tr>
+              <tr>
+                <th>21</th>
+                <td>ON</td>
+                <td></td>
+                <td>Oshawa</td>
+                <td>$1,845</td>
+                <td>$2,219</td>
+              </tr>
+              <tr>
+                <th>22</th>
+                <td>QC</td>
+                <td>蒙特婁</td>
+                <td>Montreal</td>
+                <td>$1,802</td>
+                <td>$2,266</td>
+              </tr>
+              <tr>
+                <th>23</th>
+                <td>AB</td>
+                <td>卡加利</td>
+                <td>Calgary</td>
+                <td>$1,733</td>
+                <td>$2,155</td>
+              </tr>
+              <tr>
+                <th>24</th>
+                <td>ON</td>
+                <td></td>
+                <td>St. Catharines</td>
+                <td>$1,685</td>
+                <td>$1,925</td>
+              </tr>
+              <tr>
+                <th>25</th>
+                <td>ON</td>
+                <td></td>
+                <td>Niagara Falls</td>
+                <td>$1,680</td>
+                <td>$2,008</td>
+              </tr>
+              <tr>
+                <th>26</th>
+                <td>QC</td>
+                <td></td>
+                <td>Laval</td>
+                <td>$1,601</td>
+                <td>$2,003</td>
+              </tr>
+              <tr>
+                <th>27</th>
+                <td>BC</td>
+                <td></td>
+                <td>Abbotsford</td>
+                <td>$1,594</td>
+                <td>$2,011</td>
+              </tr>
+              <tr>
+                <th>28</th>
+                <td>ON</td>
+                <td></td>
+                <td>Windsor</td>
+                <td>$1,545</td>
+                <td>$1,936</td>
+              </tr>
+              <tr>
+                <th>29</th>
+                <td>QC</td>
+                <td>魁北克市</td>
+                <td>Quebec City</td>
+                <td>$1,288</td>
+                <td>$1,703</td>
+              </tr>
+              <tr>
+                <th>30</th>
+                <td>AB</td>
+                <td>艾德蒙頓</td>
+                <td>Edmonton</td>
+                <td>$1,284</td>
+                <td>$1,596</td>
+              </tr>
+              <tr>
+                <th>31</th>
+                <td>MB</td>
+                <td>溫尼伯</td>
+                <td>Winnipeg</td>
+                <td>$1,282</td>
+                <td>$1,692</td>
+              </tr>
+              <tr>
+                <th>32</th>
+                <td>AB</td>
+                <td></td>
+                <td>Red Deer</td>
+                <td>$1,249</td>
+                <td>$1,464</td>
+              </tr>
+              <tr>
+                <th>33</th>
+                <td>AB</td>
+                <td></td>
+                <td>Fort Mcmurray</td>
+                <td>$1,226</td>
+                <td>$1,478</td>
+              </tr>
+              <tr>
+                <th>34</th>
+                <td>SK</td>
+                <td>雷吉纳</td>
+                <td>Regina</td>
+                <td>$1,191</td>
+                <td>$1,405</td>
+              </tr>
+              <tr>
+                <th>35</th>
+                <td>SK</td>
+                <td>薩斯卡通</td>
+                <td>Saskatoon</td>
+                <td>$1,109</td>
+                <td>$1,340</td>
+              </tr>
+            </tbody>
+          </table>
+        </ul>
+      <p style="text-align: right;">（來源：Urbanation & <a
+          href="https://rentals.ca/national-rent-report#rentalsca-data">Rentals Network</a> Research Data）</p>
+
+    </div>
     <div id="wage" class="tab-pane fade">
-      <h5>2023年10月1日更新</h5>
-      <p>各省最低時薪依政策可能持續變動。</p>
+      <p class="titles">各省政府規定之最低時薪：</p>
+      <p>更新日期：2023年10月1日</p>
       <img src="/img/provinces/wage.png" alt="Minimum Wage" width="65%" align="left">
       <table class="table table-striped table-side">
         <thead>
@@ -762,7 +1151,7 @@
       </table>
     </div>
     <div id="tax" class="tab-pane fade">
-      <h5>在加拿大消費時，大多需額外加收消費稅，包含以下幾種：</h5>
+      <p class="titles">在加拿大消費時，大多需額外加收消費稅，包含以下幾種：</p>
       <ul>
         <li>商品及服務稅（Goods and Service Tax，GST）。</li>
         <li>省銷售稅（Provincial Sales Tax，PST）：部份省份收取。</li>
@@ -908,14 +1297,14 @@
         <li>出售個人最後用作居住地的房屋。</li>
         <li>住宅長期租金（一個月或以上）和住宅公寓費。</li>
         <li>大多數由有執照的醫生或牙醫出於醫療原因提供的健康、醫療和牙科服務。</li>
-        <li>托兒服務，主要是為14歲或以下兒童所提供每天少於24小時的照顧和監督。</li>
+        <li>托兒服務，主要是為 14 歲或以下兒童所提供每天少於 24 小時的照顧和監督。</li>
         <li>大多數國內渡輪服務。</li>
         <li>法律援助服務。</li>
-        <li>許多教育服務，例如：由職業學校提供的證書或文憑課程、遵循學校當局指定課程的個人輔導服務、音樂課。</li>
+        <li>許多教育服務，例如：由職業學校提供的證書或文憑課程、遵循學校當局指定課程的個人輔導、音樂課。</li>
         <li>金融機構提供的大部分服務，例如貸款或管理存款帳戶。</li>
-        <li>保險公司簽發保單以、安排保險代理人簽發保單。</li>
+        <li>保險公司簽發保單、安排保險代理人簽發保單。</li>
         <li>大多數由慈善機構和公共機構提供的財產和服務。</li>
-        <li>政府、非營利組織、其他公共服務機構提供的某些財產和服務，包括市政交通服務和標準住宅服務（如：供水）。</li>
+        <li>政府、非營利組織、其他公共機構提供的某些財產和服務，包括市政交通、標準住宅服務（如：供水）。</li>
       </ul>
     </div>
   </div>

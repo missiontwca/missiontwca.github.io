@@ -35,6 +35,16 @@
   2c3334 黑 */
 }
 
+.next {
+  font-weight: bold;
+  font-size: 16px;
+  color: #743e0c;
+  padding-bottom: 20px;
+}
+.bold {
+  font-weight: bold;
+  color: #2c3334;
+}
 .clearfix:before,
 .clearfix:after,
 .navbar:before,
@@ -3205,13 +3215,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* scaffolding */
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.42857143;
   color: #555555;
 }
 a {
-  color: var(--primary-accent);
-  /* text-decoration: underline; */
+  color: #40a070;
+  text-decoration: underline;
   font-weight: bold;
 }
 a:hover,
