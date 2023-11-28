@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1700826969" rel="stylesheet">
+<link href="/css/custom.css?1701186388" rel="stylesheet">
 
 
 
@@ -210,6 +210,8 @@
                                     
                                     <li><a href="/iec/airport">機場入境流程</a></li>
                                     
+                                    <li><a href="/iec/eta">eTA</a></li>
+                                    
                                     <li><a href="/iec/insurance">醫療保險</a></li>
                                     
                                     <li><a href="/iec/sin">社會保險號碼（SIN）</a></li>
@@ -274,7 +276,7 @@
                                 
                                     
                                     
-                                    <h5>生活資訊</code></h5>
+                                    <h5>日常資訊</code></h5>
                                     
                                     <ul>
                                     
@@ -282,9 +284,9 @@
                                     
                                     <li><a href="/life/transportation">交通</a></li>
                                     
-                                    <li><a href="/life/shopping">購物</a></li>
+                                    <li><a href="/life/shopping">消費購物</a></li>
                                     
-                                    <li><a href="/life/app">常用APP/網站</a></li>
+                                    <li><a href="/life/sites">其他實用網站（建置中）</a></li>
                                     
                                     </ul>
                                     
@@ -307,7 +309,7 @@
                                     
                                     <li><a href="/life/rent">租屋</a></li>
                                     
-                                    <li><a href="/life/bank">銀行開戶/信用卡</a></li>
+                                    <li><a href="/life/bank">銀行開戶/信用卡（建置中）</a></li>
                                     
                                     <li><a href="/life/phone">手機電信</a></li>
                                     
@@ -365,13 +367,13 @@
                                 
                                     
                                     
-                                    <h5>事前準備</code></h5>
+                                    <h5>事前需知</code></h5>
                                     
                                     <ul>
                                     
                                     <li><a href="/immigration/news">最新消息 ✴️</a></li>
                                     
-                                    <li><a href="/immigration/knowledge">基礎知識</a></li>
+                                    <li><a href="/immigration/knowledge">準備知識</a></li>
                                     
                                     <li><a href="/immigration/documents">所需文件</a></li>
                                     
@@ -419,7 +421,17 @@
                                 
                                     
                                     
-                                    <h5>申請後續</code></h5>
+                                    <h5>完成申請</code></h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="/immigration/after">後續步驟</a></li>
+                                    
+                                    <li><a href="/immigration/tracker">進度查詢（Tracker）</a></li>
+                                    
+                                    <li><a href="/immigration/problems">問題處理</a></li>
+                                    
+                                    </ul>
                                     
                                     
                                 
@@ -446,20 +458,9 @@
                   
 
                   
-                    
-                    
-                    <li class="dropdown ">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FAQ <span class="caret"></span></a>
-                        
-                        <ul class="dropdown-menu">
-                            
-                            <li><a href="/faq">FAQ</a></li>
-                            
-                            <li><a href="/contact">Contact</a></li>
-                            
-                        </ul>
-                        
-                    </li>
+                  <li class="dropdown ">
+                    <a href="/contact">Contact</a>
+                  </li>
                   
                   
                 </ul>
@@ -533,9 +534,13 @@
         ol.bold-list>li {
             font-size: 18px;
             font-weight: bold;
-            margin-top: 5px;
-            margin-bottom: 5px;
+            margin: 10px;
             color: #006241;
+        }
+
+        .titles {
+            font-weight: bold;
+            color: #2c3334;
         }
     </style>
 </head>
@@ -544,7 +549,7 @@
     <div>
         <p class="headings" style="color: #B8860B;">⚠️ 特別提醒：資料務必詳實，尤其日後有申請移民計劃者，勿省略他國旅居（如：澳洲打工度假）記錄。</p>
         <p class="headings"> 📣 好消息！！自2023年4月起，良民證可線上申請、郵寄到家，無需再臨櫃領件。</p>
-        <p class="headings">❓ 如被通知需要補件，該如何上傳？👉 請參考<a href="">「補件」</a>文章。</p>
+        <p class="headings">❓ 如被通知需要補件，該如何上傳？👉 請參考<a href="/immigration/knowledge">「Webform」</a>。</p>
 
     </div>
     <br>
@@ -565,21 +570,36 @@
         <ol class="bold-list">
             <li>接受邀請</li>
             <p>於中籤後的<span class="strong"> 10 日</span>內，登入 GCKey 並點選「開始申請（Start Application）」。</p>
+            <br>
+
             <li>填寫資料</li>
+            <p>依序填寫表單（包含：個人資料、聯絡資訊、工作及教育經歷...等）</p>
+            <img src="/img/file/forms.png" alt="Forms">
+            <p>💡 英文不熟練者，可利用<a href="https://support.google.com/chrome/answer/173424?hl=zh-Hant&co=GENIE.Platform%3DDesktop&oco=0"> Google Chrome 網頁翻譯 </a>功能。</p>
+            <p class="titles">⚠️ 特別注意：</p>
+            <ul>
+                <li><p class="titles">工作經歷：</p><p>請務必<span class="strong">「填滿過去十年」</span>，若有空白期間，請仍填「待業（Unemployed）」。</p></li>
+                <li><p class="titles">身分證字號：</p><p>如無法輸入英文字母，請在「補充資料（Optional Documents）」上傳解釋信，簡單說明。</p></li>
+                <li><p class="titles">電話：</p><p>台灣號碼請填國碼 886，不需加號。</p></li>
+                <li><p class="titles">地址：</p><p>請省略標點符號。</li>
+                <li><p class="titles">申請細節（Application Details）：</p><p>是否有意從事<span class="strong">醫療、教育</span>...等相關行業，請誠實作答。</p></li>
+            </ul>
+            <br>
+
             <li>上傳文件（Supporting Documents）</li>
             <ul>
-                <li>家庭資料（Family Information）</li>
+                <li class="titles">家庭資料（Family Information）</li>
                 <p>填寫 <a
                         href="https://www.canada.ca/content/dam/ircc/migration/ircc/english/pdf/kits/forms/imm5645e.pdf">[IMM5645]</a>
                     表格，建議下載並使用<a href="https://get.adobe.com/tw/reader/"> Adobe Reader DC
                     </a>開啟編輯，無需簽名。</p>
-                <li>CV</li>
+                <li class="titles">CV</li>
                 <p>簡短一頁即可，包含現居國家城市、學歷、工作經歷（各工作主要內容）、現職工作。</p>
-                <li>護照</li>
+                <li class="titles">護照</li>
                 <p>需包含「個人資料頁」、有「出入境戳章」的所有內頁。</p>
-                <li>證件照</li>
+                <li class="titles">證件照</li>
                 <p>兩吋（35mm x 45mm）護照規格大頭照，像素 420 x 540 以上，解析度 600 以上，檔案大小 240kB - 4MB，JPEG 檔。</p>
-                <li>體檢證明</li>
+                <li class="titles">體檢證明</li>
                 <p>上傳體檢後拿到的「Information Sheet」，項目包含基本理學檢查、胸腔X光、抽血、尿液檢查（女性避開生理期為佳），報告 7 - 10 日會由醫院直接上傳至 eMedical 系統。</p>
                 <p>⚠️ 如未能在時限內進行體檢，需上傳已預約的證明。</p>
                 <p>台灣共有三間醫院可進行：</p>
@@ -615,7 +635,7 @@
                         </p>
                     </div>
                 </div>
-                <li>良民證</li>
+                <li class="titles">良民證</li>
                 <p>警察刑事紀錄證明書（俗稱良民證），凡曾居住過 6 個月以上的國家皆需申請。台灣良民證申請方式如下：</p>
                 <blockquote>
                     <a href="https://eli.npa.gov.tw/E7WebO/index01.jsp">線上申請</a>：以自然人憑證透過 MyData 平台申請郵寄到家，或於 2.5
@@ -627,16 +647,19 @@
                         href="https://www.npa.gov.tw/ch/app/artwebsite/view?module=artwebsite&id=1061&serno=25d5dae3-2a7d-40ea-8016-e567912ac57c">警政服務
                         APP</a> ，同網路申請方式領取。
                 </blockquote>
-                <li>補充資料（Optional Documents）</li>
+                <li class="titles">補充資料（Optional Documents）</li>
                 <p>如無則不需上傳。</p>
             </ul>
+            <br>
 
             <li>線上繳費</li>
+            <p>依照指示，使用信用卡（Visa、Mastercard、JCB、美國運通、中國銀聯卡）繳費。</p>
+            <br>
 
             <li>生物辨識</li>
             <p>上傳完資料並繳付款成功後，24 小時內會收到一封生物辨識通知（Biometrics Collection Letter），請於 <span class="strong">30 日</span>內到 VFS
                 辦理。</p>
-            <p class="strong">需提前預約<a href="https://visa.vfsglobal.com/twn/zh/can/book-an-appointment">（按此）</a>，並攜帶以下：
+            <p><span class="strong">需提前於<a href="https://visa.vfsglobal.com/twn/zh/can/book-an-appointment"> VFS 官網 </a>預約</span>，並攜帶以下：
             </p>
             <ol>
                 <blockquote>
@@ -644,7 +667,7 @@
                     護照正本、2份影本<br>
                     生物辨識指示信（Biometric Instruction Letter，列印紙本）<br>
                     VFS 服務同意書 <a
-                        href="https://assets.ctfassets.net/xxg4p8gt3sg6/3qjzeOFeRSH6MWjLo6bFua/55975da5da5137261c7f8c36bddc1490/Taiwan-Consent-Form-ZH.pdf.pdf">(點此下載)</a>
+                        href="https://assets.ctfassets.net/xxg4p8gt3sg6/3qjzeOFeRSH6MWjLo6bFua/55975da5da5137261c7f8c36bddc1490/Taiwan-Consent-Form-ZH.pdf.pdf">(下載)</a>
                 </blockquote>
                 <blockquote>
                     地址：台北市信義區松仁路97號（第二交易廣場）7樓A室<br>
@@ -652,16 +675,18 @@
                 </blockquote>
             </ol>
             <p>請提前 15 分鐘抵達，依照指示拍照、採集指紋，掃描被拒者需 30 日後才可再次進行。</p>
+            <br>
 
             <li>等待 POE</li>
             <p>如未拒簽或要求補件，約在 8 週內會收到<span class="strong"> POE（Port of Entry）信，請注意信上的入境期限</span>（通常為一年內），至加拿大邊境換取正式的工籤。</p>
             <p>注意：請檢查 POE 信上是否有包含電子旅行許可 （Electronic Travel Authorization，<span class="strong">eTA</span>）號碼！如未顯示，務必於登陸前上網申請。</p>
-            <p class="next">👉 參考文章：<a href="/iec/airport">機場入境流程</a>、<a href="/blog/eta">eTA 申請教學</a>。</p>
+            <img src="/img/file/letters.png" alt="POE Letter">
+            <p class="next">👉 參考文章：<a href="/iec/airport">「機場入境流程」</a>、<a href="/blog/eta">「eTA 申請教學」</a>。</p>
         </ol>
         <br>
         <ol>
             <div>
-                <h5>2023 年各項費用：</h5>
+                <h5>2023 年各項費用（僅供參考）：</h5>
                 <ul>
                     <li>體檢：台幣 $4100 元</li>
                     <li>良民證：台幣 $100 元，同次第2份起每份台幣 $20 元</li>

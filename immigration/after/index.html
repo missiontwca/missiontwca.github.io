@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1700826969" rel="stylesheet">
+<link href="/css/custom.css?1701186388" rel="stylesheet">
 
 
 
@@ -210,6 +210,8 @@
                                     
                                     <li><a href="/iec/airport">機場入境流程</a></li>
                                     
+                                    <li><a href="/iec/eta">eTA</a></li>
+                                    
                                     <li><a href="/iec/insurance">醫療保險</a></li>
                                     
                                     <li><a href="/iec/sin">社會保險號碼（SIN）</a></li>
@@ -274,7 +276,7 @@
                                 
                                     
                                     
-                                    <h5>生活資訊</code></h5>
+                                    <h5>日常資訊</code></h5>
                                     
                                     <ul>
                                     
@@ -282,9 +284,9 @@
                                     
                                     <li><a href="/life/transportation">交通</a></li>
                                     
-                                    <li><a href="/life/shopping">購物</a></li>
+                                    <li><a href="/life/shopping">消費購物</a></li>
                                     
-                                    <li><a href="/life/app">常用APP/網站</a></li>
+                                    <li><a href="/life/sites">其他實用網站（建置中）</a></li>
                                     
                                     </ul>
                                     
@@ -307,7 +309,7 @@
                                     
                                     <li><a href="/life/rent">租屋</a></li>
                                     
-                                    <li><a href="/life/bank">銀行開戶/信用卡</a></li>
+                                    <li><a href="/life/bank">銀行開戶/信用卡（建置中）</a></li>
                                     
                                     <li><a href="/life/phone">手機電信</a></li>
                                     
@@ -365,13 +367,13 @@
                                 
                                     
                                     
-                                    <h5>事前準備</code></h5>
+                                    <h5>事前需知</code></h5>
                                     
                                     <ul>
                                     
                                     <li><a href="/immigration/news">最新消息 ✴️</a></li>
                                     
-                                    <li><a href="/immigration/knowledge">基礎知識</a></li>
+                                    <li><a href="/immigration/knowledge">準備知識</a></li>
                                     
                                     <li><a href="/immigration/documents">所需文件</a></li>
                                     
@@ -419,7 +421,17 @@
                                 
                                     
                                     
-                                    <h5>申請後續</code></h5>
+                                    <h5>完成申請</code></h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="/immigration/after">後續步驟</a></li>
+                                    
+                                    <li><a href="/immigration/tracker">進度查詢（Tracker）</a></li>
+                                    
+                                    <li><a href="/immigration/problems">問題處理</a></li>
+                                    
+                                    </ul>
                                     
                                     
                                 
@@ -446,20 +458,9 @@
                   
 
                   
-                    
-                    
-                    <li class="dropdown ">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FAQ <span class="caret"></span></a>
-                        
-                        <ul class="dropdown-menu">
-                            
-                            <li><a href="/faq">FAQ</a></li>
-                            
-                            <li><a href="/contact">Contact</a></li>
-                            
-                        </ul>
-                        
-                    </li>
+                  <li class="dropdown ">
+                    <a href="/contact">Contact</a>
+                  </li>
                   
                   
                 </ul>
@@ -511,22 +512,105 @@
     <style>
         .strong {
             color: #112ee5;
-            font-weight: bold;
         }
 
-        ol li {
-            font-size: 16px;
+        .titles {
             font-weight: bold;
+            font-size: 16px;
             color: #2c3334;
+        }
+        
+        .list-group-item {
+            padding: 5px;
+        }
+
+        .list-group-item button {
+            color: #067b39;
+            font-size: 16px;
+        }
+
+        .collapse-content {
+            padding: 10px 25px 5px 25px;
         }
     </style>
 </head>
 
 <body>
-    <p>收到<span class="strong">移民邀請信（Invitation to Apply，ITA）</span>後，即可於 IRCC 官網使用 GCKey 帳號登入，接受邀請並遞交需要的文件，將有60天的時間完成上傳。</p>
-    <p>所需文件請見「所需文件」。</p>
-    <p>Tracker</p>
-</body>
+    <h3>聯邦快速通道（EE）</h3>
+    <p class="titles">收到「移民邀請信（Invitation to Apply，ITA）」後，請依照以下步驟完成申請：</p>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <button class="btn btn-link" type="button" data-toggle="collapse"
+                data-target="#acceptCollapse">接受邀請 ▾</button>
+            <div id="acceptCollapse" class="collapse collapse-content">
+                <p>登入 GCKey 帳號，點選「接受邀請」，將有<span class="strong"> 60 天</span>的時間完成遞交。。</p>
+                <img src="/img/after/gckey.png" alt="GCKey Log In">
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <button class="btn btn-link" type="button" data-toggle="collapse"
+                data-target="#questionsCollapse">回答問題 ▾</button>
+            <div id="questionsCollapse" class="collapse collapse-content">
+                <p>首先需依序回答三個簡單問題。</p>
+                <ol>
+                    <li>婚姻狀態。</li>
+                    <li>是否有子女。</li>
+                    <li>繳費選擇</li>
+                    <ul>
+                        <li>僅繳納申請費：核發 PR 前會通知補繳 RPRF（The Right of Permanent fee）。</li>
+                        <li>申請費及 RPRF：如審核未通過，最終會退還 RPRF。</li>
+                    </ul>
+                </ol>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <button class="btn btn-link" type="button" data-toggle="collapse"
+                data-target="#formsCollapse">填寫基本資料 ▾</button>
+            <div id="formsCollapse" class="collapse collapse-content">
+                <p>📋 填寫表單，包含：個人資料、聯絡資訊、學歷及語言能力、工作記錄、個人史...等。</p>
+                <img src="/img/after/forms.png" alt="Forms" width="80%">
+                <br>
+                <p>🔍 過去十年旅遊史：如不記得詳細日期，可以使用<a href="https://ncp.immigration.gov.tw/niaweb/entryExitQuery"> 自然人憑證 </a>或<a href="https://mydata.nat.gov.tw/personal/detail/API.LPvQONMWj6"> MyData </a>線上申請「入出國日期證明書」。</p>
+                <img src="/img/after/travel_date.png" alt="Travel Date" width="80%">
+                <br>
+                <p>💯 完成所有表單後，會出現「預覽分數」選項，可以再次檢查。</p>
+                <img src="/img/after/score.png" alt="Preview Score" width="60%">
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <button class="btn btn-link" type="button" data-toggle="collapse"
+                data-target="#documentsCollapse">上傳文件 ▾</button>
+            <div id="documentsCollapse" class="collapse collapse-content">
+                <p>👉 請詳閱<a href="/immigration/documents">「所需文件」</a>。</p>
+                <p>❗ 提醒：其中學歷證明、良民證需較長取得時間，務必提早準備！</p>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <button class="btn btn-link" type="button" data-toggle="collapse"
+                data-target="#paymentCollapse">線上繳費 ▾</button>
+            <div id="paymentCollapse" class="collapse collapse-content">
+                <p>💳 只可使用信用卡（Visa、Mastercard、JCB、美國運通、中國銀聯卡）。</p>
+            </div>
+        </li>
+    </ul>
+    <p class="titles">處理階段：</p>
+    <p class="titles">等待期間：</p>
+    <ul>
+        <li class="next">👉 進度查詢：可利用 IRCC 官方提供的<a href="/immigration/tracker">「Tracker」</a>追蹤。</li>
+        <li class="next">👉 預估審理時間：參考<a href="/immigration/news">「最新消息」</a>的定期更新。</li>
+        <li class="next">👉 進度異常、有任何相關問題：請見<a href="/immigration/problems">「問題處理」</a>。</li>
+    </ul>
+    <p class="titles">最終階段</p>
+    <p>境內：</p>
+    <ul>
+        <li>收到 Portal E-mail，回覆信中的基本資料（身高、眼睛顏色、地址、上次入境日期...等）。</li>
+    </ul>
+    <p>境外：</p>
+</body> 
                         </div>
                         
                         

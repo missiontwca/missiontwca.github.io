@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1700826969" rel="stylesheet">
+<link href="/css/custom.css?1701186388" rel="stylesheet">
 
 
 
@@ -210,6 +210,8 @@
                                     
                                     <li><a href="/iec/airport">機場入境流程</a></li>
                                     
+                                    <li><a href="/iec/eta">eTA</a></li>
+                                    
                                     <li><a href="/iec/insurance">醫療保險</a></li>
                                     
                                     <li><a href="/iec/sin">社會保險號碼（SIN）</a></li>
@@ -274,7 +276,7 @@
                                 
                                     
                                     
-                                    <h5>生活資訊</code></h5>
+                                    <h5>日常資訊</code></h5>
                                     
                                     <ul>
                                     
@@ -282,9 +284,9 @@
                                     
                                     <li><a href="/life/transportation">交通</a></li>
                                     
-                                    <li><a href="/life/shopping">購物</a></li>
+                                    <li><a href="/life/shopping">消費購物</a></li>
                                     
-                                    <li><a href="/life/app">常用APP/網站</a></li>
+                                    <li><a href="/life/sites">其他實用網站（建置中）</a></li>
                                     
                                     </ul>
                                     
@@ -307,7 +309,7 @@
                                     
                                     <li><a href="/life/rent">租屋</a></li>
                                     
-                                    <li><a href="/life/bank">銀行開戶/信用卡</a></li>
+                                    <li><a href="/life/bank">銀行開戶/信用卡（建置中）</a></li>
                                     
                                     <li><a href="/life/phone">手機電信</a></li>
                                     
@@ -365,13 +367,13 @@
                                 
                                     
                                     
-                                    <h5>事前準備</code></h5>
+                                    <h5>事前需知</code></h5>
                                     
                                     <ul>
                                     
                                     <li><a href="/immigration/news">最新消息 ✴️</a></li>
                                     
-                                    <li><a href="/immigration/knowledge">基礎知識</a></li>
+                                    <li><a href="/immigration/knowledge">準備知識</a></li>
                                     
                                     <li><a href="/immigration/documents">所需文件</a></li>
                                     
@@ -419,7 +421,17 @@
                                 
                                     
                                     
-                                    <h5>申請後續</code></h5>
+                                    <h5>完成申請</code></h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="/immigration/after">後續步驟</a></li>
+                                    
+                                    <li><a href="/immigration/tracker">進度查詢（Tracker）</a></li>
+                                    
+                                    <li><a href="/immigration/problems">問題處理</a></li>
+                                    
+                                    </ul>
                                     
                                     
                                 
@@ -446,20 +458,9 @@
                   
 
                   
-                    
-                    
-                    <li class="dropdown ">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FAQ <span class="caret"></span></a>
-                        
-                        <ul class="dropdown-menu">
-                            
-                            <li><a href="/faq">FAQ</a></li>
-                            
-                            <li><a href="/contact">Contact</a></li>
-                            
-                        </ul>
-                        
-                    </li>
+                  <li class="dropdown ">
+                    <a href="/contact">Contact</a>
+                  </li>
                   
                   
                 </ul>
@@ -530,7 +531,7 @@
             font-weight: bold;
             margin-top: 5px;
             margin-bottom: 5px;
-            color: #067b39;
+            color: #006241;
         }
 
         .strong {
@@ -575,9 +576,9 @@
     <hr>
     <ol>
         <li class="titles" id="eligibility">確認資格</li>
-        <p>首先需到<a href="https://onlineservices-servicesenligne.cic.gc.ca/c2c/eapp"> CIC官網 </a>完成問卷，確認符合資格並取得編號（reference
-            code）以供入池使用。</p>
-        <p><b>💡 如英文不熟練者，請多加利用<span class="strong"> Google Chrome 的翻譯功能</span></b>。</p>
+        <p>首先需到<a href="https://onlineservices-servicesenligne.cic.gc.ca/c2c/eapp"> IRCC 官網 </a>完成問卷，確認符合資格並取得編號（Reference
+            Code）以供入池使用。</p>
+        <p><b>💡 如英文不熟練者，請多加利用<a href="https://support.google.com/chrome/answer/173424?hl=zh-Hant&co=GENIE.Platform%3DDesktop&oco=0"> Google Chrome 翻譯功能</a></b>。</p>
         <img src="/img/pool/eligibility.png" alt="Eligibility" width="80%">
         </p>
         <p>
@@ -585,7 +586,7 @@
             <img src="/img/pool/eligibility_result.png" alt="Eligibility Result" width="80%">
         </p>
         <p>
-            請記下顯示的個人編號，並於步驟三開始註冊 GCKey 帳號，如已有帳號可直接登入。
+            請記下顯示的個人編號，並於步驟三開始註冊個人 GCKey 帳號，如已有帳號可直接登入。
             <img src="/img/pool/eligibility_step1234.png" alt="Eligibility Step1234" width="80%">
             <img src="/img/pool/eligibility_step5678.png" alt="Eligibility Step5678" width="80%">
         </p>
@@ -599,29 +600,30 @@
                     href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html"> 登入 </a>方才設定好的帳號。
             </p>
             <img src="/img/pool/sign_in.png" alt="Sign In" width="80%">
-            <p>⚠️ 小提醒：登入後此畫面可進行更改密碼、驗證問答...等，<b>切勿手癢點選撤銷（revoke）帳號！</b></p>
+            <p>⚠️ 小提醒：登入後此畫面可進行更改密碼、驗證問答...等，<b>切勿手癢點選撤銷（Revoke）帳號！</b></p>
             <img src="/img/pool/do_not_revoke.png" alt="Do Not Revoke" width="70%">
         </p>
 
         <li class="titles" id="apply">填寫申請</li>
-        <p>於頁面較下方處找到「Apply to come to Canada」開始申請，然後填入前面取得的個人編號。如遺失編號，也可於此時重新前往確認資格的問卷。</p>
+        <p>於頁面較下方處找到「Apply to Come to Canada」開始申請，然後填入前面取得的個人編號。如遺失編號，也可於此時重新前往確認資格的問卷。</p>
         <img src="/img/pool/apply.png" alt="Apply" width="80%">
         <img src="/img/pool/enter_reference_code.png" alt="Enter Reference Code" width="90%">
         <p>出現需完成的表單，請依序填寫個人資料。</p>
         <img src="/img/pool/forms.png" alt="Forms" width="90%">
-        <p>第一項 Personal details of applicant 中的 ID documents，除填寫「護照姓名、號碼、有效日期」以外，請選擇「有 Personal Identification
-            number」，並填入「身分證字號」。</p>
+        <p>第一項個人資料（Personal Details of Applicant）的身分證件（ID Documents），除填寫「護照姓名、號碼、有效日期」以外，請選擇「有 Personal Identification
+            Number」，並填入「身分證字號」。</p>
         <img src="/img/pool/id.png" alt="ID" width="90%">
-        <p>完成所有表單後，在下一步閱讀 Declaration，選取同意，輸入簽名並再次回答驗證問題。</p>
+        <p>完成所有表單後，在下一步閱讀宣言（Declaration），選取同意，輸入簽名並再次回答驗證問題。</p>
         <img src="/img/pool/declaration.png" alt="Declaration" width="90%">
         <img src="/img/pool/sign.png" alt="Sign" width="90%">
-        <p>最後再次確認簽名，點選「Transmit」即可送出入池申請。</p>
+        <p>最後再次確認簽名，點選遞交（Transmit）即可送出入池申請。</p>
         <img src="/img/pool/transmit.png" alt="Transmit" width="90%">
 
         <li class="titles" id="wait">入池完成，等待中籤</li>
         <p>完成以上步驟後，會收到一封 E-mail 確認信，並可在 GCKey 帳號中查看申請狀態。</p>
         <p><b>⚠️ 請小心不要誤點撤回（Withdraw）！</b></p>
         <img src="/img/pool/applications.png" alt="Applications" width="80%">
+        <img src="/img/pool/ita.png" alt="Invitation to Apply" width="80%">
         <p class="next">👉 收到中籤訊息後，請參考<a href="/iec/file">「遞交資料」</a>的內容，開始準備打工度假簽證的申請。</p>
     </ol>
 </body>
