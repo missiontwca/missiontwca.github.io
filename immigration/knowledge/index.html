@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1701186388" rel="stylesheet">
+<link href="/css/custom.css?1701443596" rel="stylesheet">
 
 
 
@@ -82,23 +82,6 @@
     <div id="all">
 
         
-<header>
-  <div id="top">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-5">
-          <p>最新訊息：</p>
-        </div>
-        <div class="col-xs-7">
-          <div class="social">
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
 
 
         <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
@@ -311,7 +294,7 @@
                                     
                                     <li><a href="/life/bank">銀行開戶/信用卡（建置中）</a></li>
                                     
-                                    <li><a href="/life/phone">手機電信</a></li>
+                                    <li><a href="/life/phone">手機電信（建置中）</a></li>
                                     
                                     <li><a href="/life/license">駕照換發</a></li>
                                     
@@ -375,7 +358,7 @@
                                     
                                     <li><a href="/immigration/knowledge">準備知識</a></li>
                                     
-                                    <li><a href="/immigration/documents">所需文件</a></li>
+                                    <li><a href="/immigration/plans">策略規劃</a></li>
                                     
                                     </ul>
                                     
@@ -426,6 +409,8 @@
                                     <ul>
                                     
                                     <li><a href="/immigration/after">後續步驟</a></li>
+                                    
+                                    <li><a href="/immigration/documents">所需文件</a></li>
                                     
                                     <li><a href="/immigration/tracker">進度查詢（Tracker）</a></li>
                                     
@@ -515,14 +500,21 @@
             font-weight: bold;
             color: #40a070;
         }
+
         .bold {
             font-weight: bold;
             color: #2c3334;
         }
 
-        .panel-group a {
+        .warning {
+            font-weight: bold;
+            color: red;
+        }
+
+        .panel-title>a {
             text-decoration: none;
         }
+
         .panel-heading .accordion-toggle:before {
             content: "▿";
         }
@@ -534,9 +526,11 @@
         .panel-group {
             max-width: 100%;
         }
+
         .panel-default .panel-heading {
             border-radius: 10px;
         }
+
         .panel-default a {
             color: #034e23;
         }
@@ -549,14 +543,68 @@
         <section class="panel panel-default">
             <header class="panel-heading">
                 <h2 class="panel-title">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#immigration">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                        href="#immigration">
                         移民（永久居民 PR | 公民 Citizen）
                     </a>
                 </h2>
             </header>
             <footer id="immigration" class="panel-collapse collapse">
                 <div class="panel-body">
-                    </ol>
+                    <p class="bold">加拿大移民大致分為 2 個階段：永久居留（PR，Permanent Residency）和公民（Citizenship）。</p>
+                    <p>一般討論的各種移民途徑是指如何取得 PR，也俗稱「楓葉卡」。</p>
+                    <p>成為 PR 後，符合以下條件有 <a href="https://www.ircc.canada.ca/english/citizenship/check-eligibility.asp">資格</a> 申請成為公民：</p>
+                    <ul>
+                        <li class="bold">
+                            近 5 年內在加拿大居住至少 1095 天（3 年）。
+                            <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/become-canadian-citizen/eligibility/calculator.html" target="_blank">（計算連結）</a>
+                        </li>
+                        <li>合法申報所得稅。</li>
+                        <li>18 - 54 歲申請人</li>
+                        <ul>
+                        <li>
+                            英 / 法文的口說、聽力達到 CLB 4 級。
+                            可使用申請 PR 時的成績，<a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/become-canadian-citizen/eligibility/language-proof.html" target="_blank">點此</a> 確認是否需要參加語言檢定。
+                        </li>
+                        <li class="bold">
+                            通過公民考試。
+                            <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/become-canadian-citizen/citizenship-test.html" target="_blank">（詳情）</a>
+                        </li>
+                    </ul>
+                        <li>14 歲以上申請人需公民宣誓。</li>
+                    </ul>
+                    <table class="table table-striped">
+                        <thead>
+                            <th></th>
+                            <th>PR</th>
+                            <th>公民</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>權利</td>
+                                <td>自由進出加拿大、居住、工作，並享有醫療和教育福利...等。</td>
+                                <td>
+                                    除了 PR 擁有的權利外，
+                                    <ul>
+                                        <li class="warning">持有加拿大護照。</li>
+                                        <li>可以參與選舉投票。</li>
+                                        <li>可擔任某些特殊的政府職位。</li>
+                                        <li class="bold">可持 TN 簽證到美國工作。</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>效期</td>
+                                <td>5 年</td>
+                                <td>永久</td>
+                            </tr>
+                            <tr>
+                                <td>居住要求</td>
+                                <td>5 年內居住滿 730 天（2 年）<br>方可續卡</td>
+                                <td>無</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </footer>
         </section>
@@ -571,7 +619,8 @@
             </header>
             <footer id="ircc" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p class="bold">IRCC 全名 Immigration, Refugees and Citizenship Canada，前身為 CIC（Citizenship and Immigration Canada），負責管理移民及各種簽證（如：工作許可、學生許可...等）的相關事務。</p>
+                    <p class="bold">IRCC 全名 Immigration, Refugees and Citizenship Canada，前身為 CIC（Citizenship and
+                        Immigration Canada），負責管理移民及各種簽證（如：工作許可、學生許可...等）的相關事務。</p>
                     <p>另外，大部分護照業務已由加拿大服務局（Service Canada）接管，而加拿大邊境服務局（CBSA）則接管邊境和機場的執法和入境管制。</p>
                 </div>
             </footer>
@@ -587,7 +636,9 @@
             </header>
             <footer id="gckey" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p class="bold">👉 <a href="" style="text-decoration: underline;">GCKey</a > 是用來登入加拿大政府官網的個人帳號。</p>
+                    <p class="bold">👉 <a
+                            href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html"
+                            target="_blank">GCKey</a> 是用來登入加拿大政府官網的個人帳號。</p>
                     <p>由 IRCC 管理的一些服務，需要申請人先在 GCKey 帳號中建立檔案，把自己的資料放入池中，等待受到邀請才可以遞交正式的申請。</p>
                     <p class="titles">需要入池的有：</p>
                     <ul>
@@ -603,13 +654,21 @@
             <header class="panel-heading">
                 <h2 class="panel-title">
                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#clb">
-                        語言能力等級 CLB 
+                        語言能力等級 CLB
                     </a>
                 </h2>
             </header>
             <footer id="clb" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p class="bold">加拿大政府使用 CLB（Canadian Language Benchmarks）作為評估語言能力的標準，並只接受指定的英、法文語言檢定。</p>
+                    <p class="bold">加拿大政府使用 CLB（Canadian Language Benchmarks）作為評估語言能力的標準，並只接受指定的英、法文檢定。</p>
+                    <p class="titles">移民用途的語言能力檢定：</p>
+                    <ul>
+                        <li>思培 CELPIP - <span class="bold">G 類</span></li>
+                        <li>雅思 IELTS - <span class="bold">G 類</span>：</li>
+                        <p class="bold">⚠️ 不接受「單科重考」的成績。</p>
+                        <li>TEF（Test d’évaluation de français）</li>
+                        <li>TCF（Test de connaissance du français）</li>
+                    </ul>
                     <p class="titles">各項成績（讀、寫、聽、說）可依以下換算：</p>
                     <ul class="nav nav-tabs">
                         <li class="active"><a data-toggle="tab" href="#celpip">思培 CELPIP</a></li>
@@ -648,15 +707,17 @@
                     <p class="bold">教育證書評估（ECA，Educational Credential Assessment）是用於驗證外國學位、文憑或證書，是否可以對應同等的加拿大本地學歷</p>
                     <p class="titles">可受理並進行認證的機構：</p>
                     <ul>
-                        <li><a href="https://learn.utoronto.ca/comparative-education-service">CES（UofT School of Continuing Study）</a></li>
-                        <li><a href="https://www.icascanada.ca/new/immigration-to-canada.aspx">ICAS</a></li>
-                        <li><a href="https://www.wes.org/ca/eca/">WES</a></li>
-                        <li><a href="https://www.alberta.ca/iqas-immigration">IQAS</a></li>
-                        <li><a href="https://www.bcit.ca/ices/eca/">ICES（BCIT）</a></li>
+                        <li><a href="https://learn.utoronto.ca/comparative-education-service" target="_blank">CES</a>（UofT School of
+                                Continuing Study）</li>
+                        <li><a href="https://www.icascanada.ca/new/immigration-to-canada.aspx" target="_blank">ICAS</a></li>
+                        <li><a href="https://www.wes.org/ca/eca/" target="_blank">WES</a></li>
+                        <li><a href="https://www.alberta.ca/iqas-immigration" target="_blank">IQAS</a></li>
+                        <li><a href="https://www.bcit.ca/ices/eca/" target="_blank">ICES</a>（BCIT）</li>
                     </ul>
                     <p class="titles">專科醫生和家庭醫生（NOC 31100、NOC 31101、NOC 31102）：</p>
                     <ul>
-                        <li>需從<a href="https://mcc.ca/services/repository/educational-credential-assessment//">加拿大醫學委員會（Medical Council of Canada）</a>獲得初級醫學文憑的 ECA 報告。</li>
+                        <li>需從 <a href="https://mcc.ca/services/repository/educational-credential-assessment//" target="_blank">加拿大醫學委員會</a>（Medical
+                                Council of Canada）獲得初級醫學文憑的 ECA 報告。</li>
                     </ul>
                     <p class="titles">藥劑師（NOC 31120）：</p>
                     <ul>
@@ -670,16 +731,17 @@
             <header class="panel-heading">
                 <h2 class="panel-title">
                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#noc">
-                        職業代碼 NOC 
+                        職業代碼 NOC
                     </a>
                 </h2>
             </header>
             <footer id="noc" class="panel-collapse collapse">
                 <div class="panel-body">
                     <p>📣 自 2022 年 11 月 16 日起，NOC 已更新職業分類方式，以 TEER 0、1、2、3、4、5 取代原先的 0、A、B、C、D。</p>
-                    <p class="bold">加拿大的國家職業分類（NOC，National Occupational Classification）包含了約 500 個頭銜，每個職業都有一個數字代碼，用來標識和分類。</p>
+                    <p class="bold">加拿大的國家職業分類（NOC，National Occupational Classification）包含了約 500
+                        個頭銜，每個職業都有一個數字代碼，用來標識和分類。</p>
                     <p>某些針對特定職業類別的移民邀請（如：醫療行業、STEM...等），也會根據這些代碼送出邀請。</p>
-                    <p>👉 <a href="https://noc.esdc.gc.ca/" style="text-decoration: underline;">官網</a> 可查詢各職業的應有資格、常見職責...等，用於移民的工作證明需列出當時的職務內容，並符合 NOC 標準。</p>
+                    <p>👉 官網可 <a href="https://noc.esdc.gc.ca/" target="_blank">查詢</a> 各職業的應有資格、常見職責...等，用於移民的工作證明需列出當時的職務內容，並符合 NOC 標準。</p>
                     <p>💡 Tips：可複製 NOC 列出的內容，再進行修改，但請勿照抄！</p>
                     <img src="/img/knowledge/teer.png" alt="TEER">
                 </div>
@@ -696,6 +758,22 @@
             </header>
             <footer id="lmia" class="panel-collapse collapse">
                 <div class="panel-body">
+                    <p class="bold">LMIA（Labour Market Impact Assessment）就是俗稱的「僱主擔保」，是加拿大僱主在僱用外國員工之前可能需要獲得的文件，並非由員工申請！</p>
+                    <p>👉 <a href="https://www.canada.ca/en/employment-social-development/services/foreign-workers.html"
+                        target="_blank">僱主申請連結</a></p>
+                    <p>它是表明需要外國人來填補該職位，且沒有加拿大本地員工或永久居民可以勝任這項工作。因此，申請 LMIA 的僱主可能需要刊登廣告、提供符合標準的薪資...等。</p>
+                    <p>在僱主獲得 LMIA 後，員工可以藉此申請工作簽證，合法進入或留在加拿大工作，也可用在某些移民的計分系統中獲得加分。</p>
+                    <p class="warning">
+                        ⚠️ 小心：LMIA 是移民詐騙糾紛的重災區，請仔細檢查仲介真實性及相關規定。
+                        <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/employers-non-compliant.html"
+                            target="_blank">[違法僱主名單]</a>
+                        、
+                        <a href="https://www.canada.ca/en/employment-social-development/services/foreign-workers/report-abuse-zh-hans.html"
+                            target="_blank">[檢舉違規]</a>
+                    </p>
+                    <p>⚠️ 魁北克省有自己的移民體系，僱主擔保相關規定有所差異，請參考 <a
+                            href="https://www.canada.ca/en/employment-social-development/services/foreign-workers/quebec.html"
+                            target="_blank">IRCC 網站</a> 資訊。</p>
                 </div>
             </footer>
         </section>
@@ -710,27 +788,26 @@
             </header>
             <footer id="crs" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p class="bold">綜合排名系統（Comprehensive Ranking System，CRS）包括「核心分數（600分）」和「附加分數（600分）」兩大部份。</p>
-                    <p>👉 <a href="https://ircc.canada.ca/english/immigrate/skilled/crs-tool.asp">CRS試算連結</a></p>
+                    <p class="bold">綜合排名系統（CRS，Comprehensive Ranking System）包括「核心分數（600 分）」和「附加分數（600 分）」兩大部份。</p>
+                    <p>👉 <a href="https://ircc.canada.ca/english/immigrate/skilled/crs-tool.asp" target="_blank">CRS試算連結</a></p>
                     <ol>
-                    <li class="titles">核心分數</li>
-                    <ul>
-                        <li>年齡</li>
-                        <li>學歷</li>
-                        <li>語言能力（英、法文）</li>
-                        <li>加拿大工作經驗</li>
-                        <li>適應能力：語言、學歷、海內外工作經驗...等的交叉評分。</li>
-                        <li>配偶分數：其語言能力、學歷和加拿大工作經驗。</li>
-                    </ul>
-                    <li class="titles">附加分數</li>
-                    <ul
-                        <li>加拿大學歷</li>
-                        <li>LMIA雇主擔保或技工證書</li>
-                        <li>省或地區的提名<a href="">（ PNP ）</a></li>
-                        <li>兄弟姐妹（18歲以上）為居住在加拿大的公民或PR</li>
-                        <li>法語能力</li>
-                    </ul>
-                </ol>
+                        <li class="titles">核心分數</li>
+                        <ul>
+                            <li>年齡</li>
+                            <li>學歷</li>
+                            <li>語言能力（英、法文）</li>
+                            <li>加拿大工作經驗</li>
+                            <li>適應能力：語言、學歷、海內外工作經驗...等的交叉評分。</li>
+                            <li>配偶分數：其語言能力、學歷和加拿大工作經驗。</li>
+                        </ul>
+                        <li class="titles">附加分數</li>
+                        <ul <li>加拿大學歷</li>
+                            <li>LMIA 僱主擔保或技工證書</li>
+                            <li>省或地區提名<a href="/immigration/pnp" target="_blank">（ PNP ）</a></li>
+                            <li>兄弟姐妹（ 18 歲以上）為居住在加拿大的公民或 PR</li>
+                            <li>法語能力</li>
+                        </ul>
+                    </ol>
                 </div>
             </footer>
         </section>
@@ -738,7 +815,8 @@
         <section class="panel panel-default">
             <header class="panel-heading">
                 <h2 class="panel-title">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#translation">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                        href="#translation">
                         翻譯公證 Certified Translation
                     </a>
                 </h2>
@@ -749,40 +827,40 @@
                     <p class="titles">正式的翻譯本需至少符合以下的其中一種：</p>
                     <table class="table table-striped">
                         <thead>
-                          <tr>
-                            <th scope="col"></th>
-                            <th scope="col">由專業的認證翻譯員（Certified Translator）進行</th>
-                            <th scope="col">由非認證譯者進行 + 宣誓（Affidavit）</th>
-                          </tr>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">由專業的認證翻譯員（Certified Translator）進行</th>
+                                <th scope="col">由非認證譯者進行 + 宣誓（Affidavit）</th>
+                            </tr>
                         </thead>
                         <tbody>
-                          <tr>
-                            <th scope="row">加拿大<br>境內</th>
-                            <td>由經過認證的翻譯人員，即專業翻譯協會的會員進行。</td>
-                            <td>
-                                宣誓書需由通曉英 / 法文的以下人員之一開立。
-                                <ul>
-                                    <li>公證人（Notary Public）</li>
-                                    <li>宣誓官（Commissioner of Oaths）</li>
-                                    <li>宣誓專員（Commissioner of Taking Affidavits）</li>
-                                </ul>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">境外</th>
-                            <td>由該國官方認可或授權的翻譯人員進行。</td>
-                            <td>
-                                宣誓書需由通曉英 / 法文的以下人員之一開立。
-                                <ul>
-                                    <li>公證人（Notary Public）</li>
-                                    <li>同等人員</li>
-                                </ul>
-                            </td>
-                          </tr>
+                            <tr>
+                                <th scope="row">加拿大<br>境內</th>
+                                <td>由經過認證的翻譯人員，即專業翻譯協會的會員進行。</td>
+                                <td>
+                                    宣誓書需由通曉英 / 法文的以下人員之一開立。
+                                    <ul>
+                                        <li>公證人（Notary Public）</li>
+                                        <li>宣誓官（Commissioner of Oaths）</li>
+                                        <li>宣誓專員（Commissioner of Taking Affidavits）</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">境外</th>
+                                <td>由該國官方認可或授權的翻譯人員進行。</td>
+                                <td>
+                                    宣誓書需由通曉英 / 法文的以下人員之一開立。
+                                    <ul>
+                                        <li>公證人（Notary Public）</li>
+                                        <li>同等人員</li>
+                                    </ul>
+                                </td>
+                            </tr>
                         </tbody>
-                      </table>
-                      <p>⚠️ 所有非英、法文的印章和印章也必需翻譯。</p>
-                      <p>⚠️ 注意：翻譯及宣誓均不可以由申請人本人、任何家庭成員、代表或顧問進行。</p>
+                    </table>
+                    <p>⚠️ 所有非英、法文的印章和印章也必需翻譯。</p>
+                    <p class="warning">⚠️ 注意：翻譯及宣誓均不可以由申請人本人、任何家庭成員、代表或顧問進行。</p>
                 </div>
             </footer>
         </section>
@@ -878,12 +956,14 @@
         <div class="col-md-12">
             
             <p class="pull-right">
+              Map for Taiwanese in Canada
+              <br>
               Copyright © 2023 加打地圖 All rights reserved.
                 <br>
-              模板源自 <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>
+              Template by <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
               
 
-              
+              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
             </p>
         </div>
     </div>
