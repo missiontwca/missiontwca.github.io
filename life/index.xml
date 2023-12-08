@@ -5,15 +5,20 @@
     <link>http://example.org/life/</link>
     <description>Recent content in Life on 加打地圖</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="http://example.org/life/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language><atom:link href="http://example.org/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>手機電信</title>
       <link>http://example.org/life/phone/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/life/phone/</guid>
-      <description></description>
+      <description>加拿大主要有三大電信公司，負責手機、室內電話、網路...等服務，旗下分別有對應的子公司（Fido、Virgin、Koodo），提供較為平價且靈活的手機電信方案，也是打工度假、留學人士較常見的選擇。
+各家電信均會不定時推出多種方案，可以透過「官網、門市、業務人員」了解後，依照需求（如：流量、國際通話、搭配手機...等）辦理。與台灣相似，部份方案可能會限定新用戶或攜碼客戶申請。
+💡 一般而言，一年之中最划算的方案會在黑五出現，前一週即會推出優惠方案預熱，當天則可能出現最低價格。
+其他選擇
+VoIP（Voice over Internet Protocol，俗稱的「網路電話」，使用該 App 即可撥打接聽。
+Google Voice：在美加地區提供的免費語音通話和簡訊服務。 Fongo：可獲得一個加拿大本地的電話號碼，境內免費通話。 💡 可以境外免費收簡訊，適合離開加拿大後有接收驗證碼需求者（如：政府網站登入、銀行...等）。
+下載：iOS、Android。</description>
     </item>
     
     <item>
@@ -22,7 +27,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/life/transportation/</guid>
-      <description>卑詩省（BC） 安大略省（ON） 紐芬蘭與拉布拉多省（NL） 魁北克省（QC） 建置中 叫車平台 British Columbia（BC） 📣 Compass Tap to Win 活動（2023 / 08 / 17 - 2023 / 10 / 31）已結束。（得獎名單）
+      <description>卑詩省（BC） 安大略省（ON） 紐芬蘭與拉布拉多省（NL） 其他省份 🚧 建置中 叫車平台 British Columbia（BC） 📣 Compass Tap to Win 活動（2023 / 08 / 17 - 2023 / 10 / 31）已結束。（得獎名單）
 ⚠️ 自2023 年 7 月 1 日起，票價調漲。
 溫哥華地區的大眾運輸工具主要為 SkyTrain（捷運）、SeaBus（渡輪）、公車，由 TransLink 公司提供服務。而溫哥華以外的其他地區只有 BC Transit 公司運營的公車。 支付方式
 現金。 感應付款：信用卡、行動支付（Apple Pay、Google Pay、Samsung Pay）。 Compass 交通卡。 ℹ️ Skytrain 上下車皆需刷卡，公車則為上車時刷卡。
@@ -64,7 +69,7 @@ New Brunswick NB 腓特烈頓</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/life/sites/</guid>
-      <description> 加速建置中，敬請見諒！</description>
+      <description> 🚧 加速建置中，敬請見諒！</description>
     </item>
     
     <item>
@@ -89,7 +94,7 @@ Sobeys IGA Foodland FreshCo Lawtons Drugs Metro Inc. Metro Food Basics Super C �
       <guid>http://example.org/life/rent/</guid>
       <description>👉 想了解最新的租金行情？請參考「各省比較」。
 常用找房網站 房屋類型 合約種類 注意事項 常用找房網站 主要有加拿大本地分類廣告網站、Facebook、各地華人論壇、微信群組...等管道。 加拿大分類廣告網站 Kijiji 是一個線上分類廣告網站，除了房屋出租外，也包括二手物品、工作、汽車買賣...等。可以依據房屋類型、出租類型（如：長短期、分租、找室友）、是否含家具、可寵、地區、價格條件進行篩選，並可直接私訊房東約看。 Craigslist Facebook Marketplace 可以在 Marketplace 上設置地點範圍，並以關鍵字（如：1-bedroom）進行篩選，並可直接以 Messenger 私訊。當地人很常使用 Marketplace 刊登各類廣告，房源眾多，但需謹慎辨別，以免受騙。
-地方社團 各城市大多有地方性的租屋社團，同樣可直接私訊聯絡房東。另外推薦參考 加拿大打工度假資訊 - 租屋版 。
+地方社團 各城市大多有地方性的租屋社團，同樣可直接私訊聯絡房東。另推薦參考 加拿大打工度假資訊-租屋版 。
 華人論壇網站 51 找房 約克論壇（多倫多） 溫哥華天空 VANSKY 人在溫哥華 VanPeople 打工換宿平台（農、牧場...等） Workaway WWOOF HelpX 房屋類型 公寓大樓 Apartment 樓層較少，整棟大樓屬於物業，所以房東即為該物業管理公司。常見選項有Studio、1-bedroom...等。
 共管大樓 Condo 租金通常較高，現今許多高樓層社區即屬於此類型，可能包含保全管理、健身房、泳池...等公共設施，房東一般會要求租客購買租客保險。
 獨棟別墅 House 通常有 2 - 3 層樓、地下室，分租給不同房客，可能共用衛浴、廚房、洗烘衣機...等空間，需要與其他房客協調衛生維護，冬季可能需自行剷雪。
@@ -112,7 +117,7 @@ Sobeys IGA Foodland FreshCo Lawtons Drugs Metro Inc. Metro Food Basics Super C �
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/life/bank/</guid>
-      <description> 加速建置中，敬請見諒！</description>
+      <description> 🚧 加速建置中，敬請見諒！</description>
     </item>
     
     <item>
@@ -123,8 +128,10 @@ Sobeys IGA Foodland FreshCo Lawtons Drugs Metro Inc. Metro Food Basics Super C �
       <guid>http://example.org/life/license/</guid>
       <description>通用規則：
 需在該省有合法居留身份，並能提供居住地址證明。 持有台灣核發正式有效之 A、B 類小型車、C 類大貨車、D 類大客車或 E 類聯結車之駕駛執照達 2 年（含）以上。 注意：原台灣駕照需當場繳銷，如回台後欲使用，請再至監理所補發。 BC省 ON省 NL省 Step 1. 英譯本申請：
-駐溫哥華台北經濟文化辦事處：轄區範圍包含卑詩省（BC）、亞伯塔省（AB） 與薩斯喀徹溫省（SK ）三省，以及西北地區（NT）、育空地區（YT）與努納福特地區（NU）。
-📌 應備文件： 護照 台灣駕照正本：如為 2013 年以前有註明效期之舊版駕照，建議離台前先換發新版。 申請表 英文翻譯表格 費用：加幣 $20 元。 📌 申辦方式： 臨櫃申辦 - 網路預約 ✅ 開放時段：週一至週五，09:00 - 12:00。
+駐溫哥華台北經濟文化辦事處：轄區範圍包含卑詩省（BC）、亞伯塔省（AB） 與薩斯喀徹溫省（SK ）三省，以及西北地區（NT）、育空地區（YT）。
+📌 應備文件：
+護照 台灣駕照正本：如為 2013 年以前有註明效期之舊版駕照，建議離台前先換發新版。 申請表 英文翻譯表格 費用：加幣 $20 元。 📌 申辦方式：
+臨櫃申辦 - 網路預約 ✅ 開放時段：週一至週五，09:00 - 12:00。
 每月 1 日及 16 日上午 9:00 開放半個月內可預約時程。
 ⚠️ 注意事項：
 預約確認函：預約後請記得查收預約確認電郵。 單次預約人數最多 2 名，請於輸入個人聯絡資料時，在「備註欄」加註另一申請人姓名。 更改、取消預約：請提前一天，點選預約確認電郵下方之「更改預約時間」、「取消預約」進行修改。若需當日取消，務必致電 604-689-4111。 急件（人道、急難...等）：請敘明事由並提供相關佐證電郵至 yvr@mofa.gov.tw，將依實情酌予安排。 臨櫃申辦 - 現場 Walk-in ✅ 開放時段：週一至週五，12:00 - 14:00。

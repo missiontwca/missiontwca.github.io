@@ -7,6 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language><atom:link href="http://example.org/immigration/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>EE 入池教學</title>
+      <link>http://example.org/immigration/ee_pool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/immigration/ee_pool/</guid>
+      <description>註冊帳號 GCKey 為登入加拿大政府網站（包含移民局）的重要帳號，由此連結 進入註冊，已有者請直接登入。
+目前網站採用二階段驗證，需自訂每次登入時的驗證問答及接收驗證碼的信箱。
+⚠️ 小提醒：登入後此畫面可進行更改密碼、驗證問答...等，切勿手癢點選撤銷（Revoke）帳號！
+建立檔案 登入後即可點選「Apply to Come to Canada」，開始建立個人檔案，進入 EE 池中。
+輸入完成 官方資格問卷 後取得的個人編號（Reference Code）。
+出現需完成的表單，請依序進行填寫。
+💡 如英文不熟練者，請多加利用 Google Chrome 翻譯功能。
+⏱️ 可隨時暫存再登入繼續填寫，但 60 天內若未完成遞交，需重新建立新的 EE 入池檔案。
+Personal Details ▾ Name Personal Description Marital Status：參考「婚姻配偶、同居伴侶」定義。 ID Documents - Summary Immigration History and Citizenships：如曾申請過其他簽證，應已有 UCI 號碼，需於此填入。 Family：如為 FSW 類別，填寫的資金金額務必符合「財力要求」。 Relatives in Canada Contact Details ▾ Language of Correspondence Email Address Study and Languages ▾ Education History Official Languages：需填入檢定證書上的編號、PIN 碼。 Application Details ▾ Pronvinces and Territories of Interest：可選擇是否與 BC 省、ON 省分享個人檔案，如欲收到某些移民項目（如：HCP）邀請，請記得勾選。 Nomination and Selection Representative ▾ Representative Work History ▾ Occupation：填寫 NOC 代碼，要和日後遞交的工作證明相符。 Canadian Certificate of Qualification Intended Work in Canada Work History Research：僅為問卷調查，可選擇不接受。 完成所有表單，點選下一步（Continue）或儲存離開（Save and Exit）。</description>
+    </item>
+    
+    <item>
       <title>其他類別</title>
       <link>http://example.org/immigration/others/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,7 +46,7 @@
 證明信應包含：公司抬頭、公司聯絡資訊、本人姓名、在該公司的所有職位、職位名稱、任職時間、年薪、週工時、工作內容（見「NOC」）、開立者簽名。 良民證 ⚠️ 重要提醒：移民用的良民證皆需為「離開該國家」後申請！如有先前打工度假於台灣境內申請的良民證，無法重複使用！
 🎉 自 2023 年起，台灣良民證可線上申請、郵寄到家，可請家人代收並掃描電子檔案傳送。 警察刑事紀錄證明書（俗稱良民證），凡文件清單列出之國家皆需申請。
 財力證明 由金融機構正式開立，應包含該行的抬頭及聯絡資訊、本人的姓名，且列出在該行的所有帳戶、開戶日期、過去六個月餘額記錄、信用卡、貸款。
-💡 實測分享：如為加拿大 TD 銀行，可前往分行說明用途，請櫃檯印出對帳單並蓋章證明。 證件照 兩吋（35mm x 45mm）護照規格大頭照，像素 420 x 540 以上，解析度 600 以上，檔案大小 240kB - 4MB 之間，JPEG 檔。 補充資料 依個人需求上傳。</description>
+💡 實測分享：如為加拿大 TD 銀行，可前往分行說明用途，請櫃檯印出對帳單並蓋章證明。 證件照 兩吋（35mm x 45mm）護照規格大頭照，像素 420 x 540 以上，解析度 600 以上，檔案大小 240kB - 4MB 之間，JPEG 檔。 補充資料 依個人需求上傳，其中退伍令（僅男性需要）如遺失可至各縣市後備指揮部申請，當場領取。</description>
     </item>
     
     <item>
@@ -41,18 +58,16 @@
       <description>聯邦快速通道（EE） 收到「移民邀請信（Invitation to Apply，ITA）」後，請依照以下步驟完成申請：
 接受邀請 ▾ 登入 GCKey 帳號，點選「接受邀請」，將有 60 天的時間完成遞交。。
 回答問題 ▾ 首先需依序回答三個簡單問題。
-婚姻狀態。 是否有子女。 繳費選擇 僅繳納申請費：核發 PR 前會通知補繳 RPRF（The Right of Permanent fee）。 申請費及 RPRF：如審核未通過，最終會退還 RPRF。 填寫基本資料 ▾ 📋 填寫表單，包含：個人資料、聯絡資訊、學歷及語言能力、工作記錄、個人史...等。
+婚姻狀態。 是否有子女。 繳費選擇 僅繳納申請費：核發 PR 前會通知補繳 RPRF（The Right of Permanent fee）。 繳納申請費及 RPRF：如審核未通過，最終會退還 RPRF。 填寫基本資料 ▾ 📋 填寫表單，包含：個人資料、聯絡資訊、學歷及語言能力、工作記錄、個人史...等。
+⚠️ 個人史：務必「填滿過去十年」，若有空白期間，如：待業（Unemployed」、入伍（Military Service）...等，仍應添加。
 🔍 過去十年旅遊史：如不記得詳細日期，可以使用 自然人憑證 或 MyData 線上申請「入出國日期證明書」。
 💯 完成所有表單後，會出現「預覽分數」選項，可以再次檢查。
 上傳文件 ▾ 👉 請詳閱「所需文件」。
 ❗ 提醒：其中學歷認證、良民證需較長取得時間，務必提早準備！
 線上繳費 ▾ 💳 只可使用信用卡（Visa、Mastercard、JCB、美國運通、中國銀聯卡）。
-審理階段：
-遞交完整申請後，收到確認收件信 AOR（Acknowledgement of Receipt）。 通知進行生物辨識（Biometrics），依通知信上指示前往按壓指紋、拍照。 ⚠️ 溫馨提醒：指紋不清晰可能拖慢審查速度，或需重做，前幾日可先適量使用護手霜。
-Tracker 上四大項目：「生物辨識、體檢、移民資格、背景調查」顯示檢查完成（Completed），順序因人而異。 依個人情況（如：文件缺漏），可能要求補件。 等待期間：
-👉 進度查詢：可利用 IRCC 官方提供的「Tracker」追蹤。
-👉 預估審理時間：參考「最新消息」的定期更新。
-👉 進度異常、有任何相關問題：請見「問題處理」。</description>
+費用（以單一申請人為例）：
+EE 申請費：CAD $850 元。 RPRF：CAD $515 元。 生物辨識（Biometrics）：CAD $85 元。 審理階段：
+遞交完整申請後，收到確認收件信 AOR（Acknowledgement of Receipt）。 通知進行生物辨識（Biometrics），依通知信上指示前往按壓指紋、拍照。 ⚠️ 溫馨提醒：指紋不清晰可能拖慢審查速度，或需重做，前幾日可先適量使用護手霜。</description>
     </item>
     
     <item>
@@ -61,7 +76,14 @@ Tracker 上四大項目：「生物辨識、體檢、移民資格、背景調查
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/immigration/pnp/</guid>
-      <description> </description>
+      <description>加拿大的省提名（PNP，Provincial Nominee Program）是由省政府管理的移民計劃，各省或地區可以設立自己的不同項目和資格條件。
+各項目分為與 EE 關聯的省提名和一般傳統省提名：
+EE 類（EE - PNP） 如已有任一種有效的 EE 檔案（CEC、FSW、FST），通過省提名（除了 QC 省）後，可憑提名信在 CRS 評分系統中獲得 600 分的加分，幾乎確保在下一輪受邀。
+非 EE 類 應向省政府遞交文件，待通過並獲得省政府發放的提名信後，將提名信、其他所需文件交給聯邦政府審核。聯邦審查階段的預估時長約 1.5 年，請參考「最新消息」。
+卑詩省 BC PNP 安大略省 OINP 紐芬蘭省 NLPNP 其他省份 EE 類
+HCP通道 ▾ 非 EE 類
+一定要先在 EOI（Expression of Interest）系統 中註冊，以表達意向，受邀後才可正式遞交省提名申請。 系統根據申請人的資料（職業、收入、所在地區、語言、學歷...等）評分，並發送邀請。（評分標準） 受邀後 14 天內需完成申請，否則需重新註冊。 註冊階段不需付費，正式申請時才要支付省提名費用。 申請時需合法居住在 ON 省或加拿大境外。不得居住在其他加拿大省份。 碩、博士通道 ▾ 碩士類 博士類 學位時長要求 1 學年（含）以上，
+Full-time（每週至少 15 小時） 2 學年（含）以上 語言要求 至少 CLB 7 級 無 符合資格之學校 清單 清單 其他要求：</description>
     </item>
     
     <item>
@@ -74,7 +96,7 @@ Tracker 上四大項目：「生物辨識、體檢、移民資格、背景調查
 電話 ▾ 電話號碼：888-242-2100（限加拿大境內）。
 🧭 Tips：東部時間上午 8 點撥打，PR 案件請參考以下：
 選擇英 / 法語 等待念完近期公告，無法跳過 按 1 選擇輸入 UCI 輸入後，待語音復述號碼時，按 1 確認正確 主選單，按 1 選擇「已有申請」，不用聽完所有選項 按 2 選擇「PR 申請」 按 2 選擇「E 為申請代碼開頭字母」 輸入申請代碼後續數字，復述時，按 1 確認正確 輸入出生年份「19xx」，復述後，再按 1 確認正確 聽取機器念完申請狀態 按 0 轉接真人 視等待狀況，可能 1-2分鐘內接通 出現「可要求稍後回電」選項，IRCC 將在數小時內回撥 人數過多，請改日再打 Webform ▾ Webform 是用來與 IRCC 溝通的線上表單，可用於各種申請的進度問題、上傳補件、更改個人地址...等。
-如以上新版網站無法進入，也可以使用 舊版 Webform 。
+如以上新版網站無法進入，或未獲回應，也可以使用 舊版 Webform 。
 🆕 舊版 Webform：如有上傳文件，將不再顯示文字輸入框，如需要提問或額外說明，請上傳解釋信檔案補充。
 個人調檔 ▾ 如果審理時間異常過長，想進一步了解原因，可以免費調閱個人移民案件，看到各階段移民官員的審批筆記.</description>
     </item>
@@ -85,8 +107,10 @@ Tracker 上四大項目：「生物辨識、體檢、移民資格、背景調查
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/immigration/news/</guid>
-      <description>Previous Next ✴️ 聯邦移民（EE）邀請分數 ⏱️ 最新一輪邀請 日期：2023 / 10 / 26 ｜ 受邀類別：EE（醫療職業） ｜ 邀請人數：3600 人 ｜ 最低分數：431 分 2023 年 📢 自 2023 年 6 月 28 日起，正式開始針對「特定職業類別」、「法語類別」的定向邀請！
-日期 移民項目 邀請人數 最低分數 Oct 26 醫療職業類 3600 431 Oct 25 法語能力類 300 486 Oct 24 PNP 類別 1548 776 Oct 10 EE（不限類別） 3725 500 Sep 28 農業職業類 600 354 Sep 27 法語能力類 500 472 Sep 26 EE（不限類別） 3000 504 Sep 20 運輸職業類 1000 435 Sep 19 EE（不限類別） 3200 531 Aug 15 EE（不限類別） 4300 496 Aug 3 貿易職業類 1500 388 Aug 2 法語能力類 800 435 Aug 1 EE（不限類別） 2000 517 Jul 12 法語能力類 3800 375 Jul 11 EE（不限類別） 800 505 Jul 7 法語能力類 2300 439 Jul 6 醫療職業類 1500 463 Jul 5 STEM 職業類 500 486 Jul 4 EE（不限類別） 700 511 Jun 28 醫療職業類 500 476 Jun 27 EE（不限類別） 4300 486 Jun 8 EE（不限類別） 4800 486 May 24 EE（不限類別） 4800 488 May 10 PNP 類別 589 691 Apr 26 EE（不限類別） 3500 483 Apr 12 EE（不限類別） 3500 486 Mar 29 EE（不限類別） 7000 481 Mar 23 EE（不限類別） 7000 484 Mar 15 EE（不限類別） 7000 490 Mar 01 PNP 類別 667 748 Feb 15 PNP 類別 699 791 Feb 02 FSW 3300 489 Feb 01 PNP 類別 893 733 Jan 18 EE（不限類別） 5500 490 Jan 11 EE（不限類別） 5500 507 2022 年 日期 移民項目 邀請人數 最低分數 Nov 23 EE 4750 491 Nov 09 EE 4750 494 Oct 26 EE 4750 496 Oct 12 EE 4250 500 Sep 28 EE 3750 504 Sep 14 EE 3250 510 Aug 31 EE 2750 516 Aug 17 EE 2250 525 Aug 03 EE 2000 533 Jul 20 EE 1750 542 Jul 06 EE 1500 557 Jun 22 PNP 類別 636 752 Jun 08 PNP 類別 932 796 May 25 PNP 類別 589 741 May 11 PNP 類別 545 753 Apr 27 PNP 類別 829 772 Apr 13 PNP 類別 787 782 Mar 30 PNP 類別 919 785 Mar 16 PNP 類別 924 754 Mar 02 PNP 類別 1047 761 Feb 16 PNP 類別 1082 710 Jan 19 PNP 類別 1036 745 Jan 05 PNP 類別 392 808 ⏱️ IRCC 各項申請審理時間 更新時間：2023 年 12 月 01 日</description>
+      <description>Previous Next ✴️ 聯邦移民（EE）邀請分數 ⏱️ 最新一輪邀請
+日期：2023 / 12 / 07 ｜ 受邀類別：法語能力類 ｜ 邀請人數：1000 人 ｜ 最低分數：470 分
+2023 年 📢 自 2023 年 6 月 28 日起，正式開始針對「特定職業類別」、「法語類別」的定向邀請！
+日期 移民項目 邀請人數 最低分數 Dec 07 法語能力類 1000 470 Dec 06 EE（不限類別） 4750 561 Oct 26 醫療職業類 3600 431 Oct 25 法語能力類 300 486 Oct 24 PNP 類別 1548 776 Oct 10 EE（不限類別） 3725 500 Sep 28 農業職業類 600 354 Sep 27 法語能力類 500 472 Sep 26 EE（不限類別） 3000 504 Sep 20 運輸職業類 1000 435 Sep 19 EE（不限類別） 3200 531 Aug 15 EE（不限類別） 4300 496 Aug 3 貿易職業類 1500 388 Aug 2 法語能力類 800 435 Aug 1 EE（不限類別） 2000 517 Jul 12 法語能力類 3800 375 Jul 11 EE（不限類別） 800 505 Jul 7 法語能力類 2300 439 Jul 6 醫療職業類 1500 463 Jul 5 STEM 職業類 500 486 Jul 4 EE（不限類別） 700 511 Jun 28 醫療職業類 500 476 Jun 27 EE（不限類別） 4300 486 Jun 8 EE（不限類別） 4800 486 May 24 EE（不限類別） 4800 488 May 10 PNP 類別 589 691 Apr 26 EE（不限類別） 3500 483 Apr 12 EE（不限類別） 3500 486 Mar 29 EE（不限類別） 7000 481 Mar 23 EE（不限類別） 7000 484 Mar 15 EE（不限類別） 7000 490 Mar 01 PNP 類別 667 748 Feb 15 PNP 類別 699 791 Feb 02 FSW 3300 489 Feb 01 PNP 類別 893 733 Jan 18 EE（不限類別） 5500 490 Jan 11 EE（不限類別） 5500 507 2022 年 日期 移民項目 邀請人數 最低分數 Nov 23 EE 4750 491 Nov 09 EE 4750 494 Oct 26 EE 4750 496 Oct 12 EE 4250 500 Sep 28 EE 3750 504 Sep 14 EE 3250 510 Aug 31 EE 2750 516 Aug 17 EE 2250 525 Aug 03 EE 2000 533 Jul 20 EE 1750 542 Jul 06 EE 1500 557 Jun 22 PNP 類別 636 752 Jun 08 PNP 類別 932 796 May 25 PNP 類別 589 741 May 11 PNP 類別 545 753 Apr 27 PNP 類別 829 772 Apr 13 PNP 類別 787 782 Mar 30 PNP 類別 919 785 Mar 16 PNP 類別 924 754 Mar 02 PNP 類別 1047 761 Feb 16 PNP 類別 1082 710 Jan 19 PNP 類別 1036 745 Jan 05 PNP 類別 392 808 ⏱️ IRCC 各項申請審理時間 更新時間：2023 年 12 月 01 日</description>
     </item>
     
     <item>
@@ -95,7 +119,7 @@ Tracker 上四大項目：「生物辨識、體檢、移民資格、背景調查
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/immigration/plans/</guid>
-      <description> </description>
+      <description>費用估算：</description>
     </item>
     
     <item>
@@ -134,22 +158,14 @@ Google Chrome Apple Safari 個人聯絡資訊（Contact Details） ▾ 電話、
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/immigration/ee/</guid>
-      <description>👉 近期邀請分數、審查時間請參考「最新消息」內容。 📢 自 2023 年 6 月 28 日起，正式開始針對「特定職業類別」、「法語類別」的定向邀請！
-前言：
+      <description>👉 近期邀請分數、審查時間請參考「最新消息」內容。
+📢 自 2023 年 6 月 28 日起，正式開始針對「特定職業類別」、「法語類別」的定向邀請！
 聯邦快速通道（EE，Express Entry）主要針對有經驗的技術工作者，根據各方面（年齡、語言能力、學歷、工作經驗...等）計分後，政府按照候選池中的分數高低送出邀請，允許受邀者提交永久居留申請。
 基本步驟：
 確認資格 EE 又分為「CEC、FSW、FST」三個類別，務必先確認自己是否符合任一類別的最低標準（官方工具）。 CEC（Canadian Experience Class） FSW（Federal Skilled Worker） FST（Federal Skilled Trades） 此項目適合有 1 年（含）以上「加拿大工作經驗」的申請者。
 工作要求 ▾ 過去 3 年中有累計滿 1 年，可以不連續。 全職（Full-time），或相當同等時數的兼職（Part-time）工作。 屬於「NOC」的「TEER 0、1、2、3 類」職業。 工作地點需在「加拿大境內」。 工作時有「合法工作」的簽證，且有「給薪」。 ❌ 不可以是自雇（醫師除外）。 ❌ 不能是全職學生在讀期間的工作經驗。 語言能力 ▾ 英、法文均可，需為 2 年內取得的有效成績。 NOC TEER 0、1 類：需達到 CLB 7 級。 NOC TEER 2、3 類：需達到 CLB 5 級。 此項目主要適合在加拿大境外的技術人才。
-根據申請人「六大面向」進行評估，申請人要獲得至少 67 分，方可進入候選池。</description>
-    </item>
-    
-    <item>
-      <title>聯邦快速通道（EE）入池教學</title>
-      <link>http://example.org/immigration/ee_pool/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/immigration/ee_pool/</guid>
-      <description> 加速建置中，請先暫時參考打工度假入池申請教學。 </description>
+根據申請人「六大面向」進行評估，申請人要獲得至少 67 分，方可進入候選池。
+6 項選擇指標 ▾ 年齡（0 / 12分） 請選擇 未滿18歲 18-35歲 36歲 37歲 38歲 39歲 40歲 41歲 42歲 43歲 44歲 45歲 46歲 47歲（含）以上 語言能力（0 / 28分） 英 / 法文均可，最低每科需達到 CLB 7 級（ = 雅思 6 分）。</description>
     </item>
     
   </channel>

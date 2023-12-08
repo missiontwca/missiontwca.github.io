@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1701444007" rel="stylesheet">
+<link href="/css/custom.css?1702049708" rel="stylesheet">
 
 
 
@@ -269,7 +269,7 @@
                                     
                                     <li><a href="/life/shopping">消費購物</a></li>
                                     
-                                    <li><a href="/life/sites">其他實用網站（建置中）</a></li>
+                                    <li><a href="/life/sites">其他實用網站（建置中 🚧）</a></li>
                                     
                                     </ul>
                                     
@@ -292,9 +292,9 @@
                                     
                                     <li><a href="/life/rent">租屋</a></li>
                                     
-                                    <li><a href="/life/bank">銀行開戶/信用卡（建置中）</a></li>
+                                    <li><a href="/life/bank">銀行開戶/信用卡（建置中 🚧）</a></li>
                                     
-                                    <li><a href="/life/phone">手機電信（建置中）</a></li>
+                                    <li><a href="/life/phone">手機電信</a></li>
                                     
                                     <li><a href="/life/license">駕照換發</a></li>
                                     
@@ -390,7 +390,7 @@
                                     
                                     <li><a href="/immigration/pnp">省提名（PNP）</a></li>
                                     
-                                    <li><a href="/immigration/others">其他類別</a></li>
+                                    <li><a href="/immigration/others">其他類別（建置中 🚧）</a></li>
                                     
                                     </ul>
                                     
@@ -496,12 +496,221 @@
                           
 <head>
     <style>
+        .headings {
+            color: #2c3334;
+            font-weight: bold;
+        }
 
+        .titles {
+            font-weight: bold;
+            color: #B8860B;
+        }
+
+        .list-group-item {
+            padding: 0px;
+        }
+
+        .list-group-item button {
+            color: #a07452;
+            font-size: 16px;
+        }
+
+        .collapse-content {
+            padding: 10px;
+        }
+
+        table {
+            table-layout: fixed;
+            width: 100%;
+        }
+
+        thead th,
+        tbody tr:not(:nth-child(4)){
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
-    
+    <p class="headings">加拿大的省提名（PNP，Provincial Nominee Program）是由省政府管理的移民計劃，各省或地區可以設立自己的不同項目和資格條件。</p>
+    <p>各項目分為與 EE 關聯的省提名和一般傳統省提名：</p>
+    <ul>
+        <li class="titles">EE 類（EE - PNP）</li>
+        <p>如已有任一種有效的 EE 檔案（CEC、FSW、FST），通過省提名（除了 QC 省）後，可憑提名信在 CRS 評分系統中獲得 600 分的加分，幾乎確保在下一輪受邀。</p>
+        <li class="titles">非 EE 類</li>
+        <p>應向省政府遞交文件，待通過並獲得省政府發放的提名信後，將提名信、其他所需文件交給聯邦政府審核。聯邦審查階段的預估時長約 1.5 年，請參考<a href="/immigration/news"
+                target="_blank">「最新消息」</a>。</p>
+    </ul>
+    <br>
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#bcpnp">卑詩省 BC PNP</a></li>
+        <li><a data-toggle="tab" href="#oinp">安大略省 OINP</a></li>
+        <li><a data-toggle="tab" href="#nlpnp">紐芬蘭省 NLPNP</a></li>
+        <li><a data-toggle="tab" href="#others">其他省份</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="bcpnp" class="tab-pane fade in active">
+        </div>
+        <div id="oinp" class="tab-pane fade">
+            <p class="titles">EE 類</p>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                        data-target="#hcpCollapse">HCP通道 ▾</button>
+                    <div id="hcpCollapse" class="collapse collapse-content">
+                    </div>
+                </li>
+            </ul>
+
+            <p class="titles">非 EE 類</p>
+            <ul>
+                <li>一定要先在 <a href="https://www.ontarioimmigration.gov.on.ca/oinp_index/resources/app/guest/index.html#!/" target="_blank">EOI（Expression of Interest）系統</a> 中註冊，以表達意向，受邀後才可正式遞交省提名申請。</li>
+                <li>系統根據申請人的資料（職業、收入、所在地區、語言、學歷...等）評分，並發送邀請。<a href="https://www.ontario.ca/page/ontario-immigrant-nominee-program-expression-interest-system-streams#section-4" target="_blank">（評分標準）</a></li>
+                <li>受邀後 14 天內需完成申請，否則需重新註冊。</li>
+                <li>註冊階段不需付費，正式申請時才要支付省提名費用。</li>
+                <li>申請時需合法居住在 ON 省或加拿大境外。不得居住在其他加拿大省份。</li>
+            </ul>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                        data-target="#degreeCollapse">碩、博士通道 ▾</button>
+                    <div id="degreeCollapse" class="collapse collapse-content">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">碩士類</th>
+                                    <th scope="col">博士類</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>學位時長要求</th>
+                                    <td>1 學年（含）以上，<br>Full-time（每週至少 15 小時）</td>
+                                    <td>2 學年（含）以上</td>
+                                </tr>
+                                <tr>
+                                    <th>語言要求</th>
+                                    <td>至少 <a href="/immigration/knowledge" target="_blank">CLB</a> 7 級</td>
+                                    <td>無</td>
+                                </tr>
+                                <tr>
+                                    <th>符合資格之學校</th>
+                                    <td><a href="https://www.ontario.ca/page/oinp-masters-graduate-stream"
+                                            target="_blank">清單</a></td>
+                                    <td><a href="https://www.ontario.ca/page/oinp-phd-graduate-stream"
+                                            target="_blank">清單</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>其他要求：</p>
+                        <ul>
+                            <li>需於獲得學位的 2 年內遞交申請。</li>
+                            <p>⚠️ 注意：需先註冊 EOI 並受邀後才能正式遞交申請，務必提早準備！</p>
+                            <li>過去 2 年內曾合法在 ON 省居住 1 年以上，可以不連續。</li>
+                            <li>滿足 <a
+                                    href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/proof-funds.html"
+                                    target="_blank">財力要求</a>。</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#jobCollapse">僱主擔保通道
+                        ▾</button>
+                    <div id="jobCollapse" class="collapse collapse-content">
+                        <p>工作要求</p>
+                        <ul>
+                            <li>有一份 ON 省全職、永久的工作</li>
+                            <li>工作需主要在 ON 省內。</li>
+                            <li>申請人及其配偶、子女不得持有該企業超過 10% 的股份。</li>
+                            <li>如從事特定受監管的職業，需持有效執照。</li>
+                            <li>不可以是自僱（Self-employed）工作，即按件計酬、純抽成工作。</li>
+                            <li>該職缺需僱主與現有業務性質相符。</li>
+                        </ul>
+                        <table class="table table-striped custom-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">外國員工類</th>
+                                    <th scope="col">留學生類</th>
+                                    <th scope="col">緊缺技術類</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>職業類別要求</th>
+                                    <td><a href="https://noc.esdc.gc.ca/" target="_blank">NOC</a> TEER 0、1、<br>2、3 類</td>
+                                    <td>NOC TEER 0、1、<br>2、3 類</td>
+                                    <td>NOC TEER 4、5 類<br>的特定職業</td>
+                                </tr>
+                                <tr>
+                                    <th><a href="https://www.jobbank.gc.ca/trend-analysis/search-wages"
+                                            target="_blank">薪資要求（依職業）</a></th>
+                                    <td>中位水準</td>
+                                    <td>低位水準</td>
+                                    <td>中位水準</td>
+                                </tr>
+                                <tr>
+                                    <th>符合資格之學校 / 職業</th>
+                                    <td></td>
+                                    <td><a href="https://www.ontario.ca/page/oinp-employer-job-offer-international-student-stream#section-6"
+                                            target="_blank">學校清單</a></td>
+                                    <td><a href="https://www.ontario.ca/page/oinp-employer-job-offer-demand-skills-stream#section-2"
+                                            target="_blank">職業清單</a></td>
+                                </tr>
+                                <tr>
+                                    <th>其他要求</th>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                申請時的 5 年內需有 2 年（含）以上與之相同 NOC 的工作經驗，可不連續，可以是自僱。
+                                                <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip"
+                                                    data-placement="top" data-html="true"
+                                                    title="全職：每週30小時，2年3120小時，可不同工作相加。<br>或兼職：例如每週15小時，4年3120小時。"></i>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>需完成指定學校 2 年（含）以上學位，或以已有學位為入學前提的 1 年制學位。</li>
+                                            <li>至少一半以上的就讀時間需在加拿大境內。</li>
+                                            <li>
+                                                需於獲得學位的 2 年內遞交申請。
+                                                <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip"
+                                                    data-placement="top" data-html="true"
+                                                    title="⚠️ 注意：需先註冊 EOI 並受邀後才能正式遞交申請，請提早準備！"></i>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                申請時的 3 年內需有 9 個月（含）以上與之相同 NOC 的工作經驗，可不連續，可以是自僱。
+                                                <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip"
+                                                    data-placement="top" data-html="true"
+                                                    title="全職：每週30小時，9個月1200小時，可不同工作相加。<br>或兼職：例如每週15小時，18個月1200小時。"></i>
+                                            </li>
+                                            <li>語言：達 CLB 4 以上。</li>
+                                            <li>學歷：至少中學畢業。</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="nlpnp" class="tab-pane fade">
+        </div>
+        <div id="others" class="tab-pane fade">
+            <p>🚧 加速建置中。</p>
+        </div>
+    </div>
+    <br>
+    <p>❓ 經由省提名移民後可以離開嗎？</p>
+    <p>雖然成為 PR 後有自由遷徙的權利，但申請省提名時，會填寫一些文件表示在該省生活的意願、承諾，因此理論上應在該省居住或工作一段時間，以避免影響將來其他申請（如：公民）。</p>
 </body>
                         </div>
                         
@@ -564,7 +773,11 @@
         </div>
         
 
-        <footer id="footer">
+        <style>
+  body{-webkit-touch-callout:none;}
+</style>
+
+<footer id="footer">
     <div class="container">
 
         
@@ -585,7 +798,11 @@
 
 
 
-
+<script>
+  document.oncontextmenu = new Function ("return false");
+  oncontextmenu="return false;";
+  document.body.oncopy = function(){event.returnValue=false;}
+</script>
 
 
 <div id="copyright">

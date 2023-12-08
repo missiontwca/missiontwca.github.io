@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1701444007" rel="stylesheet">
+<link href="/css/custom.css?1702049708" rel="stylesheet">
 
 
 
@@ -269,7 +269,7 @@
                                     
                                     <li><a href="/life/shopping">消費購物</a></li>
                                     
-                                    <li><a href="/life/sites">其他實用網站（建置中）</a></li>
+                                    <li><a href="/life/sites">其他實用網站（建置中 🚧）</a></li>
                                     
                                     </ul>
                                     
@@ -292,9 +292,9 @@
                                     
                                     <li><a href="/life/rent">租屋</a></li>
                                     
-                                    <li><a href="/life/bank">銀行開戶/信用卡（建置中）</a></li>
+                                    <li><a href="/life/bank">銀行開戶/信用卡（建置中 🚧）</a></li>
                                     
-                                    <li><a href="/life/phone">手機電信（建置中）</a></li>
+                                    <li><a href="/life/phone">手機電信</a></li>
                                     
                                     <li><a href="/life/license">駕照換發</a></li>
                                     
@@ -390,7 +390,7 @@
                                     
                                     <li><a href="/immigration/pnp">省提名（PNP）</a></li>
                                     
-                                    <li><a href="/immigration/others">其他類別</a></li>
+                                    <li><a href="/immigration/others">其他類別（建置中 🚧）</a></li>
                                     
                                     </ul>
                                     
@@ -503,11 +503,12 @@
             margin-bottom: 20px;
         }
 
-        ol li {
-            font-size: 16px;
+        .custom-ul li {
+            font-size: 18px;
             font-weight: bold;
-            margin-top: 5px;
-            margin-bottom: 5px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #2c3334;
         }
 
         .warning li {
@@ -524,7 +525,7 @@
 <hr>
 <div>
     <h4>📝 申請方式：</h4>
-    <ol>
+    <ul class="custom-ul">
         <li>現場申請</li>
         <p>
             持所需文件至各地加拿大服務局（Service Canada）<a
@@ -555,7 +556,8 @@
             Bathurst, NB E2A 4T1<br>
             CANADA
         </blockquote>
-    </ol>
+    </ul>
+    <br>
     <h4>⚠️ 注意事項：</h4>
     <ul class="warning">
         <li>除了雇主（求職階段尚無須提供）、銀行及政府單位外，切勿將 SIN 洩露給任何人知道。</li>
@@ -625,7 +627,11 @@
         </div>
         
 
-        <footer id="footer">
+        <style>
+  body{-webkit-touch-callout:none;}
+</style>
+
+<footer id="footer">
     <div class="container">
 
         
@@ -646,7 +652,11 @@
 
 
 
-
+<script>
+  document.oncontextmenu = new Function ("return false");
+  oncontextmenu="return false;";
+  document.body.oncopy = function(){event.returnValue=false;}
+</script>
 
 
 <div id="copyright">
