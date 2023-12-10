@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1702049708" rel="stylesheet">
+<link href="/css/custom.css?1702211732" rel="stylesheet">
 
 
 
@@ -507,17 +507,18 @@
             font-weight: bold;
         }
 
-        .strong {
-            color: #112ee5;
-            font-weight: bold;
-        }
-
         /* 列表的樣式 */
         ol.bold-list>li {
             font-size: 18px;
             font-weight: bold;
             color: #B8860B;
             margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        .custom-ul li {
+            color: #B8860B;
+            margin-top: 5px;
             margin-bottom: 5px;
         }
 
@@ -970,13 +971,25 @@
         <p>部份文件（如：學歷認證）所需的取得時間可能較長，可在等待邀請時先行預備。</p>
 
         <li>受邀申請</li>
-        <p>候選池一般約每 2 周抽選，包含「不限類別」的<span class="bold">不定向邀請</span>、針對「特定類別」的<span
-                class="bold">定向邀請</span>。若您的分數高於當次分數，則會收到<span class="bold">移民邀請信（ITA，Invitation to Apply）</span>，將有 60 天的時間可以登入 GCKey 完成文件上傳。</p>
+        <p>候選池一般約每 2 周抽選，若您的分數高於當次分數，則會收到<span class="bold">移民邀請信（ITA，Invitation to Apply）</span>，將有 60 天的時間可以登入 GCKey 完成文件上傳。</p>
         <p>⚠️ 特別注意：通過聯邦移民通道（EE）取得永居者，不可選擇在魁北克省（QC 省）生活，該省有自己的技術人才移民計劃。</p>
         <img src="/img/ee/invited.png" alt="Invited to Apply" width="70%">
         <p class="next">👉 受邀後，請見<a href="/immigration/after">「後續步驟」</a>完成移民申請。</p>
     </ol>
-
+    <br>
+    <hr>
+    <p class="headings">自 2023 年起，EE 包含「不限類別」的<span class="bold">不定向邀請</span>、針對「特定類別」的<span class="bold">定向邀請</span>。</p>
+    <p>特定類別：</p>
+    <ul class="custom-ul">
+        <li>醫療健康職業</li>
+        <li>STEM（科學、科技、工程、數學）職業</li>
+        <li>貿易職業</li>
+        <li>運輸職業</li>
+        <li>農業和農產品職業</li>
+        <li>法語能力</li>
+    </ul>
+    <p>📌 <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/submit-profile/rounds-invitations/category-based-selection.html" target="_blank">詳細職業清單</a></p>
+    <br>
     <script>
         function calculateAgeScore() {
             var selectedAge = parseInt(document.getElementById("ageSelect").value);

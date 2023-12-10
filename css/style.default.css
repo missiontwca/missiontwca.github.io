@@ -45,6 +45,10 @@
   font-weight: bold;
   color: #2c3334;
 }
+.strong {
+  font-weight: bold;
+  color: #112ee5;
+}
 .clearfix:before,
 .clearfix:after,
 .navbar:before,
@@ -404,7 +408,7 @@ ul.list-style-none {
 }
 .navbar ul.dropdown-menu li a {
   position: relative;
-  color: #2c3334;
+  color: #2c3334 !important;
   font-size: 12px;
   text-decoration: none;
   display: block;
@@ -415,7 +419,7 @@ ul.list-style-none {
   font-weight: 500;
 }
 .navbar ul.dropdown-menu li a:hover {
-  color: var(--primary-accent);
+  color: var(--primary-accent) !important;
   text-decoration: none;
   background: none;
   left: 2px;
