@@ -1,14 +1,5 @@
 /* Themed colors */
 :root {
-  /* --primary-accent: #067b39;
-  --navbar-border-top: #AF9C87;
-  --button-border: #40a070;
-  --link-focus: #034e23;
-  --form-shadow: rgba(106, 174, 122, 0.6);
-  --pagination-bg: #cde4d2;
-  --link-hover-bg: #996515;
-  --navbar-focus: #ccc4bc; */
-  /* 上邊 side widget*/
   --primary-accent: #006241;
   /* Active上邊 */
   --navbar-border-top: #B8860B;
@@ -41,6 +32,11 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.headings {
+  color: #2c3334;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 .bold {
   font-weight: bold;
   color: #2c3334;
@@ -48,6 +44,10 @@
 .strong {
   font-weight: bold;
   color: #112ee5;
+}
+.warning {
+  font-weight: bold;
+  color: red;
 }
 .clearfix:before,
 .clearfix:after,
@@ -1783,7 +1783,7 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-  background: url('../img/texture-brown.png') center center repeat;
+  background: url('/img/texture-brown.png') center center repeat;
   padding: 20px 0;
   margin-bottom: 40px;
 }

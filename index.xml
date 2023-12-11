@@ -1,46 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>加打地圖</title>
-    <link>http://example.org/</link>
-    <description>Recent content on 加打地圖</description>
+    <title>加打地圖 - 加拿大打工度假、生活、移民的好夥伴</title>
+    <link>https://www.maptwca.com/</link>
+    <description>Recent content on 加打地圖 - 加拿大打工度假、生活、移民的好夥伴</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 29 Dec 2017 12:15:02 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Dec 2017 12:15:02 +0000</lastBuildDate><atom:link href="https://www.maptwca.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>test</title>
-      <link>http://example.org/test/</link>
+      <link>https://www.maptwca.com/test/</link>
       <pubDate>Fri, 29 Dec 2017 12:15:02 +0000</pubDate>
       
-      <guid>http://example.org/test/</guid>
+      <guid>https://www.maptwca.com/test/</guid>
       <description> Welcome 按下這裡查看天氣 </description>
     </item>
     
     <item>
-      <title>blog2</title>
-      <link>http://example.org/blog/tcm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/blog/tcm/</guid>
-      <description>blog2</description>
-    </item>
-    
-    <item>
       <title>Contact</title>
-      <link>http://example.org/contact/</link>
+      <link>https://www.maptwca.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/contact/</guid>
+      <guid>https://www.maptwca.com/contact/</guid>
       <description>人力有限，恕無法逐一回答您的個人案件問題。
 若有希望可以新增的板塊內容、網頁技術問題，歡迎聯絡站方：</description>
     </item>
     
     <item>
       <title>EE 入池教學</title>
-      <link>http://example.org/immigration/ee_pool/</link>
+      <link>https://www.maptwca.com/immigration/ee_pool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/ee_pool/</guid>
+      <guid>https://www.maptwca.com/immigration/ee_pool/</guid>
       <description>註冊帳號 GCKey 為登入加拿大政府網站（包含移民局）的重要帳號，由此連結 進入註冊，已有者請直接登入。
 目前網站採用二階段驗證，需自訂每次登入時的驗證問答及接收驗證碼的信箱。
 ⚠️ 小提醒：登入後此畫面可進行更改密碼、驗證問答...等，切勿手癢點選撤銷（Revoke）帳號！
@@ -54,10 +45,10 @@ Personal Details ▾ Name Personal Description Marital Status：參考「婚姻�
     
     <item>
       <title>eTA</title>
-      <link>http://example.org/iec/eta/</link>
+      <link>https://www.maptwca.com/iec/eta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/iec/eta/</guid>
+      <guid>https://www.maptwca.com/iec/eta/</guid>
       <description>eTA（Electronic Travel Authorization）是免簽國家前往加拿大所需的一種電子旅行許可。 適用範圍：
 前往加拿大的航空旅客，不包括從美國邊境陸路、港口海路進入的旅客。 申辦方式：
 至 IRCC 官網 填寫資料。（官方中文教學） 準備：
@@ -68,19 +59,28 @@ CAD $7 元。 核發時間： 大多數於幾分鐘內會收到 E-mail，仍建�
     
     <item>
       <title>FAQ</title>
-      <link>http://example.org/faq/</link>
+      <link>https://www.maptwca.com/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/faq/</guid>
+      <guid>https://www.maptwca.com/faq/</guid>
       <description>123</description>
     </item>
     
     <item>
-      <title>入池抽籤</title>
-      <link>http://example.org/iec/pool/</link>
+      <title>TCM</title>
+      <link>https://www.maptwca.com/blog/tcm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/iec/pool/</guid>
+      <guid>https://www.maptwca.com/blog/tcm/</guid>
+      <description>TCM</description>
+    </item>
+    
+    <item>
+      <title>入池抽籤</title>
+      <link>https://www.maptwca.com/iec/pool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.maptwca.com/iec/pool/</guid>
       <description>🔔 2023 年度打工度假池已關閉，如已有 GCKey ，明年度無需重新創建帳號，可直接開始新的入池申請。 🔔
 本週名額更新（2023 / 10 / 27） 總名額： - 人
 剩餘名額： - 人
@@ -101,10 +101,10 @@ CAD $7 元。 核發時間： 大多數於幾分鐘內會收到 E-mail，仍建�
     
     <item>
       <title>工簽修正</title>
-      <link>http://example.org/iec/correction/</link>
+      <link>https://www.maptwca.com/iec/correction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/iec/correction/</guid>
+      <guid>https://www.maptwca.com/iec/correction/</guid>
       <description>一般而言，工簽應於領取時仔細檢查，有錯誤務必當場提出更正要求。如果已離開機場，則需紙本申請修正。
 根據欲修正的類型，分屬不同收件部門：
 簽證期限｜職業限制｜護照換新 前提：
@@ -132,10 +132,10 @@ Request to Amend Valid Temporary Resident Documents or Information Contained in 
     
     <item>
       <title>手機電信</title>
-      <link>http://example.org/life/phone/</link>
+      <link>https://www.maptwca.com/life/phone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/life/phone/</guid>
+      <guid>https://www.maptwca.com/life/phone/</guid>
       <description>加拿大主要有三大電信公司，負責手機、室內電話、網路...等服務，旗下分別有對應的子公司（Fido、Virgin、Koodo），提供較為平價且靈活的手機電信方案，也是打工度假、留學人士較常見的選擇。
 各家電信均會不定時推出多種方案，可以透過「官網、門市、業務人員」了解後，依照需求（如：流量、國際通話、搭配手機...等）辦理。與台灣相似，部份方案可能會限定新用戶或攜碼客戶申請。
 💡 一般而言，一年之中最划算的方案會在黑五出現，前一週即會推出優惠方案預熱，當天則可能出現最低價格。
@@ -148,10 +148,10 @@ Google Voice：在美加地區提供的免費語音通話和簡訊服務。 Fong
     
     <item>
       <title>交通</title>
-      <link>http://example.org/life/transportation/</link>
+      <link>https://www.maptwca.com/life/transportation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/life/transportation/</guid>
+      <guid>https://www.maptwca.com/life/transportation/</guid>
       <description>卑詩省（BC） 安大略省（ON） 紐芬蘭與拉布拉多省（NL） 其他省份 🚧 建置中 叫車平台 British Columbia（BC） 📣 Compass Tap to Win 活動（2023 / 08 / 17 - 2023 / 10 / 31）已結束。（得獎名單）
 ⚠️ 自2023 年 7 月 1 日起，票價調漲。
 溫哥華地區的大眾運輸工具主要為 SkyTrain（捷運）、SeaBus（渡輪）、公車，由 TransLink 公司提供服務。而溫哥華以外的其他地區只有 BC Transit 公司運營的公車。 支付方式
@@ -164,10 +164,10 @@ Google Voice：在美加地區提供的免費語音通話和簡訊服務。 Fong
     
     <item>
       <title>各省比較</title>
-      <link>http://example.org/life/provinces/</link>
+      <link>https://www.maptwca.com/life/provinces/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/life/provinces/</guid>
+      <guid>https://www.maptwca.com/life/provinces/</guid>
       <description>簡介 天氣 租金 基本薪資 消費稅率 中文地圖 | 英文地圖 各省簡介
 BC 省：華人社群龐大的溫哥華、列治文所在省份。位於西岸，與台灣距離較近，生活便利、氣候較溫和，但房價相當高。 AB 省：草原省，包含著名的班夫國家公園、洛磯山脈，也是加拿大石油經濟重鎮，消費稅率低。 SK 省：草原省，農業為主。 MB 省：草原省，因移民政策吸引逐漸增多的華人。 ON 省：第一大城市多倫多的所在地，人口最多，文化多元，科技、金融...等產業發達，有較多的工作機會。 QC 省：主要使用法語，獨特的歐式文化和藝術氛圍。許多政策（含：移民）獨立運作。 NB 省：海洋省，歷史悠久。 NS 省：海洋省，以漁業、龍蝦聞名，華人逐漸增多，房價近年偏高。 PEI 省：海洋省，漁業（龍蝦、生蠔）著名，小島風光。 NL 省：海洋省，加拿大最東岸的離島，人口少，風景優美，但冬季雪量極多。 YT 地區：極光與戶外活動。 NT 地區：賞極光勝地 - 黃刀鎮的所在地區。 NU 地區：北極圈，原住民因紐特（Inuit）人的家園。 省份 縮寫 省會 最大城市 官方語言 人口 卑詩省
 British Columbia BC 維多利亞
@@ -183,28 +183,28 @@ Saskatoon 英語 1,209,107 曼尼托巴省</description>
     
     <item>
       <title>其他實用網站</title>
-      <link>http://example.org/life/sites/</link>
+      <link>https://www.maptwca.com/life/sites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/life/sites/</guid>
+      <guid>https://www.maptwca.com/life/sites/</guid>
       <description> 🚧 加速建置中，敬請見諒！</description>
     </item>
     
     <item>
       <title>其他類別</title>
-      <link>http://example.org/immigration/others/</link>
+      <link>https://www.maptwca.com/immigration/others/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/others/</guid>
+      <guid>https://www.maptwca.com/immigration/others/</guid>
       <description> 依親擔保移民 自僱（Self-employed）移民 | 簽證 創業（Start-up）移民 大西洋移民計劃（AIP） 偏鄉、北部移民試點計劃（RNIP） 農業、食品試點計劃（Agri-Food Pilot） 保母（Caregiver）移民 | 簽證 </description>
     </item>
     
     <item>
       <title>所需文件</title>
-      <link>http://example.org/immigration/documents/</link>
+      <link>https://www.maptwca.com/immigration/documents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/documents/</guid>
+      <guid>https://www.maptwca.com/immigration/documents/</guid>
       <description>聯邦快速通道（EE） 省提名（PNP） - ON 省 省提名（PNP） - NL 省 💡 Tips： 聯邦快速通道（EE）為完全線上進行，僅需上傳掃描電子檔，文件正本請自行保存備查。 所有文件如原文非英、法文，需要上傳「正本」、「翻譯本」。 👉 翻譯相關規定請參考「翻譯公證」。 護照 需包含「個人資料頁」、有「出入境戳章」的所有內頁。
 體檢證明 🆕 2023 年 10 月 1 日起，不需在上傳文件時遞交體檢證明，如需體檢，將於審核期間通知。
 🎉 2024 年 10 月 26 日前，過去 5 年內曾完成體檢，境內申請 PR 無需重做！上傳前次的體檢編號或證明即可。
@@ -218,10 +218,10 @@ Saskatoon 英語 1,209,107 曼尼托巴省</description>
     
     <item>
       <title>社會保險號碼（SIN）</title>
-      <link>http://example.org/iec/sin/</link>
+      <link>https://www.maptwca.com/iec/sin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/iec/sin/</guid>
+      <guid>https://www.maptwca.com/iec/sin/</guid>
       <description> 社會保險號碼（Social Insurance Number，SIN）是每一位在加拿大合法工作者都應有的號碼，主要用於：工作、報稅、銀行開戶...等重要事務。不論是永久或臨時居民（持工作簽證、可打工的學生簽證），可以合法工作的人都能申請。 📝 申請方式： 現場申請 持所需文件至各地加拿大服務局（Service Canada）（查詢地點）臨櫃排隊申辦，現場領取。
 所需文件有： 護照 可以合法工作的簽證（工作簽證、可打工的學生簽證） 父母親英文姓名、生日 加拿大本地電話號碼 加拿大本地地址 可以提早 線上預約 辦理時間，選擇親自辦理（In Person），約 2 - 3 工作日，Service Canada 工作人員會致電協助完成預約。 線上申請 於 IRCC 官方網站 申請 ，上傳掃描好的上述文件，約15個工作日會收到一封包含SIN的郵寄信件。
 郵寄申請 準備所需文件正本，郵寄至以下地址，約需 20 天。因有文件遺失的風險，不建議使用此方式。
@@ -229,15 +229,15 @@ Service Canada
 Social Insurance Registration Office
 PO Box 7000
 Bathurst, NB E2A 4T1
-CANADA ⚠️ 注意事項： 除了雇主（求職階段尚無須提供）、銀行及政府單位外，切勿將 SIN 洩露給任何人知道。 租屋不需要 SIN，房冬無權要求你的號碼。 如發現你的 SIN 被盜用了, 請立刻至警局報案，並且聯繫加拿大反詐騙中心（Canadian Anti-Fraud Centre）。 更換簽證、姓名時，必須更新 SIN，可於線上辦理。 </description>
+CANADA ⚠️ 注意事項： 除了雇主（求職階段尚無須提供）、銀行及政府單位外，切勿將 SIN 洩露給任何人知道。 租屋不需要 SIN，房東無權要求你的號碼。 如發現你的 SIN 被盜用了, 請立刻至警局報案，並且聯繫加拿大反詐騙中心（Canadian Anti-Fraud Centre）。 更換簽證、姓名時，必須更新 SIN，可於線上辦理。 </description>
     </item>
     
     <item>
       <title>後續步驟</title>
-      <link>http://example.org/immigration/after/</link>
+      <link>https://www.maptwca.com/immigration/after/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/after/</guid>
+      <guid>https://www.maptwca.com/immigration/after/</guid>
       <description>聯邦快速通道（EE） 收到「移民邀請信（Invitation to Apply，ITA）」後，請依照以下步驟完成申請：
 接受邀請 ▾ 登入 GCKey 帳號，點選「接受邀請」，將有 60 天的時間完成遞交。。
 回答問題 ▾ 首先需依序回答三個簡單問題。
@@ -255,16 +255,16 @@ EE 申請費：CAD $850 元。 RPRF：CAD $515 元。 生物辨識（Biometrics�
     
     <item>
       <title>省提名（PNP）</title>
-      <link>http://example.org/immigration/pnp/</link>
+      <link>https://www.maptwca.com/immigration/pnp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/pnp/</guid>
+      <guid>https://www.maptwca.com/immigration/pnp/</guid>
       <description>👉 各省 PNP 邀請分數請參考「最新消息」之連結。
 加拿大的省提名（PNP，Provincial Nominee Program）是由省政府管理的移民計劃，各省或地區可以設立自己的不同項目和資格條件。
 各項目又分為：
 EE 類（EE - PNP） 如已有任一種有效的「EE 檔案（CEC、FSW、FST）」，通過省提名（除了 QC 省）後，可憑提名信在 CRS 評分系統中獲得 600 分的加分，幾乎確保在下一輪受邀。
 非 EE 類（一般省提名） 應向省政府遞交文件，通過並獲得省政府發放的提名信後，將提名信、其他所需文件交給聯邦政府審核。聯邦審查階段的預估時長約 1.5 年，請參考「最新消息」。
-卑詩省 BC PNP 安大略省 OINP 紐芬蘭省 NLPNP 其他省份 與 EE 相似，除了不分類別的一般邀請，BC 省也會針對特定職業類別（含：醫療、科技、建築）發送額外邀請。
+卑詩省 BC PNP 安大略省 OINP 其他省份 與 EE 相似，除了不分類別的一般邀請，BC 省也會發送針對特定職業類別（含：醫療、科技、建築）的邀請。
 除了碩、博士留學生以外，其他通道都需要有 BC 省的僱主。
 BC 省另外有針對企業家的創業移民項目，請參考 官網訊息。
 EE 類
@@ -273,10 +273,10 @@ EE 類
     
     <item>
       <title>消費購物</title>
-      <link>http://example.org/life/shopping/</link>
+      <link>https://www.maptwca.com/life/shopping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/life/shopping/</guid>
+      <guid>https://www.maptwca.com/life/shopping/</guid>
       <description>超市生鮮 餐飲速食 居家用品 服飾運動 生活娛樂 其他 超市生鮮
 加拿大本地的三大集團旗下擁有大多的生鮮超市及藥妝店，分別為 Loblaw、Empire、Metro。除此之外，亦有一些國際連鎖賣場或地區性中小商家。
 🚛 部份超市有提供生鮮配送服務，也可參考最下方之 Meal Kits 網站。
@@ -287,10 +287,10 @@ Sobeys IGA Foodland FreshCo Lawtons Drugs Metro Inc. Metro Food Basics Super C �
     
     <item>
       <title>租屋</title>
-      <link>http://example.org/life/rent/</link>
+      <link>https://www.maptwca.com/life/rent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/life/rent/</guid>
+      <guid>https://www.maptwca.com/life/rent/</guid>
       <description>👉 想了解最新的租金行情？請參考「各省比較」。
 常用找房網站 房屋類型 合約種類 注意事項 常用找房網站 主要有加拿大本地分類廣告網站、Facebook、各地華人論壇、微信群組...等管道。 加拿大分類廣告網站 Kijiji 是一個線上分類廣告網站，除了房屋出租外，也包括二手物品、工作、汽車買賣...等。可以依據房屋類型、出租類型（如：長短期、分租、找室友）、是否含家具、可寵、地區、價格條件進行篩選，並可直接私訊房東約看。 Craigslist Facebook Marketplace 可以在 Marketplace 上設置地點範圍，並以關鍵字（如：1-bedroom）進行篩選，並可直接以 Messenger 私訊。當地人很常使用 Marketplace 刊登各類廣告，房源眾多，但需謹慎辨別，以免受騙。
 地方社團 各城市大多有地方性的租屋社團，同樣可直接私訊聯絡房東。另推薦參考 加拿大打工度假資訊-租屋版 。
@@ -303,11 +303,11 @@ Sobeys IGA Foodland FreshCo Lawtons Drugs Metro Inc. Metro Food Basics Super C �
     
     <item>
       <title>問題處理</title>
-      <link>http://example.org/immigration/problems/</link>
+      <link>https://www.maptwca.com/immigration/problems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/problems/</guid>
-      <description>移民申請遇到問題，聯繫 IRCC 處理的方式有三種： ⚠️ 提醒：以下皆需要個人的 UCI（Unique Client Identifier）、申請代碼。可登入 GCKey 帳號，在個別申請檔案中查看。
+      <guid>https://www.maptwca.com/immigration/problems/</guid>
+      <description>移民申請遇到問題，聯繫 IRCC 處理的方式有三種： ⚠️ 提醒：以下皆需要個人的 UCI（Unique Client Identifier）、申請代碼，可在 GCKey 帳號的個別申請檔案中查看。
 電話 ▾ 電話號碼：888-242-2100（限加拿大境內）。
 🧭 Tips：東部時間上午 8 點撥打，PR 案件請參考以下：
 選擇英 / 法語 等待念完近期公告，無法跳過 按 1 選擇輸入 UCI 輸入後，待語音復述號碼時，按 1 確認正確 主選單，按 1 選擇「已有申請」，不用聽完所有選項 按 2 選擇「PR 申請」 按 2 選擇「E 為申請代碼開頭字母」 輸入申請代碼後續數字，復述時，按 1 確認正確 輸入出生年份「19xx」，復述後，再按 1 確認正確 聽取機器念完申請狀態 按 0 轉接真人 視等待狀況，可能 1-2分鐘內接通 出現「可要求稍後回電」選項，IRCC 將在數小時內回撥 人數過多，請改日再打 Webform ▾ Webform 是用來與 IRCC 溝通的線上表單，可用於各種申請的進度問題、上傳補件、更改個人地址...等。
@@ -318,10 +318,10 @@ Sobeys IGA Foodland FreshCo Lawtons Drugs Metro Inc. Metro Food Basics Super C �
     
     <item>
       <title>最新消息</title>
-      <link>http://example.org/immigration/news/</link>
+      <link>https://www.maptwca.com/immigration/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/news/</guid>
+      <guid>https://www.maptwca.com/immigration/news/</guid>
       <description>Previous Next ✴️ 聯邦移民（EE）邀請分數 ⏱️ 最新一輪邀請
 日期：2023 / 12 / 08 ｜ 受邀類別：STEM 職業類 ｜ 邀請人數：5900 人 ｜ 最低分數：481 分
 2023 年 📢 自 2023 年 6 月 28 日起，正式開始針對「特定職業類別」、「法語類別」的定向邀請！
@@ -330,29 +330,44 @@ Sobeys IGA Foodland FreshCo Lawtons Drugs Metro Inc. Metro Food Basics Super C �
     
     <item>
       <title>報稅</title>
-      <link>http://example.org/life/tax/</link>
+      <link>https://www.maptwca.com/life/tax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/life/tax/</guid>
+      <guid>https://www.maptwca.com/life/tax/</guid>
       <description> 報稅季節為每年二月至四月，敬請期待。 </description>
     </item>
     
     <item>
       <title>策略規劃</title>
-      <link>http://example.org/immigration/plans/</link>
+      <link>https://www.maptwca.com/immigration/plans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/plans/</guid>
-      <description>費用估算：</description>
+      <guid>https://www.maptwca.com/immigration/plans/</guid>
+      <description>常見移民策略
+境外申請 需有較好的年齡、語言、學歷...等條件，以在 CRS 計分系統中獲得高分。 EE - FSW：直接入池等待邀請。
+💡 特定職業類別、有法語能力者，受邀門檻一般較低。
+打工度假 在打工度假的 1 年內申請符合資格的移民計劃
+or
+由 LMIA 僱主協助辦理擔保，以封閉式（固定僱主）工簽的方式延續。 EE
+CEC：加拿大本地工作滿 1 年後申請。 FSW：本地工作有機會提高分數。 省提名
+💡 少數省提名只要短時間工作即可申請，如：NL 省、MB 省。
+💡 部份省份有針對特定留學生的計劃，畢業無需工作就可申請，如：BC 省碩博士。
+留學 根據就讀時長，最多可取得 3 年的畢業後工作許可（PGWP，Post-graduation Work Permit）。 伴侶共同申請 一方在加拿大留學，其伴侶可申請陪同工簽（Spouse Open Work Permit）。 費用估算：
+申請費（含 RPRF） CAD $1365 元
+生物辨識（指紋） CAD $85 元
+體檢 台灣：TWD $4100 元
+加拿大：約 CAD $200 - $300 元
+語言檢定 雅思（台灣考場）：TWD $7500 元
+雅思（加拿大考場）：CAD $300 元 + 税</description>
     </item>
     
     <item>
       <title>進度查詢（Tracker）</title>
-      <link>http://example.org/immigration/tracker/</link>
+      <link>https://www.maptwca.com/immigration/tracker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/tracker/</guid>
-      <description>Tracker （官網）是用來追蹤 EE 移民申請、工簽、學簽、依親...等處理進度的工具。
+      <guid>https://www.maptwca.com/immigration/tracker/</guid>
+      <description>Tracker（官網）是用來追蹤 EE 移民申請、工簽、學簽、依親...等處理進度的工具。
 遞交完整 EE 申請後，收到 AOR（Acknowledgement of Receipt）確認信，即可註冊 Tracker 帳號，查看以下資料：
 更新活動（Activities） ▾ 申請細節：四大審核項目，包含「生物辨識、體檢、移民資格、背景調查」，系統中會分別顯示各項是否完成。
 申請歷史：可查看更多進度記錄。
@@ -365,10 +380,10 @@ Google Chrome Apple Safari 個人聯絡資訊（Contact Details） ▾ 電話、
     
     <item>
       <title>準備知識</title>
-      <link>http://example.org/immigration/knowledge/</link>
+      <link>https://www.maptwca.com/immigration/knowledge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/knowledge/</guid>
+      <guid>https://www.maptwca.com/immigration/knowledge/</guid>
       <description>移民（永久居民 PR | 公民 Citizen） 加拿大移民大致分為 2 個階段：永久居留（PR，Permanent Residency）和公民（Citizenship）。
 一般討論的各種移民途徑是指如何取得 PR，也俗稱「楓葉卡」。
 成為 PR 後，符合以下條件有 資格 申請成為公民：
@@ -378,10 +393,10 @@ Google Chrome Apple Safari 個人聯絡資訊（Contact Details） ▾ 電話、
     
     <item>
       <title>遞交資料</title>
-      <link>http://example.org/iec/file/</link>
+      <link>https://www.maptwca.com/iec/file/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/iec/file/</guid>
+      <guid>https://www.maptwca.com/iec/file/</guid>
       <description>⚠️ 特別提醒：資料務必詳實，尤其日後有申請移民計劃者，勿省略他國旅居（如：澳洲打工度假）記錄。
 📣 好消息！！自 2023 年 4 月起，良民證可線上申請、郵寄到家，無需再臨櫃領件。
 🌟 重要時程：
@@ -397,7 +412,7 @@ Google Chrome Apple Safari 個人聯絡資訊（Contact Details） ▾ 電話、
 台灣號碼請填國碼 886，不需加號。
 地址：
 請省略標點符號。 申請細節（Application Details）：
-是否有意從事醫療、教育...等相關行業，請誠實作答。
+是否有意從事醫療、教育...等相關行業，請如實作答。
 上傳文件（Supporting Documents） 家庭資料（Family Information） 填寫 [IMM5645] 表格，建議下載並使用 Adobe Reader DC 開啟編輯，無需簽名。
 CV 簡短一頁即可，包含現居國家城市、學歷、工作經歷（各工作主要內容）、現職工作。
 護照 需包含「個人資料頁」、有「出入境戳章」的所有內頁。
@@ -406,19 +421,19 @@ CV 簡短一頁即可，包含現居國家城市、學歷、工作經歷（各�
     
     <item>
       <title>銀行開戶/信用卡</title>
-      <link>http://example.org/life/bank/</link>
+      <link>https://www.maptwca.com/life/bank/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/life/bank/</guid>
+      <guid>https://www.maptwca.com/life/bank/</guid>
       <description> 🚧 加速建置中，敬請見諒！</description>
     </item>
     
     <item>
       <title>駕照換發</title>
-      <link>http://example.org/life/license/</link>
+      <link>https://www.maptwca.com/life/license/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/life/license/</guid>
+      <guid>https://www.maptwca.com/life/license/</guid>
       <description>通用規則：
 需在該省有合法居留身份，並能提供居住地址證明。 持有台灣核發正式有效之 A、B 類小型車、C 類大貨車、D 類大客車或 E 類聯結車之駕駛執照達 2 年（含）以上。 注意：原台灣駕照需當場繳銷，如回台後欲使用，請再至監理所補發。 BC省 ON省 NL省 Step 1. 英譯本申請：
 駐溫哥華台北經濟文化辦事處：轄區範圍包含卑詩省（BC）、亞伯塔省（AB） 與薩斯喀徹溫省（SK ）三省，以及西北地區（NT）、育空地區（YT）。
@@ -434,10 +449,10 @@ CV 簡短一頁即可，包含現居國家城市、學歷、工作經歷（各�
     
     <item>
       <title>機場入境流程</title>
-      <link>http://example.org/iec/airport/</link>
+      <link>https://www.maptwca.com/iec/airport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/iec/airport/</guid>
+      <guid>https://www.maptwca.com/iec/airport/</guid>
       <description>💡 重要提示：
 上機前，再次檢查是否已「申請 eTA」、「醫療保險」！ 首次入境時如需境內轉機，需於「第一個機場」領取簽證，務必保留充足轉機時間。 如拿到的工簽有問題怎麼辦？👉 請參考「工簽修正」文章。 🖥️ 自助電子通關系統 有中文介面，需掃描護照及拍照，填入在加拿大逗留的時間（365 天），依序回答問題（如：是否有槍砲彈藥...等）後，機台會吐出一張「自動電子通關申報單」。
 🛂 護照檢查站 攜帶「護照」、列印出的「POE」、「申報單」至海關，如實回答問題。
@@ -460,26 +475,26 @@ Occupation：OPEN（開放，未限定職業別） ❗ 有任何問題務必當�
     
     <item>
       <title>聯邦快速通道（EE）</title>
-      <link>http://example.org/immigration/ee/</link>
+      <link>https://www.maptwca.com/immigration/ee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/ee/</guid>
+      <guid>https://www.maptwca.com/immigration/ee/</guid>
       <description>👉 近期邀請分數、審查時間請參考「最新消息」內容。
 📢 自 2023 年 6 月 28 日起，正式開始針對「特定職業類別」、「法語類別」的定向邀請！
 聯邦快速通道（EE，Express Entry）主要針對有經驗的技術工作者，根據各方面（年齡、語言能力、學歷、工作經驗...等）計分後，政府按照候選池中的分數高低送出邀請，允許受邀者提交永久居留申請。
+EE 的移民審理一般比省提名更快速，近期預估時長約在半年以內。
 基本步驟：
 確認資格 EE 又分為「CEC、FSW、FST」三個類別，務必先確認自己是否符合任一類別的最低標準（官方工具）。 CEC（Canadian Experience Class） FSW（Federal Skilled Worker） FST（Federal Skilled Trades） 此項目適合有 1 年（含）以上「加拿大工作經驗」的申請者。
 工作要求 ▾ 過去 3 年中有累計滿 1 年，可以不連續。 全職（Full-time），或相當同等時數的兼職（Part-time）工作。 屬於「NOC」的「TEER 0、1、2、3 類」職業。 工作地點需在「加拿大境內」。 工作時有「合法工作」的簽證，且有「給薪」。 ❌ 不可以是自雇（醫師除外）。 ❌ 不能是全職學生在讀期間的工作經驗。 語言能力 ▾ 英、法文均可，需為 2 年內取得的有效成績。 NOC TEER 0、1 類：需達到 CLB 7 級。 NOC TEER 2、3 類：需達到 CLB 5 級。 此項目主要適合在加拿大境外的技術人才。
-根據申請人「六大面向」進行評估，申請人要獲得至少 67 分，方可進入候選池。
-6 項選擇指標 ▾ 年齡（0 / 12分） 請選擇 未滿18歲 18-35歲 36歲 37歲 38歲 39歲 40歲 41歲 42歲 43歲 44歲 45歲 46歲 47歲（含）以上 語言能力（0 / 28分） 英 / 法文均可，最低每科需達到 CLB 7 級（ = 雅思 6 分）。</description>
+根據申請人「六大面向」進行評估，申請人要獲得至少 67 分，方可進入候選池。</description>
     </item>
     
     <item>
       <title>醫療保險</title>
-      <link>http://example.org/iec/insurance/</link>
+      <link>https://www.maptwca.com/iec/insurance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/iec/insurance/</guid>
+      <guid>https://www.maptwca.com/iec/insurance/</guid>
       <description> 加拿大政府規定，所有持打工度假簽證入境者，需有保險「涵蓋全程」，並包含三項：
 醫療照護（Medical Care） 住院治療（Hospitalization） 緊急運送（Repatriation） 加拿大本地保險 - Best Quote 加拿大本地保險 - guard.me 國內打工度假保險 國內既有保險 Best Quote 為加拿大線上投保網站，集合各家本地保險公司方案（如：Blue Cross、Manulife...），網站有中、英文。
 打工度假請選擇「IEC 簽證 - 緊急醫療保險」，依照需求選擇喜好的方案和金額。

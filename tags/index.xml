@@ -1,54 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 加打地圖</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on 加打地圖</description>
+    <title>Tags on 加打地圖 - 加拿大打工度假、生活、移民的好夥伴</title>
+    <link>https://www.maptwca.com/tags/</link>
+    <description>Recent content in Tags on 加打地圖 - 加拿大打工度假、生活、移民的好夥伴</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 29 Dec 2017 12:15:02 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Dec 2017 12:15:02 +0000</lastBuildDate><atom:link href="https://www.maptwca.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>test</title>
-      <link>http://example.org/tags/test/</link>
+      <link>https://www.maptwca.com/tags/test/</link>
       <pubDate>Fri, 29 Dec 2017 12:15:02 +0000</pubDate>
       
-      <guid>http://example.org/tags/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>http://example.org/tags/golang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>http://example.org/tags/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>http://example.org/tags/programming/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>theme</title>
-      <link>http://example.org/tags/theme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/theme/</guid>
+      <guid>https://www.maptwca.com/tags/test/</guid>
       <description></description>
     </item>
     

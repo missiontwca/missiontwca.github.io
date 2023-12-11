@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Immigration on 加打地圖</title>
-    <link>http://example.org/immigration/</link>
-    <description>Recent content in Immigration on 加打地圖</description>
+    <title>Immigrations on 加打地圖 - 加拿大打工度假、生活、移民的好夥伴</title>
+    <link>https://www.maptwca.com/immigration/</link>
+    <description>Recent content in Immigrations on 加打地圖 - 加拿大打工度假、生活、移民的好夥伴</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="http://example.org/immigration/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language><atom:link href="https://www.maptwca.com/immigration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EE 入池教學</title>
-      <link>http://example.org/immigration/ee_pool/</link>
+      <link>https://www.maptwca.com/immigration/ee_pool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/ee_pool/</guid>
+      <guid>https://www.maptwca.com/immigration/ee_pool/</guid>
       <description>註冊帳號 GCKey 為登入加拿大政府網站（包含移民局）的重要帳號，由此連結 進入註冊，已有者請直接登入。
 目前網站採用二階段驗證，需自訂每次登入時的驗證問答及接收驗證碼的信箱。
 ⚠️ 小提醒：登入後此畫面可進行更改密碼、驗證問答...等，切勿手癢點選撤銷（Revoke）帳號！
@@ -25,19 +25,19 @@ Personal Details ▾ Name Personal Description Marital Status：參考「婚姻�
     
     <item>
       <title>其他類別</title>
-      <link>http://example.org/immigration/others/</link>
+      <link>https://www.maptwca.com/immigration/others/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/others/</guid>
+      <guid>https://www.maptwca.com/immigration/others/</guid>
       <description> 依親擔保移民 自僱（Self-employed）移民 | 簽證 創業（Start-up）移民 大西洋移民計劃（AIP） 偏鄉、北部移民試點計劃（RNIP） 農業、食品試點計劃（Agri-Food Pilot） 保母（Caregiver）移民 | 簽證 </description>
     </item>
     
     <item>
       <title>所需文件</title>
-      <link>http://example.org/immigration/documents/</link>
+      <link>https://www.maptwca.com/immigration/documents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/documents/</guid>
+      <guid>https://www.maptwca.com/immigration/documents/</guid>
       <description>聯邦快速通道（EE） 省提名（PNP） - ON 省 省提名（PNP） - NL 省 💡 Tips： 聯邦快速通道（EE）為完全線上進行，僅需上傳掃描電子檔，文件正本請自行保存備查。 所有文件如原文非英、法文，需要上傳「正本」、「翻譯本」。 👉 翻譯相關規定請參考「翻譯公證」。 護照 需包含「個人資料頁」、有「出入境戳章」的所有內頁。
 體檢證明 🆕 2023 年 10 月 1 日起，不需在上傳文件時遞交體檢證明，如需體檢，將於審核期間通知。
 🎉 2024 年 10 月 26 日前，過去 5 年內曾完成體檢，境內申請 PR 無需重做！上傳前次的體檢編號或證明即可。
@@ -51,10 +51,10 @@ Personal Details ▾ Name Personal Description Marital Status：參考「婚姻�
     
     <item>
       <title>後續步驟</title>
-      <link>http://example.org/immigration/after/</link>
+      <link>https://www.maptwca.com/immigration/after/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/after/</guid>
+      <guid>https://www.maptwca.com/immigration/after/</guid>
       <description>聯邦快速通道（EE） 收到「移民邀請信（Invitation to Apply，ITA）」後，請依照以下步驟完成申請：
 接受邀請 ▾ 登入 GCKey 帳號，點選「接受邀請」，將有 60 天的時間完成遞交。。
 回答問題 ▾ 首先需依序回答三個簡單問題。
@@ -72,16 +72,16 @@ EE 申請費：CAD $850 元。 RPRF：CAD $515 元。 生物辨識（Biometrics�
     
     <item>
       <title>省提名（PNP）</title>
-      <link>http://example.org/immigration/pnp/</link>
+      <link>https://www.maptwca.com/immigration/pnp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/pnp/</guid>
+      <guid>https://www.maptwca.com/immigration/pnp/</guid>
       <description>👉 各省 PNP 邀請分數請參考「最新消息」之連結。
 加拿大的省提名（PNP，Provincial Nominee Program）是由省政府管理的移民計劃，各省或地區可以設立自己的不同項目和資格條件。
 各項目又分為：
 EE 類（EE - PNP） 如已有任一種有效的「EE 檔案（CEC、FSW、FST）」，通過省提名（除了 QC 省）後，可憑提名信在 CRS 評分系統中獲得 600 分的加分，幾乎確保在下一輪受邀。
 非 EE 類（一般省提名） 應向省政府遞交文件，通過並獲得省政府發放的提名信後，將提名信、其他所需文件交給聯邦政府審核。聯邦審查階段的預估時長約 1.5 年，請參考「最新消息」。
-卑詩省 BC PNP 安大略省 OINP 紐芬蘭省 NLPNP 其他省份 與 EE 相似，除了不分類別的一般邀請，BC 省也會針對特定職業類別（含：醫療、科技、建築）發送額外邀請。
+卑詩省 BC PNP 安大略省 OINP 其他省份 與 EE 相似，除了不分類別的一般邀請，BC 省也會發送針對特定職業類別（含：醫療、科技、建築）的邀請。
 除了碩、博士留學生以外，其他通道都需要有 BC 省的僱主。
 BC 省另外有針對企業家的創業移民項目，請參考 官網訊息。
 EE 類
@@ -90,11 +90,11 @@ EE 類
     
     <item>
       <title>問題處理</title>
-      <link>http://example.org/immigration/problems/</link>
+      <link>https://www.maptwca.com/immigration/problems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/problems/</guid>
-      <description>移民申請遇到問題，聯繫 IRCC 處理的方式有三種： ⚠️ 提醒：以下皆需要個人的 UCI（Unique Client Identifier）、申請代碼。可登入 GCKey 帳號，在個別申請檔案中查看。
+      <guid>https://www.maptwca.com/immigration/problems/</guid>
+      <description>移民申請遇到問題，聯繫 IRCC 處理的方式有三種： ⚠️ 提醒：以下皆需要個人的 UCI（Unique Client Identifier）、申請代碼，可在 GCKey 帳號的個別申請檔案中查看。
 電話 ▾ 電話號碼：888-242-2100（限加拿大境內）。
 🧭 Tips：東部時間上午 8 點撥打，PR 案件請參考以下：
 選擇英 / 法語 等待念完近期公告，無法跳過 按 1 選擇輸入 UCI 輸入後，待語音復述號碼時，按 1 確認正確 主選單，按 1 選擇「已有申請」，不用聽完所有選項 按 2 選擇「PR 申請」 按 2 選擇「E 為申請代碼開頭字母」 輸入申請代碼後續數字，復述時，按 1 確認正確 輸入出生年份「19xx」，復述後，再按 1 確認正確 聽取機器念完申請狀態 按 0 轉接真人 視等待狀況，可能 1-2分鐘內接通 出現「可要求稍後回電」選項，IRCC 將在數小時內回撥 人數過多，請改日再打 Webform ▾ Webform 是用來與 IRCC 溝通的線上表單，可用於各種申請的進度問題、上傳補件、更改個人地址...等。
@@ -105,10 +105,10 @@ EE 類
     
     <item>
       <title>最新消息</title>
-      <link>http://example.org/immigration/news/</link>
+      <link>https://www.maptwca.com/immigration/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/news/</guid>
+      <guid>https://www.maptwca.com/immigration/news/</guid>
       <description>Previous Next ✴️ 聯邦移民（EE）邀請分數 ⏱️ 最新一輪邀請
 日期：2023 / 12 / 08 ｜ 受邀類別：STEM 職業類 ｜ 邀請人數：5900 人 ｜ 最低分數：481 分
 2023 年 📢 自 2023 年 6 月 28 日起，正式開始針對「特定職業類別」、「法語類別」的定向邀請！
@@ -117,20 +117,35 @@ EE 類
     
     <item>
       <title>策略規劃</title>
-      <link>http://example.org/immigration/plans/</link>
+      <link>https://www.maptwca.com/immigration/plans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/plans/</guid>
-      <description>費用估算：</description>
+      <guid>https://www.maptwca.com/immigration/plans/</guid>
+      <description>常見移民策略
+境外申請 需有較好的年齡、語言、學歷...等條件，以在 CRS 計分系統中獲得高分。 EE - FSW：直接入池等待邀請。
+💡 特定職業類別、有法語能力者，受邀門檻一般較低。
+打工度假 在打工度假的 1 年內申請符合資格的移民計劃
+or
+由 LMIA 僱主協助辦理擔保，以封閉式（固定僱主）工簽的方式延續。 EE
+CEC：加拿大本地工作滿 1 年後申請。 FSW：本地工作有機會提高分數。 省提名
+💡 少數省提名只要短時間工作即可申請，如：NL 省、MB 省。
+💡 部份省份有針對特定留學生的計劃，畢業無需工作就可申請，如：BC 省碩博士。
+留學 根據就讀時長，最多可取得 3 年的畢業後工作許可（PGWP，Post-graduation Work Permit）。 伴侶共同申請 一方在加拿大留學，其伴侶可申請陪同工簽（Spouse Open Work Permit）。 費用估算：
+申請費（含 RPRF） CAD $1365 元
+生物辨識（指紋） CAD $85 元
+體檢 台灣：TWD $4100 元
+加拿大：約 CAD $200 - $300 元
+語言檢定 雅思（台灣考場）：TWD $7500 元
+雅思（加拿大考場）：CAD $300 元 + 税</description>
     </item>
     
     <item>
       <title>進度查詢（Tracker）</title>
-      <link>http://example.org/immigration/tracker/</link>
+      <link>https://www.maptwca.com/immigration/tracker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/tracker/</guid>
-      <description>Tracker （官網）是用來追蹤 EE 移民申請、工簽、學簽、依親...等處理進度的工具。
+      <guid>https://www.maptwca.com/immigration/tracker/</guid>
+      <description>Tracker（官網）是用來追蹤 EE 移民申請、工簽、學簽、依親...等處理進度的工具。
 遞交完整 EE 申請後，收到 AOR（Acknowledgement of Receipt）確認信，即可註冊 Tracker 帳號，查看以下資料：
 更新活動（Activities） ▾ 申請細節：四大審核項目，包含「生物辨識、體檢、移民資格、背景調查」，系統中會分別顯示各項是否完成。
 申請歷史：可查看更多進度記錄。
@@ -143,10 +158,10 @@ Google Chrome Apple Safari 個人聯絡資訊（Contact Details） ▾ 電話、
     
     <item>
       <title>準備知識</title>
-      <link>http://example.org/immigration/knowledge/</link>
+      <link>https://www.maptwca.com/immigration/knowledge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/knowledge/</guid>
+      <guid>https://www.maptwca.com/immigration/knowledge/</guid>
       <description>移民（永久居民 PR | 公民 Citizen） 加拿大移民大致分為 2 個階段：永久居留（PR，Permanent Residency）和公民（Citizenship）。
 一般討論的各種移民途徑是指如何取得 PR，也俗稱「楓葉卡」。
 成為 PR 後，符合以下條件有 資格 申請成為公民：
@@ -156,18 +171,18 @@ Google Chrome Apple Safari 個人聯絡資訊（Contact Details） ▾ 電話、
     
     <item>
       <title>聯邦快速通道（EE）</title>
-      <link>http://example.org/immigration/ee/</link>
+      <link>https://www.maptwca.com/immigration/ee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/immigration/ee/</guid>
+      <guid>https://www.maptwca.com/immigration/ee/</guid>
       <description>👉 近期邀請分數、審查時間請參考「最新消息」內容。
 📢 自 2023 年 6 月 28 日起，正式開始針對「特定職業類別」、「法語類別」的定向邀請！
 聯邦快速通道（EE，Express Entry）主要針對有經驗的技術工作者，根據各方面（年齡、語言能力、學歷、工作經驗...等）計分後，政府按照候選池中的分數高低送出邀請，允許受邀者提交永久居留申請。
+EE 的移民審理一般比省提名更快速，近期預估時長約在半年以內。
 基本步驟：
 確認資格 EE 又分為「CEC、FSW、FST」三個類別，務必先確認自己是否符合任一類別的最低標準（官方工具）。 CEC（Canadian Experience Class） FSW（Federal Skilled Worker） FST（Federal Skilled Trades） 此項目適合有 1 年（含）以上「加拿大工作經驗」的申請者。
 工作要求 ▾ 過去 3 年中有累計滿 1 年，可以不連續。 全職（Full-time），或相當同等時數的兼職（Part-time）工作。 屬於「NOC」的「TEER 0、1、2、3 類」職業。 工作地點需在「加拿大境內」。 工作時有「合法工作」的簽證，且有「給薪」。 ❌ 不可以是自雇（醫師除外）。 ❌ 不能是全職學生在讀期間的工作經驗。 語言能力 ▾ 英、法文均可，需為 2 年內取得的有效成績。 NOC TEER 0、1 類：需達到 CLB 7 級。 NOC TEER 2、3 類：需達到 CLB 5 級。 此項目主要適合在加拿大境外的技術人才。
-根據申請人「六大面向」進行評估，申請人要獲得至少 67 分，方可進入候選池。
-6 項選擇指標 ▾ 年齡（0 / 12分） 請選擇 未滿18歲 18-35歲 36歲 37歲 38歲 39歲 40歲 41歲 42歲 43歲 44歲 45歲 46歲 47歲（含）以上 語言能力（0 / 28分） 英 / 法文均可，最低每科需達到 CLB 7 級（ = 雅思 6 分）。</description>
+根據申請人「六大面向」進行評估，申請人要獲得至少 67 分，方可進入候選池。</description>
     </item>
     
   </channel>

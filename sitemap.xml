@@ -2,102 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://www.maptwca.com/categories/</loc>
     <lastmod>2017-12-29T12:15:02+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://www.maptwca.com/tags/</loc>
     <lastmod>2017-12-29T12:15:02+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/test/</loc>
+    <loc>https://www.maptwca.com/tags/test/</loc>
     <lastmod>2017-12-29T12:15:02+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/test/</loc>
+    <loc>https://www.maptwca.com/categories/test/</loc>
     <lastmod>2017-12-29T12:15:02+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/test/</loc>
+    <loc>https://www.maptwca.com/test/</loc>
     <lastmod>2017-12-29T12:15:02+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://www.maptwca.com/</loc>
     <lastmod>2017-12-29T12:15:02+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/</loc>
+    <loc>https://www.maptwca.com/blog/</loc>
   </url><url>
-    <loc>http://example.org/blog/tcm/</loc>
+    <loc>https://www.maptwca.com/contact/</loc>
   </url><url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://www.maptwca.com/immigration/ee_pool/</loc>
   </url><url>
-    <loc>http://example.org/immigration/ee_pool/</loc>
+    <loc>https://www.maptwca.com/iec/eta/</loc>
   </url><url>
-    <loc>http://example.org/iec/eta/</loc>
+    <loc>https://www.maptwca.com/faq/</loc>
   </url><url>
-    <loc>http://example.org/faq/</loc>
+    <loc>https://www.maptwca.com/iec/</loc>
   </url><url>
-    <loc>http://example.org/tags/golang/</loc>
+    <loc>https://www.maptwca.com/immigration/</loc>
   </url><url>
-    <loc>http://example.org/tags/hugo/</loc>
+    <loc>https://www.maptwca.com/life/</loc>
   </url><url>
-    <loc>http://example.org/iec/</loc>
+    <loc>https://www.maptwca.com/blog/tcm/</loc>
   </url><url>
-    <loc>http://example.org/immigration/</loc>
+    <loc>https://www.maptwca.com/iec/pool/</loc>
   </url><url>
-    <loc>http://example.org/life/</loc>
+    <loc>https://www.maptwca.com/iec/correction/</loc>
   </url><url>
-    <loc>http://example.org/categories/lorem/</loc>
+    <loc>https://www.maptwca.com/life/phone/</loc>
   </url><url>
-    <loc>http://example.org/tags/programming/</loc>
+    <loc>https://www.maptwca.com/life/transportation/</loc>
   </url><url>
-    <loc>http://example.org/categories/programming/</loc>
+    <loc>https://www.maptwca.com/life/provinces/</loc>
   </url><url>
-    <loc>http://example.org/tags/theme/</loc>
+    <loc>https://www.maptwca.com/life/sites/</loc>
   </url><url>
-    <loc>http://example.org/iec/pool/</loc>
+    <loc>https://www.maptwca.com/immigration/others/</loc>
   </url><url>
-    <loc>http://example.org/iec/correction/</loc>
+    <loc>https://www.maptwca.com/immigration/documents/</loc>
   </url><url>
-    <loc>http://example.org/life/phone/</loc>
+    <loc>https://www.maptwca.com/iec/sin/</loc>
   </url><url>
-    <loc>http://example.org/life/transportation/</loc>
+    <loc>https://www.maptwca.com/immigration/after/</loc>
   </url><url>
-    <loc>http://example.org/life/provinces/</loc>
+    <loc>https://www.maptwca.com/immigration/pnp/</loc>
   </url><url>
-    <loc>http://example.org/life/sites/</loc>
+    <loc>https://www.maptwca.com/life/shopping/</loc>
   </url><url>
-    <loc>http://example.org/immigration/others/</loc>
+    <loc>https://www.maptwca.com/life/rent/</loc>
   </url><url>
-    <loc>http://example.org/immigration/documents/</loc>
+    <loc>https://www.maptwca.com/immigration/problems/</loc>
   </url><url>
-    <loc>http://example.org/iec/sin/</loc>
+    <loc>https://www.maptwca.com/immigration/news/</loc>
   </url><url>
-    <loc>http://example.org/immigration/after/</loc>
+    <loc>https://www.maptwca.com/life/tax/</loc>
   </url><url>
-    <loc>http://example.org/immigration/pnp/</loc>
+    <loc>https://www.maptwca.com/immigration/plans/</loc>
   </url><url>
-    <loc>http://example.org/life/shopping/</loc>
+    <loc>https://www.maptwca.com/immigration/tracker/</loc>
   </url><url>
-    <loc>http://example.org/life/rent/</loc>
+    <loc>https://www.maptwca.com/immigration/knowledge/</loc>
   </url><url>
-    <loc>http://example.org/immigration/problems/</loc>
+    <loc>https://www.maptwca.com/iec/file/</loc>
   </url><url>
-    <loc>http://example.org/immigration/news/</loc>
+    <loc>https://www.maptwca.com/life/bank/</loc>
   </url><url>
-    <loc>http://example.org/life/tax/</loc>
+    <loc>https://www.maptwca.com/life/license/</loc>
   </url><url>
-    <loc>http://example.org/immigration/plans/</loc>
+    <loc>https://www.maptwca.com/iec/airport/</loc>
   </url><url>
-    <loc>http://example.org/immigration/tracker/</loc>
+    <loc>https://www.maptwca.com/immigration/ee/</loc>
   </url><url>
-    <loc>http://example.org/immigration/knowledge/</loc>
-  </url><url>
-    <loc>http://example.org/iec/file/</loc>
-  </url><url>
-    <loc>http://example.org/life/bank/</loc>
-  </url><url>
-    <loc>http://example.org/life/license/</loc>
-  </url><url>
-    <loc>http://example.org/iec/airport/</loc>
-  </url><url>
-    <loc>http://example.org/immigration/ee/</loc>
-  </url><url>
-    <loc>http://example.org/iec/insurance/</loc>
+    <loc>https://www.maptwca.com/iec/insurance/</loc>
   </url>
 </urlset>
