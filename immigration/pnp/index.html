@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1702301435" rel="stylesheet">
+<link href="/css/custom.css?1702312619" rel="stylesheet">
 
 
 
@@ -390,7 +390,7 @@
                                     
                                     <li><a href="/immigration/pnp">省提名（PNP）</a></li>
                                     
-                                    <li><a href="/immigration/others">其他類別（建置中 🚧）</a></li>
+                                    <li><a href="/immigration/others">其他類別</a></li>
                                     
                                     </ul>
                                     
@@ -521,6 +521,10 @@
         tbody tr:not(:nth-child(5)){
             text-align: center;
         }
+        .custom-ul li {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 
@@ -529,9 +533,9 @@
     <hr>
     <p class="bold">加拿大的省提名（PNP，Provincial Nominee Program）是由省政府管理的移民計劃，各省或地區可以設立自己的不同項目和資格條件。</p>
     <p>各項目又分為：</p>
-    <ul>
+    <ul class="custom-ul">
         <li class="titles">EE 類（EE - PNP）</li>
-        <p>如已有任一種有效的<a href="/immigration/ee" target="_blank">「EE 檔案（CEC、FSW、FST）」</a>，通過省提名（除了 QC 省）後，可憑提名信在 CRS 評分系統中獲得 600 分的加分，幾乎確保在下一輪受邀。</p>
+        <p>如已有任一種有效的<a href="/immigration/ee" target="_blank">「EE 檔案（CEC、FSW、FST）」</a>，通過省提名（<span class="bold">除了 QC 省</span>）後，可憑提名信在 CRS 評分系統中獲得 600 分的加分，幾乎確保在下一輪受邀。</p>
         <li class="titles">非 EE 類（一般省提名）</li>
         <p>應向省政府遞交文件，通過並獲得省政府發放的提名信後，將提名信、其他所需文件交給聯邦政府審核。聯邦審查階段的預估時長約 1.5 年，請參考<a href="/immigration/news"
                 target="_blank">「最新消息」</a>。</p>
@@ -545,25 +549,99 @@
 
     <div class="tab-content">
         <div id="bcpnp" class="tab-pane fade in active">
-            <p>與 EE 相似，除了不分類別的一般邀請，BC 省也會發送針對特定職業類別（含：醫療、科技、建築）的邀請。</p>
-            <p>除了碩、博士留學生以外，其他通道都需要有 BC 省的僱主。</p>
-            <p>BC 省另外有針對企業家的創業移民項目，請參考 <a href="https://www.welcomebc.ca/Immigrate-to-B-C/Entrepreneur-Immigration" target="_blank">官網訊息</a>。</p>
+            <p>除了<span class="bold">衛生局、碩博士通道</span>以外，都要先到 <a href="https://www.pnpapplication.gov.bc.ca/user/sign-in" target="_blank">BCPNP 官網</a> <span class="bold">註冊</span>，受邀後才可正式申請移民。</p>
+            <p>根據申請人的條件（職業、薪資、所在地區、語言、學歷...等）評分，並發送邀請。</p>
+            <p>包含不分類別的「一般邀請」及針對「優先職業（含：醫療、科技、建築類）」的邀請。</p>
+            <p>受邀後 30 天內需完成申請，否則需重新註冊。</p>
+            <b>通用要求</b>
+            <ul class="custom-ul">
+                <li>工作：</li>
+                    <ul class="custom-ul">
+                        <li>除了碩、博士畢業生以外，其他通道都需要有 BC 省的僱主。<a href="https://www.welcomebc.ca/Immigrate-to-B-C/Employers" target="_blank">（僱主規定）</a></li>
+                        <li>如屬於 <a href="https://www.welcomebc.ca/Immigrate-to-B-C/Skills-Immigration#Priorities" target="_blank">優先職業</a>，工作聘書就不需是永久（無明定結束日期）的。</li>
+                        <li>需符合該職業在 BC 省的工資標準，參考 <a href="https://www.workbc.ca/" target="_blank">WorkBC</a>、<a href="https://www.jobbank.gc.ca/trend-analysis" target="_blank">Job Bank</a>。</li>
+                    </ul>
+                <li>語言：如工作是 NOC TEER 2、3、4、5 類，需達 CLB 4 以上，NOC TEER 0、1 類則不需要。</li>
+            </ul>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                        data-target="#bcSkillCollapse">技術工作者（Skilled Worker）通道 ▾</button>
+                    <div id="bcSkillCollapse" class="collapse collapse-content">
+                        <ul class="custom-ul">
+                            <li>BC 省雇主的全職、永久（無明定結束日期）工作聘書。</li>
+                            <li>工作是 NOC <span class="bold">TEER 0、1、2、3 類</span>。</li>
+                            <li>有至少<span class="bold"> 2 </span>年全職（或同等時數）的 NOC TEER 0、1、2、3 類工作經驗。</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                        data-target="#bcHealthCollapse">衛生局（Health Authority）通道 ▾</button>
+                    <div id="bcHealthCollapse" class="collapse collapse-content">
+                        <p>不需註冊，可直接申請。</p>
+                        <ul class="custom-ul">
+                            <li>BC 省公共衛生當局的全職、永久（無明定結束日期）工作聘書；</li>
+                            <li><span class="bold">或</span>經 BC 省的衛生當局 / 助產士執業團體確認的<span class="bold">醫師、護理師、助產士</span>資格。</li>
+                            <li>滿足該工作所需的經驗及資格。</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                        data-target="#bcEntryCollapse">入門工作者（Entry Level and Semi-skilled）通道 ▾</button>
+                    <div id="bcEntryCollapse" class="collapse collapse-content">
+                        <ul class="custom-ul">
+                            <li>BC 省雇主的全職、永久（無明定結束日期）工作聘書。</li>
+                            <li>工作是 NOC <span class="bold">TEER 4、5</span> 類中的 <a href="https://www.welcomebc.ca/Immigrate-to-B-C/Skills-Immigration#ELSS" target="_blank">指定職業</a>（含：<span class="bold">餐飲旅宿</span>、食品加工...等）；</li>
+                            <li>或 BC 省 <a href="https://www.britishcolumbia.ca/about-british-columbia-canada/regions/" target="_blank">東北開發區</a> NOC TEER 4、5 類的任何職業（除：住家保姆）。</li>
+                            <li>已為該僱主工作 9 個月。</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                        data-target="#bcGraduateCollapse">留學生（International Graduate）通道 ▾</button>
+                    <div id="bcGraduateCollapse" class="collapse collapse-content">
+                        <ul class="custom-ul">
+                            <li>近 3 年內，獲得 BC 省合格大專以上院校的學位或文憑。</li>
+                            <li>BC 省雇主的全職、永久（無明定結束日期）工作聘書。</li>
+                            <li>工作是 NOC TEER 1、2、3 類。</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                        data-target="#bcPostCollapse">碩、博士生（International Post-graduate）通道 ▾</button>
+                    <div id="bcPostCollapse" class="collapse collapse-content">
+                        <p>近 3 年內，獲得以下任一項（不需註冊，可直接申請）：</p></p>
+                        <ul class="custom-ul">
+                            <li><a href="https://www.welcomebc.ca/Immigrate-to-B-C/documents/BC-PNP-IPG-EEBC-IPG-Eligible-Programs-of-Study.aspx" target="_blank">指定校系</a> 的碩士<span class="bold">學位</span>；</li>
+                            <li>獲得 BC 省公立學校的任何博士（Doctoral）學位；</li>
+                            <li><span class="bold">錄取</span> BC 省公立學校的任何博士（PhD）入學。</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <p class="titles">EE 類</p>
+            <p>除了入門工作者通道以外，如已在 EE 池中建立有效的 CEC 或 FSW 檔案，都可搭配為 <span class="bold">EEBC</span>，註冊 BCPNP 時請選擇「Express Entry BC」開頭的選項。</p>
+            <br>
+            <p>另有創業移民項目，請參考 <a href="https://www.welcomebc.ca/Immigrate-to-B-C/Entrepreneur-Immigration" target="_blank">官網訊息</a>。</p>
         </div>
         <div id="oinp" class="tab-pane fade">
             <p class="titles">EE 類</p>
-            <ul>
-                <li>在 EE 池中已建立有效且符合資格的檔案，才有可能收到 ON 省主動發送的邀請通知，又稱 NOI（Notifications of Interest）。</li>
-                <li>收到 EOI 邀請後，必需在 45 天內完成遞交移民申請。</li>
-                <li>近期邀請項目見 <a href="https://www.ontario.ca/page/oinp-express-entry-notifications-interest#section-1" target="_blank">官網公告</a>。</li>
+            <ul class="custom-ul">
+                <li>在 <span class="bold">EE</span> 池中已建立有效且符合資格的檔案，才有可能收到 ON 省主動發送的邀請通知，又稱 NOI（Notifications of Interest）。</li>
+                <li>收到 NOI 通知後，45 天內需完成遞交移民申請。</li>
                 <li>皆需滿足 <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/proof-funds.html" target="_blank">最低財力要求</a>。</li>
             </ul>
             <ul class="list-group">
                 <li class="list-group-item">
                     <button class="btn btn-link" type="button" data-toggle="collapse"
-                        data-target="#hcpCollapse">優才（HCP）通道 ▾</button>
-                    <div id="hcpCollapse" class="collapse collapse-content">
-                        <p>需符合 EE 中 CEC 或 FSW 的其中一種，另外：</p>
-                        <ul>
+                        data-target="#onHcpCollapse">優才（HCP）通道 ▾</button>
+                    <div id="onHcpCollapse" class="collapse collapse-content">
+                        <p>需符合 EE 中 CEC 或 FSW 的其中一種，並：</p>
+                        <ul class="custom-ul">
                             <li>工作經驗：依照 CEC、FSW 要求。（👉 詳見<a href="/immigration/ee" target="_blank">「聯邦快速通道（EE）」</a>。）</li>
                             <li>語言：達 CLB 7 以上。</li>
                             <li>學歷：大學（含）以上，加拿大境外學歷需 ECA 認證。</li>
@@ -572,20 +650,20 @@
                 </li>
                 <li class="list-group-item">
                     <button class="btn btn-link" type="button" data-toggle="collapse"
-                        data-target="#tradeCollapse">技工通道 ▾</button>
-                    <div id="tradeCollapse" class="collapse collapse-content">
-                        <ul>
-                            <li>工作經驗：屬於 NOC 中的 <a href="https://www.ontario.ca/page/ontarios-express-entry-skilled-trades-stream#section-2" target="_blank">特定技工類別</a> 職業，近 2 年內 1 年（含）以上全職（或同等時數）工作，可不連續。</li>
+                        data-target="#onTradeCollapse">技工（Skilled Trades）通道 ▾</button>
+                    <div id="onTradeCollapse" class="collapse collapse-content">
+                        <ul class="custom-ul">
+                            <li>工作經驗：屬於 NOC 中的 <a href="https://www.ontario.ca/page/ontarios-express-entry-skilled-trades-stream#section-2" target="_blank">特定技工職業</a>，近 2 年內 1 年（含）以上全職（或同等時數）工作，可不連續。</li>
                             <li>語言：達 CLB 5 以上。</li>
                         </ul>
                     </div>
                 </li>
                 <li class="list-group-item">
                     <button class="btn btn-link" type="button" data-toggle="collapse"
-                        data-target="#frenchCollapse">法語通道 ▾</button>
-                    <div id="frenchCollapse" class="collapse collapse-content">
-                        <p>需至少符合 EE 中 CEC 或 FSW 的其中一種，另外：</p>
-                        <ul>
+                        data-target="#onFrenchCollapse">法語（French-Speaking Skilled Worker）通道 ▾</button>
+                    <div id="onFrenchCollapse" class="collapse collapse-content">
+                        <p>需至少符合 EE 中 CEC 或 FSW 的其中一種，並：</p>
+                        <ul class="custom-ul">
                             <li>工作經驗：依照 CEC、FSW 要求。（👉 詳見<a href="/immigration/ee" target="_blank">「聯邦快速通道（EE）」</a>。）</li>
                             <li>語言：法語達 CLB 7 以上，且英語達 CLB 6 以上。</li>
                             <li>學歷：大學（含）以上，加拿大境外學歷需 ECA 認證。</li>
@@ -595,29 +673,28 @@
             </ul>
 
             <p class="titles">非 EE 類</p>
-            <ul>
-                <li>一定要先在 <a href="https://www.ontarioimmigration.gov.on.ca/oinp_index/resources/app/guest/index.html#!/" target="_blank">EOI（Expression of Interest）系統</a> 中註冊，以表達意向，受邀後才可正式遞交省提名申請。</li>
-                <li>系統根據申請人的資料（職業、收入、所在地區、語言、學歷...等）評分，並發送邀請。<a href="https://www.ontario.ca/page/ontario-immigrant-nominee-program-expression-interest-system-streams#section-4" target="_blank">（評分標準）</a></li>
+            <ul class="custom-ul">
+                <li>一定要先在 <a href="https://www.ontarioimmigration.gov.on.ca/oinp_index/resources/app/guest/index.html#!/" target="_blank">EOI（Expression of Interest）系統</a> 中<span class="bold">註冊</span>，以表達意向，受邀後才可正式遞交省提名申請。</li>
+                <li>系統根據申請人的條件（職業、收入、所在地區、語言、學歷...等）評分，並發送邀請。<a href="https://www.ontario.ca/page/ontario-immigrant-nominee-program-expression-interest-system-streams#section-4" target="_blank">（評分標準）</a></li>
                 <li>受邀後 14 天內需完成申請，否則需重新註冊。</li>
-                <li>註冊階段不需付費，正式申請時才要支付省提名費用。</li>
-                <li>申請時需合法居住在 ON 省或加拿大境外。不得居住在其他加拿大省份。</li>
+                <li>申請時需合法居住在 ON 省或加拿大境外，不得居住在其他加拿大省份。</li>
             </ul>
             <ul class="list-group">
                 <li class="list-group-item">
                     <button class="btn btn-link" type="button" data-toggle="collapse"
-                        data-target="#degreeCollapse">碩、博士通道 ▾</button>
-                    <div id="degreeCollapse" class="collapse collapse-content">
+                        data-target="#onGraduateCollapse">碩、博士類 ▾</button>
+                    <div id="onGraduateCollapse" class="collapse collapse-content">
                         <table class="table table-striped">
                             <thead>
                                 <tr>
                                     <th scope="col"></th>
-                                    <th scope="col">碩士類<br>（Masters Graduate）</th>
-                                    <th scope="col">博士類<br>（PhD Graduate）</th>
+                                    <th scope="col">碩士通道<br>（Masters Graduate）</th>
+                                    <th scope="col">博士通道<br>（PhD Graduate）</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th>學位時長要求</th>
+                                    <th>學位要求</th>
                                     <td>1 學年（含）以上，<br>Full-time（每週至少 15 小時）</td>
                                     <td>2 學年（含）以上</td>
                                 </tr>
@@ -635,8 +712,8 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <p>其他要求：</p>
-                        <ul>
+                        <b>其他要求：</b>
+                        <ul class="custom-ul">
                             <li>需於獲得學位的 2 年內遞交申請。</li>
                             <p>⚠️ 注意：需先註冊 EOI 並受邀後才能正式遞交申請，務必提早準備！</p>
                             <li>過去 2 年內曾合法在 ON 省居住 1 年以上，可以不連續。</li>
@@ -647,12 +724,11 @@
                     </div>
                 </li>
                 <li class="list-group-item">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#jobCollapse">僱主擔保通道
-                        ▾</button>
-                    <div id="jobCollapse" class="collapse collapse-content">
-                        <b>工作要求</b>
-                        <ul>
-                            <li>有一份 ON 省全職、永久的工作聘書。</li>
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#onJobCollapse">僱主擔保類 ▾</button>
+                    <div id="onJobCollapse" class="collapse collapse-content">
+                        <b>工作要求：</b>
+                        <ul class="custom-ul">
+                            <li>有一份 ON 省<span class="bold">全職、永久的工作聘書</span>。</li>
                             <li>工作需主要在 ON 省內。</li>
                             <li>申請人及其配偶、子女不得持有該企業超過 10% 的股份。</li>
                             <li>如從事特定受監管的職業，需持有效執照。</li>
@@ -663,9 +739,9 @@
                             <thead>
                                 <tr>
                                     <th scope="col"></th>
-                                    <th scope="col">外國員工類<br>（Foreign Worker）</th>
-                                    <th scope="col">留學生類<br>（International Student）</th>
-                                    <th scope="col">緊缺技術類<br>（In-Demand Skills）</th>
+                                    <th scope="col">外國員工通道<br>（Foreign Worker）</th>
+                                    <th scope="col">留學生通道<br>（International Student）</th>
+                                    <th scope="col">緊缺技術通道<br>（In-Demand Skills）</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -701,7 +777,7 @@
                                     <td>
                                         <ul>
                                             <li>
-                                                申請時的 5 年內需有 2 年（含）以上與之相同 NOC 的工作經驗，可不連續，可以是自僱。
+                                                申請時的 5 年內需有 <span class="bold">2 年</span>（含）以上與之相同 NOC 的工作經驗，可不連續，可以是自僱。
                                                 <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip"
                                                     data-placement="top" data-html="true"
                                                     title="全職：每週30小時，2年3120小時，可不同工作相加。<br>或兼職：例如每週15小時，4年3120小時。"></i>
@@ -723,7 +799,7 @@
                                     <td>
                                         <ul>
                                             <li>
-                                                申請時的 3 年內需有 9 個月（含）以上與之相同 NOC 的工作經驗，可不連續，可以是自僱。
+                                                申請時的 3 年內需有 <span class="bold">9 個月</span>（含）以上與之相同 NOC 的工作經驗，可不連續，可以是自僱。
                                                 <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip"
                                                     data-placement="top" data-html="true"
                                                     title="全職：每週30小時，9個月1200小時，可不同工作相加。<br>或兼職：例如每週15小時，18個月1200小時。"></i>
