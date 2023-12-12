@@ -4,7 +4,7 @@
   /* Active上邊 */
   --navbar-border-top: #B8860B;
   --button-border: #40a070;
-  --link-focus: #a07452;
+  --link-focus: #a07c5f;
   --form-shadow: rgba(106, 174, 122, 0.6);
   --pagination-bg: #cde4d2;
   --link-hover-bg: #996515;
@@ -14,7 +14,9 @@
   ccc4bc
   AF9C87
   c09a7d 奶茶棕
-  a07452
+  d1b393B3 透明奶茶
+  a07c5f 烤奶
+  6b4221 首頁
   743e0c 棕
   B8860B 金黃棕
   CB6D51 橙金棕
@@ -373,6 +375,7 @@ ul.list-style-none {
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
   border-top: solid 5px var(--navbar-border-top);
+  border-bottom: solid 0.5px;
 }
 @media (max-width: 768px) {
   .navbar ul.nav > li.active > a,
@@ -1215,7 +1218,7 @@ fieldset[disabled] .btn-template-primary.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #c09a7d;
+  background: #6b4221;
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
@@ -1248,10 +1251,10 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel p,
 .home-carousel ul {
   color: #fff;
+  /* color: #4b352e; */
 }
 .home-carousel h1 {
   font-weight: 700;
-
   font-size: 46px;
   letter-spacing: 0.08em;
 }
@@ -1271,7 +1274,6 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 18px;
   font-weight: 700;
   padding: 0;
-
   letter-spacing: 0.10em;
 }
 @media (max-width: 991px) {
@@ -1828,7 +1830,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar.background-white {
   background: #fff;
 }
-.bar.background-image-fixed-1 {
+/* .bar.background-image-fixed-1 {
   background: url('../img/fixed-background-1.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -1837,7 +1839,7 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/fixed-background-2.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
+} */
 .bar.color-white h1,
 .bar.color-white h2,
 .bar.color-white h3,

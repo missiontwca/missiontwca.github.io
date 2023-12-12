@@ -2,25 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.maptwca.com/categories/</loc>
-    <lastmod>2017-12-29T12:15:02+00:00</lastmod>
-  </url><url>
-    <loc>https://www.maptwca.com/tags/</loc>
-    <lastmod>2017-12-29T12:15:02+00:00</lastmod>
-  </url><url>
-    <loc>https://www.maptwca.com/tags/test/</loc>
-    <lastmod>2017-12-29T12:15:02+00:00</lastmod>
-  </url><url>
-    <loc>https://www.maptwca.com/categories/test/</loc>
-    <lastmod>2017-12-29T12:15:02+00:00</lastmod>
-  </url><url>
-    <loc>https://www.maptwca.com/test/</loc>
-    <lastmod>2017-12-29T12:15:02+00:00</lastmod>
-  </url><url>
-    <loc>https://www.maptwca.com/</loc>
-    <lastmod>2017-12-29T12:15:02+00:00</lastmod>
-  </url><url>
     <loc>https://www.maptwca.com/blog/</loc>
+  </url><url>
+    <loc>https://www.maptwca.com/categories/</loc>
   </url><url>
     <loc>https://www.maptwca.com/contact/</loc>
   </url><url>
@@ -28,13 +12,13 @@
   </url><url>
     <loc>https://www.maptwca.com/iec/eta/</loc>
   </url><url>
-    <loc>https://www.maptwca.com/faq/</loc>
-  </url><url>
     <loc>https://www.maptwca.com/iec/</loc>
   </url><url>
     <loc>https://www.maptwca.com/immigration/</loc>
   </url><url>
     <loc>https://www.maptwca.com/life/</loc>
+  </url><url>
+    <loc>https://www.maptwca.com/tags/</loc>
   </url><url>
     <loc>https://www.maptwca.com/blog/tcm/</loc>
   </url><url>
@@ -43,6 +27,8 @@
     <loc>https://www.maptwca.com/iec/correction/</loc>
   </url><url>
     <loc>https://www.maptwca.com/life/phone/</loc>
+  </url><url>
+    <loc>https://www.maptwca.com/</loc>
   </url><url>
     <loc>https://www.maptwca.com/life/transportation/</loc>
   </url><url>
