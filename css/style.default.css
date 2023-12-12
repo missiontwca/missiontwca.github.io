@@ -16,11 +16,13 @@
   c09a7d 奶茶棕
   d1b393B3 透明奶茶
   a07c5f 烤奶
-  6b4221 首頁
   743e0c 棕
   B8860B 金黃棕
   CB6D51 橙金棕
   4b352e 咖啡
+  6b4221 首頁
+  F4F1ED t-milk
+  4A352E t-brown
   112ee5 寶藍
   cde4d2 淺綠
   067b39 正綠
@@ -789,13 +791,13 @@ fieldset[disabled] .btn-template-primary.active {
   color: var(--primary-accent);
   background-color: #ffffff;
 }
-#intro {
+/* #intro {
   background: url('../img/fixed-background-2.jpg') no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} */
 #intro .item {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   height: 100%;
@@ -1788,7 +1790,7 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-  background: url('/img/texture-brown.png') center center repeat;
+  background: url('/img/texture-milk.png') center center repeat;
   padding: 20px 0;
   margin-bottom: 40px;
 }
@@ -1796,8 +1798,8 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 0;
 }
 #heading-breadcrumbs h1 {
-  color: white;
-
+  /* color: #4a352e; */
+  color: black;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -1817,7 +1819,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 60px 0;
 }
 .bar.background-pentagon {
-  background: url('../img/texture-brown.png') center center repeat;
+  background: url('../img/texture-milk.png') center center repeat;
   border-top: solid 1px #999999;
   border-bottom: solid 1px #999999;
 }
