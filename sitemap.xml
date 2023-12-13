@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.maptwca.com/blog/</loc>
-  </url><url>
     <loc>https://www.maptwca.com/categories/</loc>
   </url><url>
     <loc>https://www.maptwca.com/contact/</loc>
@@ -20,13 +18,11 @@
   </url><url>
     <loc>https://www.maptwca.com/tags/</loc>
   </url><url>
-    <loc>https://www.maptwca.com/blog/tcm/</loc>
-  </url><url>
     <loc>https://www.maptwca.com/iec/pool/</loc>
   </url><url>
     <loc>https://www.maptwca.com/iec/correction/</loc>
   </url><url>
-    <loc>https://www.maptwca.com/life/phone/</loc>
+    <loc>https://www.maptwca.com/life/mobile/</loc>
   </url><url>
     <loc>https://www.maptwca.com/</loc>
   </url><url>
@@ -42,7 +38,7 @@
   </url><url>
     <loc>https://www.maptwca.com/iec/sin/</loc>
   </url><url>
-    <loc>https://www.maptwca.com/immigration/after/</loc>
+    <loc>https://www.maptwca.com/immigration/steps/</loc>
   </url><url>
     <loc>https://www.maptwca.com/immigration/pnp/</loc>
   </url><url>
