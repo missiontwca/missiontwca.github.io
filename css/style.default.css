@@ -4,10 +4,10 @@
   /* Active上邊 */
   --navbar-border-top: #B8860B;
   --button-border: #40a070;
-  --link-focus: #a07c5f;
+  --link-focus: #034e23;
   --form-shadow: rgba(106, 174, 122, 0.6);
   --pagination-bg: #cde4d2;
-  --link-hover-bg: #996515;
+  --link-hover-bg: #a07c5f;
   /* 目錄hover背景 */
   --navbar-focus: #cde4d2;
   /* 其他顏色：
@@ -33,8 +33,8 @@
 .next {
   font-weight: bold;
   color: #743e0c;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .headings {
   color: #2c3334;
