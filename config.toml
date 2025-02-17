@@ -1,0 +1,285 @@
+baseURL = "https://www.maptwca.com/"
+title = "加打地圖｜加拿大打工度假、生活、移民的好夥伴"
+languageCode = 'zh-tw'
+defaultContentLanguage = 'zh-tw'
+
+[params]
+    disabled_logo = false
+    logo_text = "加打地圖"
+    logo = "/img/logo-map.jpg"
+    logo_small = "/img/logo-map.jpg"
+    defaultKeywords = ["加拿大", "加打", "打工度假", "移民"]
+    defaultDescription = "加打地圖 提供加拿大打工度假、日常生活、移民攻略等全方位的資訊，加拿大生活的好夥伴，從行前準備到當地生活，為你全程導航。整理分析聯邦移民、省提名計劃，幫助你獨立完成申請。"
+    mainSections = ["blog"]
+    about_us = "<p></p>"
+    facebook_site = "https://www.facebook.com/maptwca/"
+    copyright = "Copyright © 2023 加打地圖 All rights reserved."
+    date_format = "January 6, 2006"
+    style = "default"
+    contact_url = "/contact"
+
+[params.topbar]
+    enable = false
+    text = ""
+
+[params.carouselHomepage]
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.see_more]
+    enable = true
+    icon = "far fa-file-alt"
+    title = "準備好開始打工度假了嗎？"
+    subtitle = "跟著 🌎 加打地圖 的教學，輕鬆完成申請吧！"
+    link_url = "/iec/pool"
+    link_text = "入池抽籤"
+
+[params.recent_posts]
+    enable = false
+    title = "最新文章"
+    subtitle = ""
+    hide_summary = true
+
+[params.widgets]
+    search = true
+    categories = false
+    tags = false
+
+[params.footer.recent_posts]
+    enable = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+
+[menu]
+
+[[menu.main]]
+    name       = "首頁"
+    identifier = "memu.home"
+    url        = "/"
+    weight     = 1
+    
+[[menu.main]]
+    name       = "打工度假"
+    identifier = "memu.iec"
+    url        = ""
+    weight     = 2
+
+[[menu.main]]
+    name       = "打工度假申請"
+    identifier = "section.iec_apply"
+    parent     = "memu.iec"
+    weight     = 1
+    post       = 3
+
+[[menu.main]]
+    name       = "入池抽籤教學"
+    url        = "/iec/pool"
+    weight     = 1
+    parent     = "section.iec_apply"
+
+[[menu.main]]
+    name       = "遞交資料"
+    url        = "/iec/file"
+    weight     = 2
+    parent     = "section.iec_apply"
+
+[[menu.main]]
+    name       = "入境必需"
+    identifier = "section.entry"
+    parent     = "memu.iec"
+    weight     = 1
+    post       = 4
+
+# [[menu.main]]
+#     name       = "行前準備"
+#     url        = "/test"
+#     weight     = 1
+#     parent     = "section.entry"
+
+[[menu.main]]
+    name       = "機場入境流程"
+    url        = "/iec/airport"
+    weight     = 2
+    parent     = "section.entry"
+
+[[menu.main]]
+    name       = "eTA"
+    url        = "/iec/eta"
+    weight     = 3
+    parent     = "section.entry"
+
+[[menu.main]]
+    name       = "醫療保險"
+    url        = "/iec/insurance"
+    weight     = 4
+    parent     = "section.entry"
+
+[[menu.main]]
+    name       = "社會保險號碼（SIN）"
+    url        = "/iec/sin"
+    weight     = 5
+    parent     = "section.entry"
+
+[[menu.main]]
+    name       = "在加生活"
+    identifier = "memu.life"
+    url        = ""
+    weight     = 3
+
+[[menu.main]]
+    name       = "日常資訊"
+    identifier = "section.info"
+    parent     = "memu.life"
+    weight     = 1
+    post       = 3
+
+[[menu.main]]
+    name       = "各省比較"
+    url        = "/life/provinces"
+    weight     = 1
+    parent     = "section.info"
+
+[[menu.main]]
+    name       = "交通"
+    url        = "/life/transportation"
+    weight     = 2
+    parent     = "section.info"
+
+[[menu.main]]
+    name       = "消費購物"
+    url        = "/life/shopping"
+    weight     = 3
+    parent     = "section.info"
+
+[[menu.main]]
+    name       = "重點必備"
+    identifier = "section.need"
+    url        = ""
+    parent     = "memu.life"
+    weight     = 1
+    post       = 4
+
+[[menu.main]]
+    name       = "租屋"
+    url        = "/life/rent"
+    weight     = 1
+    parent     = "section.need"
+
+# [[menu.main]]
+#     name       = "銀行開戶/信用卡（建置中 🚧）"
+#     url        = "/life/bank"
+#     weight     = 2
+#     parent     = "section.need"
+
+[[menu.main]]
+    name       = "手機電信"
+    url        = "/life/mobile"
+    weight     = 3
+    parent     = "section.need"
+
+[[menu.main]]
+    name       = "駕照換發"
+    url        = "/life/license"
+    weight     = 4
+    parent     = "section.need"
+
+[[menu.main]]
+    name       = "移民專區"
+    identifier = "memu.immigration"
+    url        = ""
+    weight     = 3
+
+[[menu.main]]
+    name       = "事前需知"
+    identifier = "section.preparation"
+    url        = ""
+    parent     = "memu.immigration"
+    weight     = 1
+    post       = 2
+
+[[menu.main]]
+    name       = "最新消息"
+    url        = "/immigration/news"
+    weight     = 1
+    parent     = "section.preparation"
+
+[[menu.main]]
+    name       = "準備知識"
+    url        = "/immigration/knowledge"
+    weight     = 2
+    parent     = "section.preparation"
+
+[[menu.main]]
+    name       = "策略規劃"
+    url        = "/immigration/plans"
+    weight     = 3
+    parent     = "section.preparation"
+
+[[menu.main]]
+    name       = "科技/醫療業 移民懶人包 🅝🅔🅦"
+    url        = "/immigration/stem-health"
+    weight     = 4
+    parent     = "section.preparation"
+
+[[menu.main]]
+    name       = "類別"
+    identifier = "section.category"
+    url        = ""
+    parent     = "memu.immigration"
+    weight     = 1
+    post       = 3
+
+[[menu.main]]
+    name       = "聯邦快速通道（EE）"
+    url        = "/immigration/ee"
+    weight     = 1
+    parent     = "section.category"
+
+[[menu.main]]
+    name       = "省提名（PNP）"
+    url        = "/immigration/pnp"
+    weight     = 2
+    parent     = "section.category"
+
+[[menu.main]]
+    name       = "其他類別"
+    url        = "/immigration/others"
+    weight     = 3
+    parent     = "section.category"
+
+[[menu.main]]
+    name       = "完成申請"
+    identifier = "section.immigration_apply"
+    url        = ""
+    parent     = "memu.immigration"
+    weight     = 1
+    post       = 4
+
+[[menu.main]]
+    name       = "後續步驟"
+    url        = "/immigration/steps"
+    weight     = 1
+    parent     = "section.immigration_apply"
+
+[[menu.main]]
+    name       = "所需文件"
+    url        = "/immigration/documents"
+    weight     = 2
+    parent     = "section.immigration_apply"
+
+[[menu.main]]
+    name       = "進度查詢（Tracker）"
+    url        = "/immigration/tracker"
+    weight     = 3
+    parent     = "section.immigration_apply"
+
+[[menu.main]]
+    name       = "問題處理"
+    url        = "/immigration/problems"
+    weight     = 4
+    parent     = "section.immigration_apply"
