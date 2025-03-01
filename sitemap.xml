@@ -40,8 +40,6 @@
   </url><url>
     <loc>https://www.maptwca.com/immigration/pnp/</loc>
   </url><url>
-    <loc>https://www.maptwca.com/immigration/stem-health/</loc>
-  </url><url>
     <loc>https://www.maptwca.com/life/shopping/</loc>
   </url><url>
     <loc>https://www.maptwca.com/life/rent/</loc>
@@ -67,5 +65,7 @@
     <loc>https://www.maptwca.com/immigration/ee/</loc>
   </url><url>
     <loc>https://www.maptwca.com/iec/insurance/</loc>
+  </url><url>
+    <loc>https://www.maptwca.com/immigration/stem-health/</loc>
   </url>
 </urlset>
